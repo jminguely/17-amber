@@ -21,6 +21,11 @@ body {
   background-color: pink;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 .defiling-container {
   display: flex;
   flex-direction: row;
