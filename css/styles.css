@@ -9,3 +9,35 @@ font-style: normal;
   --main-color: #000000;
   --secondary-color: #ffffff;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  text-align: center;
+  background-color: pink;
+}
+
+.defiling-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+
+.defiling-text {
+  white-space: nowrap;
+  animation: scrollTxt 12s linear infinite;
+}
+
+@keyframes scrollTxt {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-100%, 0);
+  }
+}
