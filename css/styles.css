@@ -26,6 +26,26 @@ header {
   top: 0;
 }
 
+.header-container {
+  width: 375px;
+  height: 63px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.amber-logo {
+  background-color: var(--main-color);
+  width: 123px;
+  padding: 12px 14px;
+}
+
+.horror-logo {
+  width: 185px;
+  background-color: var(--secondary-color);
+  padding: 17px 20px;
+}
+
 .defiling-container {
   display: flex;
   flex-direction: row;
@@ -34,6 +54,12 @@ header {
 }
 
 .defiling-text {
+  background-color: #000000;
+  color: var(--secondary-color);
+  border-top: #ffffff 1px solid;
+  border-bottom: #ffffff 1px solid;
+  font-family: 'Source Sans Pro';
+  padding: 4px 0px;
   white-space: nowrap;
   animation: scrollTxt 12s linear infinite;
 }
