@@ -116,6 +116,7 @@ h2 {
 
 .product-card h2 {
   margin-top: 0;
+  margin-bottom: 20px;
   line-height: 20px;
 }
 
@@ -134,4 +135,23 @@ p {
   padding-bottom: 40px;
   border-bottom: #ffffff 1px solid;
   background-color: var(--main-color);
+}
+
+.product-card {
+  background-color: var(--main-color);
+  padding: 20px 0px 50px 0px;
+  border-bottom: #ffffff 1px solid;
+}
+
+.button-rectangle {
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  text-decoration: none;
+  font-family: 'Source Sans Pro';
+  font-family: 900;
+  font-style: italic;
+  font-size: 36px;
+  border: #ffffff 1px solid;
+  padding: 5px 20px;
+  margin-top: 50px;
 }
