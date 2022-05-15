@@ -1,0 +1,29 @@
+:root {
+  --blue: #19232F;
+  --green: #CFE5CC;
+  --pink: #F0838F;
+  --white: #FFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+header {
+  background-color: var(--pink);
+}
+
+main {
+  background-color: #F0838F;
+}
+
+footer {
+  background-color: #CFE5CC;
+}
