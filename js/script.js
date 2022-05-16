@@ -15,3 +15,8 @@ function changeSide() {
 changeSide();
 
 radioGroup.addEventListener( 'change', changeSide );
+
+function openMenu() {
+  document.getElementById("menu-slider").classList.toggle('open');
+  document.getElementById("menu-burger").classList.toggle('burger-cross')
+}

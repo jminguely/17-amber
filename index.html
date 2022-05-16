@@ -6,25 +6,63 @@
     <title></title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/fdm3vww.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header>
       <h1><img src="img/AMBER.svg" alt="logo AMBER" /></h1>
+        <nav>
+          <a href="#" class="menu-burger" onclick="openMenu()" id="menu-burger"> 
+          <span class="first-bar">—</span>
+          <span class="second-bar">—</span>
+          </a>
+          <div class="menu-slider" id="menu-slider">
+            <a href="#">Home</a>
+            <hr>
+            <a href="fifties.html">Fifties Collection</a>
+            <hr>
+            <a href="sixties.html">Sixties Collection</a>
+            <hr>
+            <a href="seventies.html">Seventies Collection</a>
+            <hr>
+            <a href="#relailers">Autres produits</a>
+            <hr>
+            <div class="icones">
+            <img src="img/facebook.svg" alt="logo facebook" />
+            <img src="img/instagram.svg" alt="logo instagram" />
+            <img href="mailto:" src="img/mail.svg" alt="icone mail" />
+          </div>
+          </div>
+        </nav>
     </header>
-    <main>
+    <main> 
+      <hr class="separator-line">
+      <hr class="separator-line-2">
+
+
+
+
+      
       <div class="presentation">
         <h3>Amber, la marque d'earbuds conçue pour les marins !</h3>
         <h4>
-          Vos earbuds vous suivont jsuqu'au bout du monde en allant avec vos
+          Vos earbuds vous suivront jusqu'au bout du monde en allant avec vos
           meilleures tenues de croisière !
         </h4>
         <div class="new">
           <p class="defiling">
             Nouveau ! Collection inédite ! Nouveau ! Collection inédite !
             Nouveau ! Collection inédite ! Nouveau ! Collection inédite !
+            Nouveau ! Collection inédite ! Nouveau ! Collection inédite !
+            Nouveau ! Collection inédite ! Nouveau ! Collection inédite !
           </p>
         </div>
       </div>
+
+
+
+
+
       <div class="products">
         <article class="card card-fifties">
           <h1>Fifties Collection</h1>
@@ -32,9 +70,7 @@
           <figure>
             <img src="img/fifties.webp" alt="dessin femme fifties collection" />
           </figure>
-          <figure>
-            <img src="" alt="+" />
-          </figure>
+          <a href="fifties.html">+</a>
         </article>
         <article class="card card-sixties">
           <h1>Sixties Collection</h1>
@@ -42,9 +78,7 @@
           <figure>
             <img src="img/sixties.webp" alt="dessin femme sixties collection" />
           </figure>
-          <figure>
-            <img src="" alt="+" />
-          </figure>
+          <a href="sixties.html">+</a>
         </article>
         <article class="card card-seventies">
           <h1>Seventies Collection</h1>
@@ -55,21 +89,26 @@
               alt="dessin femme seventies collection"
             />
           </figure>
-          <figure>
-            <img src="" alt="+" />
-          </figure>
+          <a href="seventies.html">+</a>
         </article>
       </div>
-      <div class="dealer">
+
+
+
+      <div id="relailers" class="retailers">
         <h1>Nos revendeurs</h1>
-        <img src="img/fnac.svg" alt="logo fnac">
+        <img src="img/fnac.svg" alt="logo fnac" />
         <a href="">Achetez maintenant <span>➤</span></a>
-        <img src="img/mm-logo--small.svg" alt="logo Media Markt">
+        <img src="img/mm-logo--small.svg" alt="logo Media Markt" />
         <a href="">Achetez maintenant <span>➤</span></a>
       </div>
     </main>
     <footer>
-      
+      <div class="icones icones-footer">
+      <img src="img/facebook.svg" alt="logo facebook" />
+      <img src="img/instagram.svg" alt="logo instagram" />
+      <img href="mailto:" src="img/mail.svg" alt="icone mail" />
+    </div>
     </footer>
   </body>
 </html>
