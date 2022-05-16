@@ -88,9 +88,8 @@ nav hr {
 }
 
 .icones img {
-  width: 20px;
-  height: 30px;
-  margin: 20px 30px 0 0;
+  margin: 20px 15px 0 0;
+  width: 30px;
 }
 
 .menu-burger {
@@ -152,8 +151,24 @@ nav hr {
 
 /* main ↓ */
 
+h3 {
+  font-size: 20px;
+  font-family: var(--main-font);
+  padding: 30px 95px;
+}
 
+h4 {
+  font-size: 18;
+  font-family: var(--secondary-font);
+  text-align: justify;
+  padding: 20px 80px;
+}
 
+h1 {
+  font-size: 25px;
+  font-family: var(--main-font);
+  padding: 17px 30px;
+}
 
 /* .presentation ↓ */
 
@@ -197,22 +212,6 @@ article h1 {
   font-family: var(--main-font);
 }
 
-.card a {
-  font-family: var(--secondary-font);
-  text-decoration: none;
-  color: white;
-  background: var(--main-color);
-  border-radius: 40px;
-  padding: 7px 10px;
-  height: 30px;
-}
-
-.card-sixties a,
-.card-seventies a {
-  color: var(--main-color);
-  background: white;
-}
-
 .card {
   height: 200px;
 }
@@ -229,9 +228,53 @@ article h1 {
   background-color: var(--secondary-color);
 }
 
-/* .deaelr ↓ */
+.card a {
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--main-color);
+}
 
+.card-sixties a,
+.card-seventies a {
+  color: white;
+}
 
+.card .button {
+  font-family: var(--secondary-font);
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background: var(--main-color);
+  border-radius: 40px;
+  padding: 7px 10px;
+  height: 30px;
+}
+
+.card-sixties .button,
+.card-seventies .button {
+  color: var(--main-color);
+  background: white;
+}
+/* retailers ↓ */
+
+.logo-link {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 30px 80px;
+}
+
+.logo-link img,
+.logo-link a {
+  margin: 15px 0;
+}
+
+.logo-link a {
+  font-size: 15px;
+  font-family: var(--secondary-font);
+  text-decoration: underline 1px;
+  color: var(--main-color);
+}
 
 /* footer ↓ */
 
