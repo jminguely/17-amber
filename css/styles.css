@@ -1,0 +1,16 @@
+/* 
+
+font-family: attic-antique, serif;
+
+font-family: forma-djr-micro, sans-serif;
+
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+}
