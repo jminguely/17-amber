@@ -11,43 +11,46 @@ html {
 
 body {
   max-width: 375px;
-  margin: 0;
   padding: 0;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
   text-align: center;
+  margin: auto;
 }
 
 header {
-  background-color: var(--pink);
   width: 375px;
+  position: fixed;
+}
+
+.logo-header,
+img {
+height: 120px;
+margin-bottom: 15px;
+width: auto;
+padding: 10px;
 }
 
 /* Navigation */
+
 * {
   box-sizing: border-box;
 }
 
 .navbar {
   display: flex;
-  position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
   color: white;
-  padding: 30px;
-}
-
-.brand-title {
-  font-size: 1.5rem;
-  margin: .5rem;
+  padding-bottom: 0px;
+  background-image: url(../img/70S_nav_backgrounds.png);
 }
 
 .navbar-links {
   height: 100%;
+  padding-top: 20px;
 }
 
 .navbar-links ul {
-  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -59,12 +62,11 @@ header {
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: white;
-  padding: 1rem;
-}
-
-.navbar-links li:hover {
-  background-color: #555;
+  color: black;
+  background-color: white;
+  width: 375px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .toggle-button {
@@ -76,6 +78,7 @@ header {
   justify-content: space-between;
   width: 40px;
   height: 21px;
+  
 }
 
 .toggle-button .bar {
@@ -96,23 +99,15 @@ header {
 
   .navbar-links {
       display: none;
-      padding-left: 250px;
-  }
-
-  .navbar-links ul {
-      width: 100%;
-      flex-direction: column;
-  }
-
-  .navbar-links ul li {
-      text-align: center;
   }
 
   .navbar-links ul li a {
-      padding: .5rem 1rem;
+      padding: 15px 10px;
   }
 
   .navbar-links.active {
       display: flex;
+      padding-left: 0;
+      padding-top: 0px;
   }
 }
