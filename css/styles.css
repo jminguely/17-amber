@@ -1,0 +1,54 @@
+
+body{
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 14px;
+  margin: auto;
+  max-width: 375px;
+}
+nav {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px;
+  justify-content: space-between;
+}
+a{
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  justify-content: space-between;
+  display: block;
+}
+hr{
+  border-top: 1px solid black;
+}
+.logo{
+  height: 42px;
+  justify-content: center;
+  transform: translate(145px, -5px)
+}
+
+.scroll-left{
+  left:0px; 
+  animation-name: scroll-left;
+  animation-duration: 7s;
+  font-family: "coolvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+@keyframes scroll-left{
+  from {transform: translateX(375px);}
+  to {transform: translateX(-375px); }
+}
