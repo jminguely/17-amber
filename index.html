@@ -3,7 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
     <title></title>
   </head>
-  <body></body>
+  <body>
+    <div class="box-card">
+      <!-- for the box ↓ -->
+    <div class="scene">
+      <div class="cube">
+        <div class="cube__face cube__face--front"></div>
+        <div class="cube__face cube__face--back"></div>
+        <div class="cube__face cube__face--right"></div>
+        <div class="cube__face cube__face--left"></div>
+        <div class="cube__face cube__face--top"></div>
+        <div class="cube__face cube__face--bottom"></div>
+      </div>
+    </div>
+      <!-- for the card ↓ -->
+    <p class="radio-group">
+      <label>
+        <input type="radio" name="rotate-cube-side" value="front" checked /> front
+      </label>
+      <label>
+        <input type="radio" name="rotate-cube-side" value="right" /> right
+      </label>
+      <label>
+        <input type="radio" name="rotate-cube-side" value="back" /> back
+      </label>
+      <label>
+        <input type="radio" name="rotate-cube-side" value="left" /> left
+      </label>
+      <label>
+        <input type="radio" name="rotate-cube-side" value="top" /> top
+      </label>
+      <label>
+        <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
+      </label>
+      <span>
+        Here is a light view of our new box concept, VINTAGE. You can follow the key moments of history and have your own special edition Vintage earbuds.
+      </span>
+        <a href="https://github.com/deavetheferret" target="_blank">
+          BUY IT NOW
+        </a>
+    </p>
+    </div>
+    <p class="thanks">Special thanks to <a href="https://codepen.io/desandro/pen/KRWjzm" target="_blank" class="thanks-button"> Dave DeSandro</a></p>
+  </body>
 </html>
