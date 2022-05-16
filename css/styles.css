@@ -18,8 +18,10 @@ body {
   max-width: 375px;
   margin: auto;
   text-align: center;
-  background-color: var(--main-color);
+  background-color: pink;
 }
+
+/* CHANGING PINK COLOR AT THE END */
 
 header {
   position: sticky;
