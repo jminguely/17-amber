@@ -7,3 +7,12 @@
   font-family: coolvetica;
   font-weight: 700;
   font-style: normal; */
+
+html {
+  scroll-behavior: smooth;
+}
+  
+body {
+  max-width: 375px;
+  margin: auto;
+}
