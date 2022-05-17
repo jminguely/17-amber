@@ -4,6 +4,12 @@
   url("../fonts/EssenceSans.woff2") format("woff2")
 }
 
+@font-face {
+  font-family: "Drumag";
+  src: url("../fonts/DrumagStudioNF.woff") format("woff"),
+  url("../fonts/EssenceSansBoldItalic.woff2") format("woff2")
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -21,6 +27,7 @@ header h1 {
   font-size: 50px;
   padding-top: 250px;
   text-align: left;
+  margin: 20px;
 }
 
 header {
@@ -83,4 +90,26 @@ header {
   padding-bottom: 50px;
   padding-top: 20px;
   margin: 20px;
+}
+
+.article-1950 img {
+  width: 290px;
+  margin: 15px;
+}
+
+.article-1960 img {
+  width: 290px;
+  margin: 15px;
+}
+
+.article-1970 img {
+  width: 290px;
+  margin: 15px;
+}
+
+.product-main {
+  font-family: "Drumag";
+  text-align: right;
+  font-size: 27px;
+  color: white;
 }
