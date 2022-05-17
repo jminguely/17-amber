@@ -51,3 +51,21 @@ header nav {
   font-weight: 400;
   font-style: normal;
 }
+
+.introduction {
+  background-image: url(../img/img_kraft.webp);
+  padding: 36px;
+  text-align: center;
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-bottom: solid 1px black;
+}
+
+.slogan {
+  font-family: coolvetica;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
