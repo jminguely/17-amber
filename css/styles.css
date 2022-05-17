@@ -1,0 +1,86 @@
+@font-face{
+  font-family: "essence-default";
+  src: url("../fonts/Essence\ Sans.woff") format("woff"),
+  url("../fonts/EssenceSans.woff2") format("woff2")
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  background-color: #CADEF4;
+}
+
+header h1 {
+  text-decoration: none;
+  font-family: "essence-default";
+  color: white;
+  font-size: 50px;
+  padding-top: 250px;
+  text-align: left;
+}
+
+header {
+  background-image: url(../img/Fichier-28.jpg);
+  background-size: 100%;
+}
+
+.header-menu {
+  position: sticky;
+  top: 0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+    color: white;
+    font-family: "essence-default";
+    font-size: 25px;
+}
+
+.button-shop {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.button-product {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.button-about {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.blue-box {
+  background-color: #A3A7D1;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 20px;
+}
+
+.dark-box p {
+  color: #A3A7D1;
+}
+
+.about-title {
+  font-family: "essence-default";
+  font-size: 30px;
+  text-align: center;
+  background-color: #A3A7D1;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin: 20px;
+}
