@@ -21,3 +21,27 @@ font-family: news-gothic-std, sans-serif;
 font-weight: 400;
 font-style: normal;
 }
+
+Clarendon URW Regular{
+font-family: clarendon-urw, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+Clarendon URW Bold{
+font-family: clarendon-urw, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+Clarendon URW Regular Oblique{
+font-family: clarendon-urw, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+Clarendon URW Bold Oblique{
+font-family: clarendon-urw, serif;
+font-weight: 700;
+font-style: italic;
+}
