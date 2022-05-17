@@ -1,0 +1,23 @@
+News Gothic Std Bold{
+font-family: news-gothic-std, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+News Gothic Std Bold Oblique{
+font-family: news-gothic-std, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+News Gothic Std Oblique{
+font-family: news-gothic-std, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+News Gothic Std Medium{
+font-family: news-gothic-std, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
