@@ -41,7 +41,7 @@ header nav {
   margin-bottom: 10px;
 }
 
-.link {
+nav a {
   border-left: solid 1px #362723;
   border-right: solid 1px #362723;
   padding: 15px;
@@ -180,4 +180,27 @@ h2 {
   color: #362723;
   text-decoration: none;
   font-size: 20px;
+}
+
+footer {
+  background-image: url(../img/img_kraft.webp);
+
+}
+
+footer img {
+  width: 100px;
+  margin-bottom: 90px;
+  margin-left: 36px;
+  margin-top: 36px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: solid 1px #362723;
+}
+
+footer a {
+  padding-bottom: 10px;
 }
