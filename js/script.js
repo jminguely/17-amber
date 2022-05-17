@@ -1,6 +1,10 @@
+// 3d box
+
 var cube = document.querySelector('.cube');
 var radioGroup = document.querySelector('.radio-group');
 var currentClass = '';
+
+console.log ('hello world');
 
 function changeSide() {
   var checkedRadio = radioGroup.querySelector(':checked');
@@ -10,11 +14,14 @@ function changeSide() {
   }
   cube.classList.add( showClass );
   currentClass = showClass;
+  
 }
 // set initial side
 changeSide();
 
 radioGroup.addEventListener( 'change', changeSide );
+
+// burger menu
 
 function openMenu() {
   document.getElementById("menu-slider").classList.toggle('open');

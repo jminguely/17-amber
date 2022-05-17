@@ -14,6 +14,8 @@ font-family: forma-djr-micro, sans-serif;
   --background-color: #f5ede1;
   --main-font: attic-antique, serif;
   --secondary-font: forma-djr-micro, sans-serif;
+  --box-height: 285px;
+  --box-width: 142px;
 }
 
 html {
@@ -45,7 +47,6 @@ header {
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 5px black;
   align-items: center;
 }
 
@@ -123,7 +124,7 @@ nav hr {
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: space-between;
-  z-index: 5;
+  z-index: 800;
 }
 
 .burger-cross .first-bar,
@@ -272,22 +273,24 @@ article h1,
   font-size: 30px;
   text-decoration: none;
   color: var(--main-color);
+  z-index: 5;
+  transform: translate(-17px, 20px);
 }
 
-.card-sixties a,
-.card-seventies a {
+.card-sixties a {
   color: white;
 }
 
 .card .button {
   font-family: var(--secondary-font);
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   color: white;
   background: var(--main-color);
   border-radius: 40px;
-  padding: 7px 10px;
+  padding: 10px 15px;
   max-height: 18px;
+  margin: 0 187px 0 0;
 }
 
 .card-sixties .button,
@@ -313,7 +316,7 @@ article h1,
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 30px 80px;
+  margin: 10px 80px 30px;
 }
 
 .logo-link img,
@@ -328,13 +331,17 @@ article h1,
   color: var(--main-color);
 }
 
-/* footer ↓ */
 
 
 
 
+/* other pages ↓ */
 
-/* for the box ↓ */
+
+
+
+/* 3d box ↓ */
+
 /* 
 *,
 *:before,
@@ -342,11 +349,6 @@ article h1,
   box-sizing: border-box;
 } 
 */
-
-:root {
-  --box-height: 285px;
-  --box-width: 142px;
-}
 
 .scene {
   width: var(--box-width);
@@ -455,17 +457,17 @@ article h1,
   transform: rotateX(-90deg) translateZ(214px);
 }
 
-/* For the card, labels and text ↓ */
+/* 3d box : card, labels, text ↓ */
 
 .box-card label {
   margin-right: 10px;
 }
 
-.box-card input[type="radio"] {
+/* .box-card input[type="radio"] {
   display: none;
   appearance: none;
   margin: 0;
-}
+} */
 
 .box-card p {
   text-transform: uppercase;
@@ -482,4 +484,9 @@ article h1,
   align-self: flex-end;
   font-size: 13px;
   font-family: var(--secondary-font);
+}
+
+
+input[type="radio"]:checked {
+  color: #000;
 }
