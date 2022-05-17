@@ -123,7 +123,7 @@ nav hr {
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: space-between;
-
+  z-index: 5;
 }
 
 .burger-cross .first-bar,
@@ -171,17 +171,7 @@ article h1,
   margin: 30px;
 }
 
-.retailers h1 {
-  text-align: center;
-  margin: 30px 30px 10px;
-}
-
-
 .card-fifties h1 {
-  color: var(--main-color);
-}
-
-.retailers h1 {
   color: var(--main-color);
 }
 
@@ -231,16 +221,6 @@ article h1,
   align-items: flex-start;
 }
 
-figure {
-  position: relative;
-}
-
-article img {
-  max-width: 120px;
-  position: absolute;
-  transform:translate(250px) ;
-}
-
 .know-more {
   margin: 50px;
   display: flex;
@@ -249,17 +229,43 @@ article img {
 
 .card-fifties {
   background-color: white;
+  position: relative;
   z-index: 1;
+}
+
+.card-fifties img {
+  max-width: 200px;
+  position: absolute;
+  transform:translate(160px, -90px) ;
 }
 
 .card-sixties {
   background-color: var(--main-color);
+  position: relative;
   z-index: 2;
+}
+
+.card-sixties img {
+  position: absolute;
+  max-width: 200px;
+  transform: translate(180px, -90px);
 }
 
 .card-seventies {
   background-color: var(--secondary-color);
+  position: relative;
+  overflow: hidden;
   z-index: 3;
+}
+
+.card-seventies img {
+  position: absolute;
+  max-width: 290px;
+  transform: translate(100px, -85px);
+}
+
+.card h1 {
+  z-index: 4;
 }
 
 .card a {
@@ -290,6 +296,18 @@ article img {
   background: white;
 }
 /* retailers ↓ */
+
+.retailers {
+  position: relative;
+  z-index: 4;
+  background-color: var(--background-color);
+}
+
+.retailers h1 {
+  text-align: center;
+  margin: 30px 30px 10px;
+  color: var(--main-color);
+}
 
 .logo-link {
   display: flex;
