@@ -133,3 +133,51 @@ h2 {
   text-decoration: none;
   color: black;
 }
+
+.dealers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 49px 0;
+}
+
+.card {
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  padding: 26px;
+  width: 135px;
+  margin: 0; 
+}
+
+.card-fnac,
+.card-amazon {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.card-galaxus,
+.card-microspot {
+  border-bottom: solid 1px black;
+}
+
+.card-galaxus,
+.card-fnac {
+  border-right: solid 1px black;
+}
+
+.card h3 {
+  font-family: coolvetica;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 80px;
+  margin-top: 0;
+}
+
+.card a {
+  color: #362723;
+  text-decoration: none;
+  font-size: 20px;
+}
