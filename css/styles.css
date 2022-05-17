@@ -38,10 +38,11 @@ main {
   font-family: sans-serif;
 }
 
+
 /* header ↓ */
 
 header {
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 5px black;
@@ -53,9 +54,7 @@ header h1 {
   height: 43px;
 }
 
-img {
-  max-width: 100px;
-}
+  /* burger menu ↓ */ 
 
 nav {
   position: relative;
@@ -68,7 +67,7 @@ nav span {
 
 nav hr {
   border: #aa140032 solid 1px;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .icones {
@@ -107,10 +106,10 @@ nav hr {
   position: absolute;
   background-color: var(--background-color);
   text-align: left;
-  width: 750%;
-  padding: 20px;
+  width: 590%;
+  padding: 40px 40px 20px;
   right: -20px;
-  top: 77px;
+  top: 52px;
 }
 
 .menu-slider a {
@@ -164,27 +163,43 @@ h4 {
   padding: 20px 80px;
 }
 
-h1 {
+article h1,
+.retailers h1 {
+  color: white;
   font-size: 25px;
   font-family: var(--main-font);
-  padding: 17px 30px;
+  margin: 30px;
 }
 
-/* .presentation ↓ */
+.retailers h1 {
+  text-align: center;
+  margin: 30px 30px 10px;
+}
+
+
+.card-fifties h1 {
+  color: var(--main-color);
+}
+
+.retailers h1 {
+  color: var(--main-color);
+}
+
+  /* .presentation ↓ */
 
 .presentation h3 {
   font-family: var(--main-font);
 }
 
-/* .new (defiling) ↓ */
+  /* .publicity-bar (defiling) ↓ */
 
-.new {
+.publicity-bar {
   user-select: none;
   margin: 10px 0;
   overflow: hidden;
 }
 
-.new p {
+.publicity-bar p {
   font-family: var(--secondary-font);
   white-space: nowrap;
 }
@@ -208,24 +223,43 @@ h1 {
 
 /* .products, .card ↓ */
 
-article h1 {
-  font-family: var(--main-font);
+.card {
+  max-height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.card {
-  height: 200px;
+figure {
+  position: relative;
+}
+
+article img {
+  max-width: 120px;
+  position: absolute;
+  transform:translate(250px) ;
+}
+
+.know-more {
+  margin: 50px;
+  display: flex;
+
 }
 
 .card-fifties {
   background-color: white;
+  z-index: 1;
 }
 
 .card-sixties {
   background-color: var(--main-color);
+  z-index: 2;
 }
 
 .card-seventies {
   background-color: var(--secondary-color);
+  z-index: 3;
 }
 
 .card a {
@@ -247,7 +281,7 @@ article h1 {
   background: var(--main-color);
   border-radius: 40px;
   padding: 7px 10px;
-  height: 30px;
+  max-height: 18px;
 }
 
 .card-sixties .button,
@@ -283,12 +317,13 @@ article h1 {
 
 
 /* for the box ↓ */
-
+/* 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-}
+} 
+*/
 
 :root {
   --box-height: 285px;
