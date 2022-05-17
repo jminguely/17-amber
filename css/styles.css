@@ -31,3 +31,23 @@ h1 {
   margin: 105px;
   margin-left: 55px;
 }
+
+header nav {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px #362723;
+  margin-bottom: 10px;
+}
+
+.link {
+  border-left: solid 1px #362723;
+  border-right: solid 1px #362723;
+  padding: 15px;
+  color: #362723;
+  text-decoration: none;
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+}
