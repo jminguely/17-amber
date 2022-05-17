@@ -15,4 +15,19 @@ html {
 body {
   max-width: 375px;
   margin: auto;
+  background-color: #e0ddd3;
+}
+
+.title-container {
+  background-image: url(../img/img_tele.webp);
+  display: flex; 
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+
+h1 {
+  width: 240px;
+  margin: 105px;
+  margin-left: 55px;
 }
