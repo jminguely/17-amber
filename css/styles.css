@@ -33,6 +33,24 @@ hr{
   justify-content: center;
   transform: translate(145px, -5px)
 }
+h1{
+  text-align: center;
+  margin-top: 30px;
+}
+p{
+  max-width: 235px;
+  transform: translateX(75px);
+  margin-bottom: 30px;
+}
+.slider-container{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 130px;
+  border: solid black 1px;
+  flex-direction: column;
+}
 
 .scroll-left{
   left:0px; 
