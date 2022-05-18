@@ -251,8 +251,16 @@ footer a {
   border-right: solid 1px black;
 }
 
+.products-fifties {
+  background-image: url(../img/img_50s.webp);
+  background-size: cover;
+  padding: 34px;
+  border-right: solid 1px black;
+}
+
 .products-seventies,
-.products-sixties {
+.products-sixties,
+.products-fifties {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
 }
@@ -270,6 +278,10 @@ footer a {
 
 .products-seventies .button {
   background-color: #7f5017;
+}
+
+.products-fifties .button {
+  background-color: #e3d110;
 }
 
 .features h2 {
@@ -365,3 +377,4 @@ footer a {
   border-left: solid 1px #bd0064;
   border-right: solid 1px #bd0064;
 }
+
