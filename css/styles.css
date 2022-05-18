@@ -11,6 +11,7 @@ font-family: forma-djr-micro, sans-serif;
 :root {
   --main-color: #0a1348;
   --secondary-color: #aa1500;
+  --third-color: white;
   --background-color: #f5ede1;
   --main-font: attic-antique, serif;
   --secondary-font: forma-djr-micro, sans-serif;
@@ -33,13 +34,11 @@ main {
   color: var(--main-color);
 }
 
-
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-
 
 /* header ↓ */
 
@@ -55,11 +54,11 @@ header h1 {
   height: 43px;
 }
 
-  /* burger menu ↓ */ 
+/* burger menu ↓ */
 
 nav {
   position: relative;
-} 
+}
 
 nav span {
   font-size: 50px;
@@ -101,7 +100,6 @@ nav hr {
   transform: rotate(0) translate(0, 0);
 }
 
-
 .menu-slider {
   display: none;
   position: absolute;
@@ -142,7 +140,6 @@ nav hr {
 
 .separator-line {
   border: var(--secondary-color) solid;
-
 }
 
 .separator-line-2 {
@@ -166,7 +163,7 @@ h4 {
 
 article h1,
 .retailers h1 {
-  color: white;
+  color: var(--third-color);
   font-size: 25px;
   font-family: var(--main-font);
   padding: 30px;
@@ -176,13 +173,13 @@ article h1,
   color: var(--main-color);
 }
 
-  /* .concept ↓ */
+/* .concept ↓ */
 
 .concept h3 {
   font-family: var(--main-font);
 }
 
-  /* .publicity-bar (defiling) ↓ */
+/* .publicity-bar (defiling) ↓ */
 
 .publicity-bar {
   user-select: none;
@@ -225,11 +222,10 @@ article h1,
 .know-more {
   margin: 50px;
   display: flex;
-
 }
 
 .card-fifties {
-  background-color: white;
+  background-color: var(--third-color);
   position: relative;
   z-index: 1;
 }
@@ -237,7 +233,7 @@ article h1,
 .card-fifties img {
   max-width: 200px;
   position: absolute;
-  transform:translate(160px, -90px) ;
+  transform: translate(160px, -90px);
 }
 
 .card-sixties {
@@ -278,14 +274,14 @@ article h1,
 }
 
 .card-sixties a {
-  color: white;
+  color: var(--third-color);
 }
 
 .card .button {
   font-family: var(--secondary-font);
   font-size: 15px;
   text-decoration: none;
-  color: white;
+  color: var(--third-color);
   background: var(--main-color);
   border-radius: 40px;
   padding: 10px 15px;
@@ -296,7 +292,7 @@ article h1,
 .card-sixties .button,
 .card-seventies .button {
   color: var(--main-color);
-  background: white;
+  background: var(--third-color);
 }
 /* retailers ↓ */
 
@@ -329,16 +325,33 @@ article h1,
   color: var(--main-color);
 }
 
-
-
-
-
 /* other pages ↓ */
 
-/* fifties page ↓ */
+.container-other-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.button {
+  font-family: var(--secondary-font);
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--third-color);
+  background: var(--main-color);
+  border-radius: 40px;
+  padding: 10px 15px;
+  max-height: 18px;
+  margin: 0 20px;
+}
+
+/* fifties page (base for other pages) ↓ */
 
 .presentation {
-  background-color: white;
+  background-color: var(--third-color);
+  color: var(--main-color);
 }
 
 .presentation-fifties h1 {
@@ -359,12 +372,21 @@ article h1,
 .presentation .picture {
   position: relative;
   max-width: 165px;
-  transform: translate(-27px, -10px)rotate(13deg);
+  transform: translate(-27px, -10px) rotate(13deg);
 }
 
 .presentation p {
   margin: 30px 80px;
 }
+
+/* sixties page ↓ */
+
+.presentation-sixties {
+  background-color: var(--main-color);
+  color: var(--third-color);
+}
+
+/* seventies page ↓ */
 
 /* 3d box ↓ */
 
@@ -423,6 +445,15 @@ article h1,
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
+
+.sixties .cube__face--front {
+  background-image: url(../img/sixties-front.webp);
+}
+
+.seventies .cube__face--front {
+  background-image: url(../img/seventies-front.webp);
+}
+
 .cube__face--right {
   width: var(--box-width);
   height: var(--box-height);
@@ -431,6 +462,15 @@ article h1,
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
+
+.sixties .cube__face--right {
+  background-image: url(../img/sixties-right.webp);
+}
+
+.seventies .cube__face--right {
+  background-image: url(../img/seventies-right.webp);
+}
+
 .cube__face--back {
   width: var(--box-width);
   height: var(--box-height);
@@ -439,6 +479,15 @@ article h1,
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
+
+.sixties .cube__face--back {
+  background-image: url(../img/sixties-back.webp);
+}
+
+.seventies .cube__face--back {
+  background-image: url(../img/seventies-back.webp);
+}
+
 .cube__face--left {
   width: var(--box-width);
   height: var(--box-height);
@@ -447,6 +496,15 @@ article h1,
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
+
+.sixties .cube__face--left {
+  background-image: url(../img/sixties-left.webp);
+}
+
+.seventies .cube__face--left {
+  background-image: url(../img/seventies-left.webp);
+}
+
 .cube__face--top {
   width: var(--box-width);
   height: var(--box-width);
@@ -455,6 +513,15 @@ article h1,
   background-size: var(--box-width), var(--box-width);
   background-repeat: none;
 }
+
+.sixties .cube__face--top {
+  background-image: url(../img/sixties-top.webp);
+}
+
+.seventies .cube__face--top {
+  background-image: url(../img/seventies-top.webp);
+}
+
 .cube__face--bottom {
   width: var(--box-width);
   height: var(--box-width);
@@ -462,6 +529,14 @@ article h1,
   background-image: url(../img/bottom.webp);
   background-size: var(--box-width), var(--box-width);
   background-repeat: none;
+}
+
+.sixties .cube__face--bottom {
+  background-image: url(../img/sixties-bottom.webp);
+}
+
+.seventies .cube__face--bottom {
+  background-image: url(../img/seventies-bottom.webp);
 }
 
 .cube__face--front {
@@ -494,7 +569,7 @@ article h1,
   margin: 0;
 }
 
-.box-card p  {
+.box-card p {
   color: var(--main-color);
   font-family: var(--secondary-font);
   display: flex;
@@ -512,9 +587,8 @@ article h1,
   font-family: var(--secondary-font);
   border-radius: 50px;
   background-color: var(--main-color);
-  color: white;
+  color: var(--third-color);
 }
-
 
 input[type="radio"]:checked {
   color: #000;
@@ -540,11 +614,13 @@ input[type="radio"]:checked {
 }
 
 .features img {
-  max-width: 30px;
+  max-width: 40px;
   margin: 10px;
 }
 
-.fifties a {
-display: flex;
-flex-direction: column;
+.fifties a,
+.sixties a,
+.seventies a {
+  display: flex;
+  flex-direction: column;
 }
