@@ -320,3 +320,30 @@ footer a {
   font-size: 50px;
   border-bottom: solid 1px black;
 }
+
+.collection .buy .button {
+  background-color: #e3d110;
+}
+
+.buy .button {
+  padding: 10px;
+  margin-top: 250px;
+  font-size: 17px;
+}
+
+.buy p {
+  font-family: bely-display, sans-serif;
+  font-size: 30px;
+  color: #362723;
+  margin: 12px 0;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 36px;
+  border-bottom: solid 1px black;
+  background-image: url(../img/img_boite_50s.webp);
+  background-size: cover;
+}
