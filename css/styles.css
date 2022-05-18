@@ -350,3 +350,18 @@ footer a {
   background-image: url(../img/img_boite_50s.webp);
   background-size: cover;
 }
+
+.collection-sixties footer {
+  background-image: none;
+  background-color: #ff6223;
+}
+
+.collection-sixties footer nav {
+  border-top: solid 1px #bd0064;
+}
+
+.collection-sixties footer a {
+  color: #bd0064;
+  border-left: solid 1px #bd0064;
+  border-right: solid 1px #bd0064;
+}
