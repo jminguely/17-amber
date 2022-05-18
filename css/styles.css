@@ -241,13 +241,13 @@ footer a {
 .products-seventies {
   background-image: url(../img/img_70s.webp);
   background-size: cover;
-  padding: 31px;
+  padding: 34px;
 }
 
 .products-sixties {
   background-image: url(../img/img_60s.webp);
   background-size: cover;
-  padding: 31px;
+  padding: 34px;
   border-right: solid 1px black;
 }
 
