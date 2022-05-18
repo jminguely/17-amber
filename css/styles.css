@@ -369,6 +369,12 @@ article h1,
   transform: translate(166px, -280px);
 }
 
+.seventies .presentation .drawing {
+  position: absolute;
+  max-width: 209px;
+  transform: translate(169px, -383px);
+}
+
 .presentation .picture {
   position: relative;
   max-width: 165px;
@@ -387,6 +393,11 @@ article h1,
 }
 
 /* seventies page ↓ */
+
+.presentation-seventies {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
 
 /* 3d box ↓ */
 
@@ -514,14 +525,6 @@ article h1,
   background-repeat: none;
 }
 
-.sixties .cube__face--top {
-  background-image: url(../img/sixties-top.webp);
-}
-
-.seventies .cube__face--top {
-  background-image: url(../img/seventies-top.webp);
-}
-
 .cube__face--bottom {
   width: var(--box-width);
   height: var(--box-width);
@@ -529,14 +532,6 @@ article h1,
   background-image: url(../img/bottom.webp);
   background-size: var(--box-width), var(--box-width);
   background-repeat: none;
-}
-
-.sixties .cube__face--bottom {
-  background-image: url(../img/sixties-bottom.webp);
-}
-
-.seventies .cube__face--bottom {
-  background-image: url(../img/seventies-bottom.webp);
 }
 
 .cube__face--front {
