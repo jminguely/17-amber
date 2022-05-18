@@ -297,3 +297,29 @@ footer a {
   padding: 36px;
   margin: 0;
 }
+
+.collection header {
+  background-color: #1eb2d9;
+  color: #e3d110;
+  font-family: bely-display, sans-serif;
+  font-size: 60px;
+}
+
+.collection header h1 {
+  margin: 36px;
+  margin-top: 0;
+}
+
+.collection .presentation {
+  background-color: #e3d110;
+  color: #1eb2d9;
+  font-family: bely-display, sans-serif;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  border-bottom: solid 1px black;
+}
+
+.collection .presentation img {
+  width: 300px;
+}
