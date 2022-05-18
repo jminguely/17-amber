@@ -1,7 +1,6 @@
 *,
 *:before,
 *:after { 
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -36,6 +35,14 @@ header {
   align-items: center;
   padding: 13px 20px;
   color: var(--color-main);
+}
+
+header h1 {
+  font-size: 0em;
+}
+
+header h1 img {
+  height: 50px;
 }
 
 .menu-burger {
