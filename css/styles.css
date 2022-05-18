@@ -121,6 +121,51 @@ main {
 /* Button */
 
 .button {
-  background-color: #F0838F;
+  background-color: #e46e34;
   padding: 10px;
+  display: flex;
+  padding: 8px;
+  margin: 0 80px 15px;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+/* images */
+
+.packaging-presentation
+ img {
+ width: auto;
+ height: 450px;
+ margin-bottom: 0px;
+}
+
+.packaging-presentation {
+  padding-bottom: 100px;
+}
+
+.catch-phrase, .container-text-main {
+  background-image: url(../img/color_block_garfield.webp);
+  width: 375px;
+  height: 600px;
+  padding: 0px;
+}
+
+/* Text */
+
+.phrase {
+  font-size: 60px;
+  color: white;
+  display: flex;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+h2 {
+  padding-top: 30px;
 }
