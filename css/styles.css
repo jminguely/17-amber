@@ -340,6 +340,10 @@ footer a {
   background-color: #e3d110;
 }
 
+.collection-sixties .buy .button {
+  background-color: #bd0064;
+}
+
 .buy .button {
   padding: 10px;
   margin-top: 250px;
@@ -359,8 +363,15 @@ footer a {
   align-items: flex-end;
   padding-right: 36px;
   border-bottom: solid 1px black;
-  background-image: url(../img/img_boite_50s.webp);
   background-size: cover;
+}
+
+.collection .buy {
+  background-image: url(../img/img_boite_50s.webp);
+}
+
+.collection-sixties .buy {
+  background-image: url(../img/img_boite_60s.webp);
 }
 
 .collection-sixties footer {
