@@ -314,10 +314,13 @@ footer a {
 .collection .presentation {
   background-color: #e3d110;
   color: #1eb2d9;
+  font-size: 50px;
+}
+
+.presentation {
   font-family: bely-display, sans-serif;
   display: flex;
   flex-direction: row;
-  font-size: 50px;
   border-bottom: solid 1px black;
 }
 
