@@ -61,6 +61,7 @@ nav a {
   font-style: normal;
   font-size: 20px;
   border-bottom: solid 1px black;
+  color: #362723;
 }
 
 .slogan {
@@ -139,6 +140,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 49px 0;
+  color: #362723;
 }
 
 .card {
@@ -315,7 +317,7 @@ footer a {
   background-color: #1eb2d9;
   color: #e3d110;
   font-family: bely-display, sans-serif;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .collection header h1 {
@@ -327,6 +329,19 @@ footer a {
   background-color: #e3d110;
   color: #1eb2d9;
   font-size: 50px;
+}
+
+.collection-sixties .presentation {
+  background-color: #ff6223;
+  color: #bd0064;
+  font-size: 25px;
+}
+
+.collection-sixties header {
+  background-color: #bd0064;
+  color: #ff6223;
+  font-family: bely-display, sans-serif;
+  font-size: 40px;
 }
 
 .presentation {
