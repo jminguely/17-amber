@@ -20,6 +20,7 @@ body {
 header {
   width: 375px;
   position: fixed;
+  top: 0;
 }
 
 .logo-header,
@@ -28,6 +29,11 @@ height: 120px;
 margin-bottom: 15px;
 width: auto;
 padding: 10px;
+
+}
+
+main {
+  padding-top: 150px;
 }
 
 /* Navigation */
@@ -110,4 +116,11 @@ padding: 10px;
       padding-left: 0;
       padding-top: 0px;
   }
+}
+
+/* Button */
+
+.button {
+  background-color: #F0838F;
+  padding: 10px;
 }
