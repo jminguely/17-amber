@@ -2,9 +2,15 @@
 *:before,
 *:after { 
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
+  --font-main: ;
+  --font-secondary: ;
+  --color-main: #CF5E02;
+  --color-secondary: #1D1B1B;
   --box-height: 285px;
   --box-width: 142px;
 }
@@ -17,6 +23,36 @@ body {
   font-family: sans-serif;
   max-width: 375px;
   margin: auto;
+}
+
+/* for the header ↓ */
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(13px);
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px;
+  color: var(--color-main);
+}
+
+.menu-burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-burger .bar {
+  font-size: 50px;
+  line-height: 8px;
+}
+
+/* for the main ↓ */
+
+.product-card img {
+  width: 100%;
 }
 
 /* for the box ↓ */
@@ -115,21 +151,6 @@ input[type="radio"] {
   margin: 0;
 }
 
-p {
-  text-transform: uppercase;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-span {
-  align-self: center;
-  font-size: 20px;
-  text-transform: initial;
-  margin: 20px 0;
-}
-
 label {
   background-color: black;
   padding: 10px;
@@ -154,14 +175,4 @@ label:active {
   border: 2px solid white;
   border-radius: 40px;
   color: white;
-}
-
-.box-card {
-  display: flex;
-  flex-direction: column;
-  background: black ;
-  border-radius: 30px;
-  box-shadow: 10px 10px 30px grey;
-  margin: auto;
-  padding: 20px;
 }
