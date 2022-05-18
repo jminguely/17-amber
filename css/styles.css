@@ -219,15 +219,17 @@ footer a {
   border-right: solid 1px #1eb2d9;
 }
 
-.other-products h2 {
+.other-products h2,
+.features h2 {
   font-family: coolvetica;
   font-weight: 700;
   font-style: normal;
   border-top: solid 1px black;
   text-align: center;
   font-size: 32px;
-  margin: 5px 0;
+  padding: 5px 0;
   color: #362723;
+  margin-top: 49px;
 }
 
 .products-container {
@@ -268,4 +270,30 @@ footer a {
 
 .products-seventies .button {
   background-color: #7f5017;
+}
+
+.features h2 {
+  border-bottom: solid 1px black;
+  border-top: none;
+  margin-top: 0;
+}
+
+.features {
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  background-image: url(../img/img_kraft.webp);
+  margin-bottom: 0;
+}
+
+.features img {
+  border-bottom: solid 1px black;
+}
+
+.features p {
+  border-bottom: solid 1px black;
+  padding: 36px;
+  margin: 0;
 }
