@@ -317,10 +317,6 @@ footer a {
   font-family: bely-display, sans-serif;
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 50px;
   border-bottom: solid 1px black;
-}
-
-.collection .presentation img {
-  width: 300px;
 }
