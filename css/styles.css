@@ -49,6 +49,7 @@ body {
 }
 
 .cube__face--front  { 
+  background-size: ;
   width: var(--box-width);
   height: var(--box-height);
   line-height: var(--box-height);
@@ -156,26 +157,6 @@ label:active {
   color: white;
 }
 
-a {
-  color: black;
-  background: white;
-  border-radius: 40px;
-  padding: 5px;
-  text-decoration: none;
-  height: 30px;
-  align-self: flex-end;
-  text-align: center;
-  transition: all 0.3s;
-  width: 200px;
-}
-
-a:hover,
-a:active {
-  background-color: blue;
-  color: white;
-  border-radius: 40px;
-}
-
 .box-card {
   display: flex;
   flex-direction: column;
@@ -184,34 +165,4 @@ a:active {
   box-shadow: 10px 10px 30px grey;
   margin: auto;
   padding: 20px;
-}
-
-.thanks {
-  justify-content: flex-end;
-  color: black;
-  text-transform: initial;
-}
-
-.thanks-button {
-  color: black;
-  background: none;
-  border-radius: 0;
-  padding: 0;
-  text-decoration: underline;
-  height: initial;
-  width: auto;
-  margin-left: 5px;
-  margin-right: 20px;
-}
-
-.thanks-button:hover,
-.thanks-button:active,
-.thanks-button:focus {
-  background: none;
-  border-radius: 0;
-  padding: 0;
-  text-decoration: underline;
-  height: initial;
-  width: auto;
-  color: blue;
 }
