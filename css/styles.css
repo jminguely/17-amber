@@ -218,3 +218,54 @@ footer a {
   border-left: solid 1px #1eb2d9;
   border-right: solid 1px #1eb2d9;
 }
+
+.other-products h2 {
+  font-family: coolvetica;
+  font-weight: 700;
+  font-style: normal;
+  border-top: solid 1px black;
+  text-align: center;
+  font-size: 32px;
+  margin: 5px 0;
+  color: #362723;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 49px;
+}
+
+.products-seventies {
+  background-image: url(../img/img_70s.webp);
+  background-size: cover;
+  padding: 31px;
+}
+
+.products-sixties {
+  background-image: url(../img/img_60s.webp);
+  background-size: cover;
+  padding: 31px;
+  border-right: solid 1px black;
+}
+
+.products-seventies,
+.products-sixties {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.products-container .button {
+  margin-top: 150px;
+  font-size: 15px;
+  width: 120px;
+  padding: 10px 0;
+}
+
+.products-sixties .button {
+  background-color: #bd0064;
+}
+
+.products-seventies .button {
+  background-color: #7f5017;
+}
