@@ -49,7 +49,6 @@ body {
 }
 
 .cube__face--front  { 
-  background-size: ;
   width: var(--box-width);
   height: var(--box-height);
   line-height: var(--box-height);
