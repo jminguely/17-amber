@@ -281,9 +281,9 @@ article h1,
   color: white;
 }
 
-.button {
+.card .button {
   font-family: var(--secondary-font);
-  font-size: 16px;
+  font-size: 15px;
   text-decoration: none;
   color: white;
   background: var(--main-color);
