@@ -204,3 +204,17 @@ footer a {
   padding-bottom: 10px;
 }
 
+.collection footer {
+  background-image: none;
+  background-color: #e3d110;
+}
+
+.collection footer nav {
+  border-top: solid 1px #1eb2d9;
+}
+
+.collection footer a {
+  color: #1eb2d9;
+  border-left: solid 1px #1eb2d9;
+  border-right: solid 1px #1eb2d9;
+}
