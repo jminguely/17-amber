@@ -11,7 +11,11 @@ function changeSide() {
   cube.classList.add( showClass );
   currentClass = showClass;
 }
-// set initial side
+
 changeSide();
 
 radioGroup.addEventListener( 'change', changeSide );
+
+function openMenu() {
+  document.documentElement.classList.toggle('menu-open');
+}
