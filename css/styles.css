@@ -31,13 +31,12 @@ header h1 {
 }
 
 header {
-  background-image: url(../img/Fichier-28.jpg);
+  background-image: url(../img/header-picture.webp);
   background-size: 100%;
 }
 
 .header-menu {
-  position: sticky;
-  top: 0;
+  color: red;
 }
 
 .button-container {
