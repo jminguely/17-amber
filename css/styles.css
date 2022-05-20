@@ -20,23 +20,25 @@ body {
   background-color: #CADEF4;
 }
 
+
 header h1 {
   text-decoration: none;
   font-family: "essence-default";
   color: white;
   font-size: 50px;
-  padding-top: 250px;
+  padding-top: 240px;
   text-align: left;
   margin: 20px;
 }
 
-header {
+.introduction-page {
   background-image: url(../img/header-picture.webp);
   background-size: 100%;
 }
 
 .header-menu {
-  width: auto;
+  position: sticky;
+  top: 0;
 }
 
 .button-container {
@@ -119,7 +121,6 @@ font-size: 20px;
 margin: auto;
 }
 
-
 .article-sixties{
 text-align: left;
 font-size: 20px;
@@ -197,4 +198,41 @@ footer {
   background-color: #A3A7D1;
   padding-top: 30px;
   padding-bottom: 70px;
+}
+
+.product-title-container {
+  width: 290px;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  margin: 20px;
+}
+
+.product-body-fifties {
+  background-color: #ACDEAE;
+}
+
+.product-body-sixties {
+  background-color: #D459C7;
+}
+
+.product-body-seventies {
+background-color: #DD516D;
+}
+
+.return-button {
+  width: 140px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.cloud-product {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  margin: 30px;
+}
+
+.boite-fifties-3d {
+  width: 320px;
+  display: block;
 }
