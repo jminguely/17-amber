@@ -95,17 +95,20 @@ header {
 .article-1950 img {
   width: 290px;
   margin: 15px;
+  position: relative;
 }
 
 .article-1960 img {
   width: 290px;
   margin: 15px;
+  position: relative;
 }
 
 .article-1970 img {
   width: 290px;
   margin: 15px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .article-1950{
@@ -146,7 +149,25 @@ footer {
   padding-top: 20px;
 }
 
-.discover-button {
-  width: 230px;
-  
+.discover-button-fifties {
+  position: absolute;
+  margin: 30px;
+  padding-top: 330px;
+  z-index: 1;
+}
+
+.discover-button-sixties {
+  position: absolute;
+  z-index: 1;
+  width: 220px;
+  margin: 30px;
+  padding-top: 330px;
+}
+
+.discover-button-seventies {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  margin: 30px;
+  padding-top: 330px;
 }
