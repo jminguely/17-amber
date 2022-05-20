@@ -404,3 +404,6 @@ footer a {
   border-right: solid 1px #bd0064;
 }
 
+.collection .homepage-link {
+  border: none;
+}
