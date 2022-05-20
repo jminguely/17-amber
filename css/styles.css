@@ -171,3 +171,21 @@ footer {
   margin: 30px;
   padding-top: 330px;
 }
+
+.revendeur img{
+  width: 300px;
+  margin: 3%;
+}
+
+.revendeur p {
+  font-family: "essence-default";
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.revendeur {
+  background-color: #A3A7D1;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
