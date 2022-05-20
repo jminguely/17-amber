@@ -132,7 +132,7 @@ text-align: left;
 .scroll-up-arrow {
   display: flex;
   width: 70px;
-  padding-bottom: 50px;
+padding-top: 50px;
 }
 
 .element-arrow{
