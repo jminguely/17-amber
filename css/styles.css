@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background-color: #CADEF4;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 .header-menu {
-  color: red;
+  width: auto;
 }
 
 .button-container {
@@ -91,35 +91,45 @@ header {
   margin: 20px;
 }
 
-.article-1950 img {
+.article-fifties img {
   width: 290px;
-  margin: 15px;
+  display: block;
+  margin: auto;
   position: relative;
 }
 
-.article-1960 img {
+.article-sixties img {
   width: 290px;
-  margin: 15px;
+  display: block;
+  margin: auto;
   position: relative;
 }
 
-.article-1970 img {
+.article-seventies img {
   width: 290px;
-  margin: 15px;
+  display: block;
+  margin: auto;
   padding-bottom: 100px;
   position: relative;
 }
 
-.article-1950{
+.article-fifties{
 text-align: right;
+font-size: 20px;
+margin: auto;
 }
 
-.article-1960{
+
+.article-sixties{
 text-align: left;
+font-size: 20px;
+margin: auto;
 }
 
-.article-1970{
+.article-seventies{
   text-align: right;
+  font-size: 20px;
+  margin: auto;
 }
 
 .product-main {
