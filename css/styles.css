@@ -115,22 +115,44 @@ header h1 {
   position: relative;
 }
 
+.box-3d {
+  width: 290px;
+  display: block;
+  margin: auto;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.cloud-decoration {
+  position: absolute;
+  z-index: 1;
+  margin-right: 80px;
+  width: 240px;
+  padding-top: 300px;
+}
+
 .article-fifties{
 text-align: right;
 font-size: 20px;
 margin: auto;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .article-sixties{
 text-align: left;
 font-size: 20px;
 margin: auto;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .article-seventies{
   text-align: right;
   font-size: 20px;
   margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .product-main {
@@ -225,14 +247,5 @@ background-color: #DD516D;
   margin: auto;
 }
 
-.cloud-product {
-  position: absolute;
-  z-index: 1;
-  width: 200px;
-  margin: 30px;
-}
 
-.boite-fifties-3d {
-  width: 300px;
-  padding-bottom: 90px;
-}
+
