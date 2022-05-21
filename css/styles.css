@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  max-width: 380px;
+  max-width: 320px;
   margin: auto;
   background-color: #CADEF4;
 }
@@ -233,6 +233,6 @@ background-color: #DD516D;
 }
 
 .boite-fifties-3d {
-  width: 320px;
-  display: block;
+  width: 300px;
+  padding-bottom: 90px;
 }
