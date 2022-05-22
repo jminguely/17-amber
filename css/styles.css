@@ -5,3 +5,36 @@ html {
 body {
   scroll-behavior: smooth;
 }
+
+.homepage header {
+  position: relative;
+  background-image: url(../img/frank-main-picture.jpg);
+  background-size: cover;
+}
+
+.big-amber {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 70px;
+}
+
+.preview-box {
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.button-left {
+  height: 10px;
+  top: 325px;
+  left: 20px;
+}
+
+.button-right {
+  height: 10px;
+  top: 325px;
+  left: 332px;
+}
