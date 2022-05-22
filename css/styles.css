@@ -127,32 +127,48 @@ header h1 {
   position: absolute;
   z-index: 1;
   margin-right: 80px;
-  width: 240px;
-  padding-top: 300px;
+  width: 200px;
+  padding-top: 320px;
+}
+
+.middle-cloud {
+  margin-left: 100px;
+  width: 200px;
 }
 
 .article-fifties{
 text-align: right;
 font-size: 20px;
 margin: auto;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .article-sixties{
 text-align: left;
 font-size: 20px;
 margin: auto;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .article-seventies{
   text-align: right;
   font-size: 20px;
   margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-product {
+  padding-bottom: 30px;
   padding-top: 20px;
-  padding-bottom: 20px;
+}
+
+.shop-button {
+  width: 270px;
+  margin: auto;
+  padding-top: 40px;
 }
 
 .product-main {
