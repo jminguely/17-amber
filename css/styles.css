@@ -131,6 +131,22 @@ header h1 {
   padding-top: 320px;
 }
 
+.bubble-icon {
+  width: 270px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  margin: auto;
+  position: relative;
+}
+
+.discover-button {
+  position: absolute;
+  z-index: 1;
+  margin-left: 60px;
+  width: 260px;
+  padding-top: 270px;
+}
+
 .middle-cloud {
   margin-left: 100px;
   width: 200px;
@@ -165,6 +181,14 @@ padding-bottom: 50px;
   padding-top: 20px;
 }
 
+.divider {
+  padding-top: 100px;
+}
+
+.more-product-section {
+  padding-bottom: 90px;
+}
+
 .shop-button {
   width: 270px;
   margin: auto;
@@ -181,6 +205,7 @@ padding-bottom: 50px;
   display: flex;
   width: 70px;
 padding-top: 50px;
+padding-bottom: 70px;
 }
 
 .element-arrow{
@@ -263,5 +288,9 @@ background-color: #DD516D;
   margin: auto;
 }
 
+footer {
+  background-image:url(../img/SVG/footer.svg);
+  background-size: 100%;
+}
 
 
