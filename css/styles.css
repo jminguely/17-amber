@@ -42,7 +42,6 @@ body {
 }
 /* comment organiser les trucs là */
 .presentation header {
-  position: relative;
   background-image: url(../img/frank-main-picture.jpg);
   background-size: cover;
 }
@@ -50,6 +49,7 @@ body {
 h1 {
   font-family: 'Cash Currency';
   font-size: 25px;
+  padding: 200px, 0, 10px;
   color: #776963;
 }
 
@@ -68,14 +68,15 @@ h2 {
 
 .preview-box {
   height: 150px;
-  /* position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%); */
+  transform: translate(-50%,-50%);
 }
 
 .small-amber {
   height: 25px;
+  flex-grow: 1;
 }
 
 .button-left {
