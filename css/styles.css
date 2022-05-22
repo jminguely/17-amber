@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Beauty Florist';
+  src: url(../fonts/Beauty\ Florist.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cash Currency';
+  src: url(../fonts/Cash\ Currency.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Chemy Retro';
+  src: url(../fonts/ChemyRetro_v01.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Love Craft';
+  src: url(../fonts/Love\ Craft.woff2);
+  font-weight: 400;
+}
+
 html {
   background-color: #F4F0EC;
 }
@@ -17,6 +41,18 @@ body {
   position: relative;
   background-image: url(../img/frank-main-picture.jpg);
   background-size: cover;
+}
+/* la font s'affiche mal */
+h1 {
+  font-family: 'Cash Currency';
+  font-size: 25px;
+  color: #776963;
+}
+
+h2 {
+  font-family: 'Cash Currency';
+  font-size: 11px;
+  color: #776963;
 }
 
 .big-amber {
