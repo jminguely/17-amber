@@ -6,10 +6,10 @@ body {
   scroll-behavior: smooth;
 }
 
-.homepage header {
+.presentation header {
   position: relative;
-  background-image: url(../img/frank-main-picture.jpg);
-  background-size: cover;
+  /* background-image: url(../img/frank-main-picture.jpg);
+  background-size: cover; */
 }
 
 .big-amber {
@@ -37,4 +37,8 @@ body {
   height: 10px;
   top: 325px;
   left: 332px;
+}
+
+header {
+  background-color: #776963;
 }
