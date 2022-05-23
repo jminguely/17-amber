@@ -5,11 +5,40 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: GT-Pres-Lt;
+  src: url(../fonts/GT-Pressura-Light-Trial.woff2);
+}
+
+@font-face {
+  font-family: GT-Pres-Lt-It;
+  src: url(../fonts/GT-Pressura-Light-Italic-Trial.woff2);
+}
+
+@font-face {
+  font-family: GT-Pres-Bd;
+  src: url(../fonts/GT-Pressura-Mono-Bold-Trial.woff2);
+}
+
+@font-face {
+  font-family: GT-Alp;
+  src: url(../fonts/GT-Alpina-Typewriter-VAR-Trial.woff2);
+}
+
+@font-face {
+  font-family: GT-Alp-It;
+  src: url(../fonts/GT-Alpina-Typewriter-Italic-VAR-Trial.woff2);
+}
+
 :root {
-  --font-main: ;
-  --font-secondary: ;
+  --font-main: GT-Pres-Bd;
+  --font-main-lt: GT-Pres-Lt;
+  --font-main-lt-it: GT-Pres-Lt-It;
+  --font-secondary: GT-Alp;
+  --font-secondary-it: GT-Alp-It;
   --color-main: #CF5E02;
   --color-secondary: #1D1B1B;
+  --color-light: #e0e0e0; 
   --box-height: 285px;
   --box-width: 142px;
 }
@@ -39,6 +68,8 @@ header {
   align-items: center;
   padding: 13px 20px;
   color: var(--color-main);
+  box-shadow: 0 10px 20px #0000003b;
+  z-index: 1000;
 }
 
 header h1 {
@@ -72,7 +103,7 @@ header h1 img {
   background: var(--color-main);
   height: 667px;
   width: 100%;
-  z-index: 1000;
+  z-index: 10000;
 }
 
 .menu-header {
@@ -113,8 +144,48 @@ header h1 img {
 
 /* for the main ↓ */
 
-.product-card img {
+main {
+  background: var(--color-light);
+}
+
+.card img {
   width: 100%;
+}
+
+.all-product {
+  padding: 20px;
+}
+
+.product-card { 
+  align-items: center;
+  position: relative;
+  border-radius: 50px;
+  padding: 30px;
+  height: 250px;
+  background: var(--color-light);
+  box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin: 50px 0;
+  overflow: hidden;
+  color: var(--color-secondary);
+}
+
+.product-card h1 {
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.product-card img {
+  width: 200%;
+  position: absolute;
+  right: -423px;
+  bottom: -407px;
+}
+.more-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 /* for the box ↓ */
