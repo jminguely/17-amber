@@ -236,21 +236,15 @@ footer a {
 
 .products-seventies {
   background-image: url(../img/img_70s.webp);
-  background-size: cover;
-  padding: 33px;
 }
 
 .products-sixties {
   background-image: url(../img/img_60s.webp);
-  background-size: cover;
-  padding: 33px;
   border-right: solid 1px black;
 }
 
 .products-fifties {
   background-image: url(../img/img_50s.webp);
-  background-size: cover;
-  padding: 33px;
   border-right: solid 1px black;
 }
 
@@ -259,6 +253,8 @@ footer a {
 .products-fifties {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
+  background-size: cover;
+  padding: 33px;
 }
 
 .products-container .button {
@@ -351,7 +347,6 @@ footer a {
 }
 
 .presentation {
-  font-family: bely-display, sans-serif;
   display: flex;
   flex-direction: row;
   border-bottom: solid 1px black;
