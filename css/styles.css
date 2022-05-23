@@ -159,6 +159,14 @@ main img{
   background-image: url(../SVG/50s_pattern_1.svg);
 }
 
+.sixties-page main{
+  background-image: url(../SVG/60s_pattern.svg);
+}
+
+.seventies-page main{
+  background-image: url(../SVG/70s_pattern.svg);
+}
+
 .sale-product{
   display: flex;
   flex-flow: row nowrap;
