@@ -28,6 +28,7 @@ html {
 
 body {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 nav {
@@ -95,7 +96,7 @@ h5 {
 }
 
 .preview-box {
-  width: 375px;
+  width: 100%;
 }
 
 .button-left {
