@@ -87,9 +87,16 @@ p{
   font-size: 20px;
   transform: translate(107px, -10px);
 }
+
 .icon{
-  height: 15px;
-  
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.icon img{
+  height: 40px;
+  width: auto;
+  margin: 30px;
 }
 .scroll-left{
   left:0px; 
