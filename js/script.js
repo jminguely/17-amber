@@ -1,7 +1,7 @@
 // 3d box
 
 var cube = document.querySelector('.cube');
-var radioGroup = document.querySelector('.radio-group');
+var radioGroup = document.querySelector('.labels-selector');
 var currentClass = '';
 
 console.log ('hello world');
