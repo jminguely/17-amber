@@ -340,3 +340,47 @@ label:active {
   border-radius: 40px;
   color: white;
 }
+
+/* For the footer ↓ */
+
+footer {
+  background: var(--color-secondary);
+  color: var(--color-main);
+  padding: 20px;
+  position: relative;
+}
+
+footer h2 {
+  font-family: var(--font-main);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.link-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-contact a {
+  color: var(--color-main);
+  text-decoration: none;
+  transition: 0.2s;
+  padding: 10px;
+}
+
+.link-contact a:hover,
+.link-contact a:active,
+.link-contact a::after,
+.link-contact a:focus {
+  background: var(--color-main);
+  color: var(--color-secondary);
+  border-radius: 10px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+}
