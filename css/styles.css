@@ -259,3 +259,14 @@ a {
   flex-direction: column;
   margin: 15px 10px;
 }
+
+.informations figure {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.informations figcaption {
+  font-family: 'Seravek';
+  font-size: 10px;
+  font-weight: 300;
+}
