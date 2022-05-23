@@ -151,7 +151,12 @@ main {
   background: var(--color-light);
 }
 
-.card img {
+.card {
+  padding: 20px;
+  font
+}
+
+.card-exhibition img {
   width: 100%;
 }
 
@@ -160,7 +165,6 @@ main {
 }
 
 .product-card { 
-  align-items: center;
   position: relative;
   border-radius: 50px;
   padding: 30px;
@@ -183,7 +187,6 @@ main {
   position: absolute;
   right: -153px;
   bottom: -229px;
-  filter: drop-shadow(13px 4px 17px #0000003b);
 }
 .more-section .button {
   color: var(--color-main);
