@@ -58,7 +58,39 @@ p{
 .parenthesis{
   font-size: 15px;
 }
-
+.products{
+  position: relative;
+}
+.products img {
+  width: 175px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0px;
+  transform: translate(100px);
+}
+.see-more{
+  background: white;
+  border: 1px solid black;
+  width: 150px;
+  height: 35px;
+  position: absolute;
+  transform: translate(107px, -98px);
+  z-index: 2;
+  font-size: 21px;
+}
+.venders{
+  border: 1px solid black;
+  margin: 10px 2px;
+  width: 150px;
+  font-size: 20px;
+  transform: translate(107px, -10px);
+}
+.icon{
+  height: 15px;
+  
+}
 .scroll-left{
   left:0px; 
   animation-name: scroll-left;
@@ -82,7 +114,7 @@ p{
   animation-name: scroll-left-text;
   animation-duration: 7s;
   font-family: "coolvetica", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 15px;
   animation-iteration-count: infinite;
