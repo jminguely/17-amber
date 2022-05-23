@@ -281,9 +281,14 @@ a {
   flex-wrap: wrap;
 }
 
-.artist img {
-  max-width: px;
+.biography img {
+  max-width: 155px;
   margin: 20px 0;
+}
+
+.works img {
+  width: 375px;
+  margin-bottom: 10px;
 }
 
 .fifties .artist {
