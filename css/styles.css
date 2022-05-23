@@ -127,3 +127,8 @@ h5 {
 .button-top {
   height: 15px;
 }
+
+.resellers img {
+  max-height: 25px;
+  max-width: 100px;
+}
