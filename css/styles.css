@@ -100,14 +100,22 @@ p{
   width: auto;
   margin: 30px;
 }
-.title h1 h2 {
-  text-align: left;
+.title {
+  display: flex;
+}
+.title h1 h2{
+  flex-direction: column;
+  align-items: flex-start;
 }
 strong{
   font-size: 14px;
 }
 .packaging{
   display: flex;
+}
+.packaging img{
+  height: 130px;
+  border: 1px solid black;
 }
 .packaging p{
   text-align: left;
