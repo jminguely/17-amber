@@ -79,18 +79,27 @@ h2 {
 
 h3 {
   font-size: 15px;
+  text-align: center;
+  height: 45px;
+  margin: 0;
 }
 
 .fifties h3 {
   font-family: 'Beauty Florist';
+  color: #F1E9BA;
+  background-color: #EE7670;
 }
 
 .sixties h3 {
   font-family: 'Chemy Retro';
+  color: #CF2854;
+  background-color: #4B2D71;
 }
 
 .seventies h3 {
   font-family: 'Love Craft';
+  color: #F4CC21;
+  background-color: #633526;
 }
 
 h4 {
@@ -143,7 +152,7 @@ img{
   border-color: #633526;
 }
 
-#vintage img {
+#top img {
   height: 135px;
   margin: 15px 20px;
 }
