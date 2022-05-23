@@ -208,19 +208,38 @@ a {
   font-size: 20px;
 }
 
+.fifties .product {
+  color: #65ADB3;
+}
+
+.sixties .product {
+  color: #EA541F;
+}
+
+.seventies .product {
+  color: #F4CC21;
+}
+
 .fifties .button-buy {
   border-color: #65ADB3;
-  color: #65ADB3;
 }
 
 .sixties .button-buy {
   border-color: #EA541F;
-  color: #EA541F;
 }
 
 .seventies .button-buy  {
   border-color: #87AC29;
-  color: #87AC29;
+}
+
+.fifties .price {
+  color: #65ADB3;
+}
+
+.price {
+  font-family: 'Seravek';
+  font-size: 25px;
+  font-weight: 400;
 }
 
 #resellers {
