@@ -284,13 +284,21 @@ background-color: #DD516D;
 
 .return-button {
   width: 140px;
-  padding-top: 20px;
+  padding-top: 90px;
   margin: auto;
 }
 
-footer {
-  background-image:url(../img/SVG/footer.svg);
-  background-size: 100%;
+.footer-site {
+  background-color: #36373C;
+  padding-top: 90px;
 }
 
+.container img {
+  width: 70px;
+  padding-top: 20px;
+}
 
+.write-us-button {
+  width: 250px;
+  margin: auto;
+  padding-top: 80px;}
