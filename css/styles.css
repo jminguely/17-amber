@@ -77,18 +77,21 @@ nav a {
   font-size: 77px;
   color: #e3d110;
   background-image: url(../img/img_50s.webp);
+  background-size: cover;
 }
 
 .article-sixties {
   font-size: 53px;
   color: #bd0064;
   background-image: url(../img/img_60s.webp);
+  background-size: cover;
 }
 
 .article-seventies {
   font-size: 40px;
   color: #7f5017;
   background-image: url(../img/img_70s.webp);
+  background-size: cover;
 }
 
 h2 {
