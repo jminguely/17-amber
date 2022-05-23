@@ -394,6 +394,21 @@ footer a {
   background-color: #ff6223;
 }
 
+.collection-seventies footer {
+  background-image: none;
+  background-color: #dba400;
+}
+
+.collection-seventies footer nav {
+  border-top: solid 1px #7f5017;
+}
+
+.collection-seventies footer a {
+  color: #7f5017;
+  border-left: solid 1px #7f5017;
+  border-right: solid 1px #7f5017;
+}
+
 .collection-sixties footer nav {
   border-top: solid 1px #bd0064;
 }
