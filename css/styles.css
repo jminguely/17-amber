@@ -84,6 +84,14 @@ h5 {
   font-style: italic;
 }
 
+#vintage a {
+  background-color: #F3E7E2;
+}
+
+#vintage img {
+  height: 135px;
+}
+
 .big-amber {
   position: absolute;
   top: 10px;
