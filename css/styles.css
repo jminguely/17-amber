@@ -54,6 +54,34 @@ h2 {
   color: #776963;
 }
 
+h3 {
+  font-size: 15px;
+}
+
+.fifties h3 {
+  font-family: 'Beauty Florist';
+}
+
+.sixties h3 {
+  font-family: 'Chemy Retro';
+}
+
+.seventies h3 {
+  font-family: 'Love Craft';
+}
+
+h4 {
+  font-family: 'Seravek';
+  font-weight: 600;
+  font-size: 17px;
+}
+
+h5 {
+  font-family: 'Seravek';
+  font-size: 14px;
+  font-style: italic;
+}
+
 .big-amber {
   position: absolute;
   top: 10px;
