@@ -202,14 +202,16 @@ a {
   height: 15px;
 }
 
-.resellers {
+.button-buy
+
+#resellers {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.resellers img {
+#resellers img {
   max-height: 25px;
   max-width: 100px;
 }
