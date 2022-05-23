@@ -12,7 +12,7 @@ font-style: italic;
 
 News Gothic Std Oblique{
 font-family: news-gothic-std, sans-serif;
-font-weight: 400;
+font-weight: 200;
 font-style: italic;
 }
 
@@ -56,6 +56,26 @@ header{
   min-height: 285px;
 }
 
+main{
+  padding: 20px;
+}
+
+h1{
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+  color: #fffefd;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+  color: #fffefd;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
 .fifties-page header{
   background-image: url(../img/50s_header.jpg);
 }
@@ -68,7 +88,6 @@ header{
   background-image: url(../img/70s_header.webp);
 }
 
-
 a{
   font-family: clarendon-urw, serif;
   font-weight: 400;
@@ -77,9 +96,23 @@ a{
   text-decoration: none;
 }
 
-p{
+p,
+li{
   color: #fffefd;
   text-align: left;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+li{
+  font-size: 15px;
+}
+
+ul{
+  max-height: 100px;
+  max-width: 250px;
+  overflow: scroll;
 }
 
 nav{
@@ -102,7 +135,60 @@ header p{
   padding: 20px 20px 0 20px;
 }
 
+.button{
+  font-family: clarendon-urw, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #fffefd;
+  background-color: #1b1c1ec7;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
 .product-page{
   position: absolute;
   right: 20px;
+}
+
+main img{
+  max-height: 200px;
+}
+
+.fifties-page main{
+  background-image: url(../SVG/50s_pattern_1.svg);
+}
+
+.sale-product{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 0 50px;
+}
+
+.sale-product-pictures{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.sale-product-text{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  justify-content: flex-start
+
+}
+
+.proposal_picture img{
+  max-height: 70px;
+}
+
+.proposal_picture{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.proposal_picture img{
+  margin: 5px 5px 0 0;
 }
