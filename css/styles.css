@@ -53,6 +53,7 @@ h2 {
   font-family: 'Cash Currency';
   font-size: 11px;
   color: #776963;
+  margin: 35px 20px 10px;
 }
 
 h3 {
@@ -84,12 +85,39 @@ h5 {
   font-style: italic;
 }
 
-#vintage a {
+#frank-preview,
+#arbus-preview,
+#meatyard-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #F3E7E2;
+  border: 1px solid;
+  /* peut-0n faire border left and right on the same line? */
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+}
+
+#frank-preview {
+  border-color: #E95D0C;
+}
+
+#arbus-preview {
+  border-color: #4B2D71;
+}
+
+#meatyard-preview {
+  border-color: #633526;
 }
 
 #vintage img {
   height: 135px;
+  margin: 15px 20px;
+}
+
+#vintage a {
+  text-decoration: none;
 }
 
 .big-amber {
