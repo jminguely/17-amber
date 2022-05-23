@@ -49,15 +49,37 @@ font-style: italic;
 
 body{
   background-color: #1b1c1e;
+  margin: 0;
 }
+
+header{
+  min-height: 285px;
+}
+
+.fifties-page header{
+  background-image: url(../img/50s_header.jpg);
+}
+
+.sixties-page header{
+  background-image: url(../img/60s_header.webp);
+}
+
+.seventies-page header{
+  background-image: url(../img/70s_header.webp);
+}
+
 
 a{
   font-family: clarendon-urw, serif;
   font-weight: 400;
   font-style: normal;
-  color: #fffefd;
   font-size: 21px;
   text-decoration: none;
+}
+
+p{
+  color: #fffefd;
+  text-align: left;
 }
 
 nav{
@@ -71,6 +93,13 @@ nav{
 
 nav img{
   max-height: 45px;
+}
+
+header p{
+  font-size: 36px;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 700;
+  padding: 20px 20px 0 20px;
 }
 
 .product-page{
