@@ -30,7 +30,7 @@ body {
   scroll-behavior: smooth;
   margin: 0;
 }
-
+/* et s'il était caché jusqu' main? */
 nav {
   position: sticky;
   top: 0%;
