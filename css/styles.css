@@ -45,12 +45,14 @@
 
 html {
   scroll-behavior: smooth;
+  background: var(--color-light);
 }
 
 body { 
   font-family: sans-serif;
   max-width: 375px;
   margin: auto;
+  background: var(--color-light);
 }
 
 .menu-open {
@@ -176,16 +178,22 @@ main {
 }
 
 .product-card img {
-  width: 200%;
+  width: 150%;
   position: absolute;
-  right: -423px;
-  bottom: -407px;
+  right: -153px;
+  bottom: -229px;
+  filter: drop-shadow(13px 4px 17px #0000003b);
 }
-.more-section {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: flex-end;
+.more-section .button {
+  color: var(--color-main);
+  text-decoration: none;
+  position: relative;
+  bottom: -165px;
+  text-shadow: 0 0 5px #0000003b;
+}
+
+.more-section .button-last {
+  bottom: -200px;
 }
 
 /* for the box ↓ */
