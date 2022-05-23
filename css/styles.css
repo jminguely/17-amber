@@ -200,19 +200,98 @@ footer a {
   padding-bottom: 10px;
 }
 
-.collection footer {
-  background-image: none;
+.collection header {
+  background-color: #e3d110;
+  color: #1eb2d9;
+  font-family: bely-display, sans-serif;
+  font-size: 45px;
+}
+
+.collection header h1 {
+  margin: 36px;
+  margin-top: 0;
+}
+
+.collection-sixties header {
+  background-color: #bd0064;
+  color: #ff6223;
+  font-size: 40px;
+}
+
+.collection-seventies header {
+  background-color: #7f5017;
+  color: #dba400;
+  font-size: 30px;
+}
+
+.collection .presentation {
+  background-color: #1eb2d9;
+  color: #e3d110;
+  font-size: 43px;
+}
+
+.collection-sixties .presentation {
+  background-color: #ff6223;
+  color: #bd0064;
+  font-size: 25px;
+}
+
+.collection-seventies .presentation {
+  background-color: #dba400;
+  color: #7f5017;
+  font-size: 23px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px black;
+}
+
+.collection .buy .button {
   background-color: #e3d110;
 }
 
-.collection footer nav {
-  border-top: solid 1px #1eb2d9;
+.collection-sixties .buy .button {
+  background-color: #bd0064;
 }
 
-.collection footer a {
-  color: #1eb2d9;
-  border-left: solid 1px #1eb2d9;
-  border-right: solid 1px #1eb2d9;
+.collection-seventies .buy .button {
+  background-color: #7f5017;
+}
+
+.buy .button {
+  padding: 10px;
+  margin-top: 250px;
+  font-size: 17px;
+}
+
+.buy p {
+  font-family: bely-display, sans-serif;
+  font-size: 30px;
+  color: #362723;
+  margin: 12px 0;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 36px;
+  border-bottom: solid 1px black;
+  background-size: cover;
+}
+
+.collection .buy {
+  background-image: url(../img/img_boite_50s.webp);
+}
+
+.collection-sixties .buy {
+  background-image: url(../img/img_boite_60s.webp);
+}
+
+.collection-seventies .buy {
+  background-image: url(../img/img_boite_70s.webp);
 }
 
 .other-products h2,
@@ -304,98 +383,19 @@ footer a {
   margin: 0;
 }
 
-.collection header {
+.collection footer {
+  background-image: none;
   background-color: #e3d110;
+}
+
+.collection footer nav {
+  border-top: solid 1px #1eb2d9;
+}
+
+.collection footer a {
   color: #1eb2d9;
-  font-family: bely-display, sans-serif;
-  font-size: 45px;
-}
-
-.collection header h1 {
-  margin: 36px;
-  margin-top: 0;
-}
-
-.collection .presentation {
-  background-color: #1eb2d9;
-  color: #e3d110;
-  font-size: 43px;
-}
-
-.collection-sixties .presentation {
-  background-color: #ff6223;
-  color: #bd0064;
-  font-size: 25px;
-}
-
-.collection-seventies .presentation {
-  background-color: #dba400;
-  color: #7f5017;
-  font-size: 23px;
-}
-
-.collection-sixties header {
-  background-color: #bd0064;
-  color: #ff6223;
-  font-size: 40px;
-}
-
-.collection-seventies header {
-  background-color: #7f5017;
-  color: #dba400;
-  font-size: 30px;
-}
-
-.presentation {
-  display: flex;
-  flex-direction: row;
-  border-bottom: solid 1px black;
-}
-
-.collection .buy .button {
-  background-color: #e3d110;
-}
-
-.collection-sixties .buy .button {
-  background-color: #bd0064;
-}
-
-.collection-seventies .buy .button {
-  background-color: #7f5017;
-}
-
-.buy .button {
-  padding: 10px;
-  margin-top: 250px;
-  font-size: 17px;
-}
-
-.buy p {
-  font-family: bely-display, sans-serif;
-  font-size: 30px;
-  color: #362723;
-  margin: 12px 0;
-}
-
-.buy {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-right: 36px;
-  border-bottom: solid 1px black;
-  background-size: cover;
-}
-
-.collection .buy {
-  background-image: url(../img/img_boite_50s.webp);
-}
-
-.collection-sixties .buy {
-  background-image: url(../img/img_boite_60s.webp);
-}
-
-.collection-seventies .buy {
-  background-image: url(../img/img_boite_70s.webp);
+  border-left: solid 1px #1eb2d9;
+  border-right: solid 1px #1eb2d9;
 }
 
 .collection-sixties footer {
