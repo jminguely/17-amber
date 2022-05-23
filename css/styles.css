@@ -202,7 +202,26 @@ a {
   height: 15px;
 }
 
-.button-buy
+.button-buy {
+  border: 1px solid;
+  font-family: 'Seravek';
+  font-size: 20px;
+}
+
+.fifties .button-buy {
+  border-color: #65ADB3;
+  color: #65ADB3;
+}
+
+.sixties .button-buy {
+  border-color: #EA541F;
+  color: #EA541F;
+}
+
+.seventies .button-buy  {
+  border-color: #87AC29;
+  color: #87AC29;
+}
 
 #resellers {
   display: flex;
