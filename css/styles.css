@@ -273,10 +273,21 @@ a {
   flex-wrap: wrap;
 }
 
+/* .biography {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
 .biography img {
   max-width: 155px;
   margin: 20px 0;
 }
+/* 
+.biography p{
+  max-width: 155px;
+} */
 
 .works img {
   width: 375px;
