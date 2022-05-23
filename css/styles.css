@@ -168,6 +168,12 @@ p {
   height: 15px;
 }
 
+.resellers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 .resellers img {
   max-height: 25px;
   max-width: 100px;
