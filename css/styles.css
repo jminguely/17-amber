@@ -337,11 +337,22 @@ footer a {
   font-size: 25px;
 }
 
+.collection-seventies .presentation {
+  background-color: #dba400;
+  color: #7f5017;
+  font-size: 23px;
+}
+
 .collection-sixties header {
   background-color: #bd0064;
   color: #ff6223;
-  font-family: bely-display, sans-serif;
   font-size: 40px;
+}
+
+.collection-seventies header {
+  background-color: #7f5017;
+  color: #dba400;
+  font-size: 35px;
 }
 
 .presentation {
