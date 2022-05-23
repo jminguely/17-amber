@@ -56,7 +56,7 @@ header{
   min-height: 285px;
 }
 
-main{
+article{
   padding: 20px;
 }
 
@@ -124,6 +124,15 @@ nav{
   padding: 25px 20px;
 }
 
+figcaption{
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fffefd;
+  font-size: 14px;
+
+}
+
 nav img{
   max-height: 45px;
 }
@@ -133,6 +142,16 @@ header p{
   font-family: news-gothic-std, sans-serif;
   font-weight: 700;
   padding: 20px 20px 0 20px;
+}
+
+article img{
+  max-height: 200px;
+}
+
+figure img{
+  margin: 0;
+  max-height: 150px;
+  padding: 0;
 }
 
 .button{
@@ -151,9 +170,6 @@ header p{
   right: 20px;
 }
 
-main img{
-  max-height: 200px;
-}
 
 .fifties-page main{
   background-image: url(../SVG/50s_pattern_1.svg);
@@ -199,4 +215,16 @@ main img{
 
 .proposal_picture img{
   margin: 5px 5px 0 0;
+}
+
+.other-product{
+  background-color: #1b1c1e;
+  padding: 20px;
+}
+
+.other-product-presentation{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
