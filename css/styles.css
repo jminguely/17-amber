@@ -114,6 +114,7 @@ header h1 img {
   justify-content: space-between;
   align-items: center;
   padding: 13px 20px;
+  box-shadow: 0 10px 20px #0000003b;
 }
 
 .menu-slider a {
