@@ -85,6 +85,13 @@ h5 {
   font-style: italic;
 }
 
+p {
+  font-family: 'Seravek';
+  font-size: 18px;
+  font-weight: 400;
+  color: #776963;
+}
+
 #frank-preview,
 #arbus-preview,
 #meatyard-preview {
@@ -119,6 +126,11 @@ h5 {
 #vintage a {
   text-decoration: none;
 }
+
+/* #photography-story {
+  max-height: 200px;
+  text-overflow
+} */
 
 .big-amber {
   position: absolute;
