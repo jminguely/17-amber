@@ -55,6 +55,9 @@ p{
   border: solid black 1px;
   flex-direction: column;
 }
+.slider-container img{
+  height: 130px;
+}
 .parenthesis{
   font-size: 15px;
 }
