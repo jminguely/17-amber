@@ -10,7 +10,7 @@ font-family: forma-djr-micro, sans-serif;
 
 :root {
   --main-color: #0a1348;
-  --secondary-color: #aa1500;
+  --secondary-color: #a11300;
   --third-color: white;
   --background-color: #f5ede1;
   --main-font: attic-antique, serif;
@@ -166,7 +166,7 @@ article h1,
   color: var(--third-color);
   font-size: 25px;
   font-family: var(--main-font);
-  padding: 30px;
+  padding: 20px 30px;
 }
 
 .card-fifties h1 {
@@ -233,7 +233,7 @@ article h1,
 .card-fifties img {
   max-width: 200px;
   position: absolute;
-  transform: translate(160px, -90px);
+  transform: translate(149px, -74px);
 }
 
 .card-sixties {
@@ -245,7 +245,7 @@ article h1,
 .card-sixties img {
   position: absolute;
   max-width: 200px;
-  transform: translate(180px, -90px);
+  transform: translate(176px, -72px);
 }
 
 .card-seventies {
@@ -258,7 +258,7 @@ article h1,
 .card-seventies img {
   position: absolute;
   max-width: 290px;
-  transform: translate(100px, -85px);
+  transform: translate(104px, -65px);
 }
 
 .card h1 {
@@ -266,7 +266,7 @@ article h1,
 }
 
 .card a {
-  font-size: 30px;
+  font-size: 33px;
   text-decoration: none;
   color: var(--main-color);
   z-index: 5;
@@ -286,7 +286,7 @@ article h1,
   border-radius: 40px;
   padding: 10px 15px;
   max-height: 18px;
-  margin: 0 187px 0 0;
+  margin: 0 175px 0 0;
 }
 
 .card-sixties .button,
@@ -553,18 +553,9 @@ article h1,
   transform: rotateX(-90deg) translateZ(214px);
 }
 
-/* 3d box : card, labels, text ↓ */
+/* 3d box : card, labels, text, line ↓ */
 
-.box-card label {
-  margin-right: 10px;
-}
-
-.box-card input[type="radio"] {
-  display: none;
-  margin: 0;
-}
-
-.box-card p {
+.labels-selector {
   color: var(--main-color);
   font-family: var(--secondary-font);
   display: flex;
@@ -572,21 +563,75 @@ article h1,
   flex-wrap: wrap;
   padding: 10px;
   margin: 0;
+  /* position: relative; */
 }
 
-.box-card label {
+.labels-selector label {
   padding: 8px;
   user-select: none;
+  cursor: pointer;
   align-self: flex-end;
   font-size: 13px;
   font-family: var(--secondary-font);
-  border-radius: 50px;
+  color: var(--main-color);
+  display: grid;
+  gap: 3px;
+  justify-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="radio"] {
+  box-sizing: border-box;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid 2px var(--main-color);
+  margin: 0 0 10px;
+  transition: background-color 0.3s;
+}
+
+.seventies input[type="radio"] {
+  background-color: var(--secondary-color);
+  border: solid 2px var(--third-color);
+}
+
+.sixties input[type="radio"] {
   background-color: var(--main-color);
-  color: var(--third-color);
+  border: solid 2px var(--third-color);
+}
+
+.fifties input[type="radio"] {
+  background-color: var(--third-color);
+  border: solid 2px var(--main-color);
 }
 
 input[type="radio"]:checked {
-  color: #000;
+  background-color: var(--third-color);
+  height: 20px;
+  width: 20px;
+}
+
+.sixties .labels-selector label,
+.seventies .labels-selector label {
+  color: var(--third-color);
+}
+
+.line {
+  position: absolute;
+  border: var(--main-color) solid 1px;
+  width: 313px;
+  transform: translate(10%, -58px);
+  z-index: 0;
+}
+
+.seventies .line,
+.sixties .line {
+  border: var(--third-color) solid 1px;
 }
 
 /* features ↓ */
