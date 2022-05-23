@@ -270,3 +270,30 @@ a {
   font-size: 10px;
   font-weight: 300;
 }
+/* pourquoi est-ce que la cascade ne fonctionne pas? */
+.artist {
+  color: #F4F0EC;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.artist img {
+  max-width: px;
+  margin: 20px 0;
+}
+
+.fifties .artist {
+  background-color: #EE7670;
+}
+
+.sixties .artist {
+  background-color: #4B2D71;
+}
+
+.seventies .artist {
+  background-color: #633526;
+}
