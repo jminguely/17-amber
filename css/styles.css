@@ -30,7 +30,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.stick-menu {
+nav {
   position: sticky;
   top: 0%;
   display: flex;
@@ -40,16 +40,11 @@ body {
   padding: 5px;
   background-color: #776963;
 }
-/* comment organiser les trucs là */
-.presentation header {
-  background-image: url(../img/frank-main-picture.jpg);
-  background-size: cover;
-}
+/* comment organiser flèches là */
 /* la font s'affiche mal */
 h1 {
   font-family: 'Cash Currency';
   font-size: 25px;
-  padding: 200px, 0, 10px;
   color: #776963;
 }
 
@@ -66,17 +61,13 @@ h2 {
   height: 70px;
 }
 
-.preview-box {
-  height: 150px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
 .small-amber {
   height: 25px;
   flex-grow: 1;
+}
+
+.preview-box {
+  width: 375px;
 }
 
 .button-left {
