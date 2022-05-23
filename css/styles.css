@@ -196,6 +196,29 @@ main {
   bottom: -200px;
 }
 
+.retailers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-main);
+  padding: 20px;
+}
+
+.retailers h2 {
+  flex-grow: 1;
+  width: 100%;
+  margin: 0 0 30px;
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.logo-retailers {
+  width: 100px;
+}
+
 /* for the box ↓ */
 
 .scene {
