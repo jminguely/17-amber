@@ -1,0 +1,17 @@
+body {
+  width: 380px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 220px;
+}
+
+.button {
+  background-color: #000;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  align-items: center;
+}
