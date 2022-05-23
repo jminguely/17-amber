@@ -44,7 +44,7 @@ p{
   font-family: "coolvetica", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 17pxs;
+  font-size: 17px;
 }
 .slider-container{
   display: flex;
@@ -87,7 +87,6 @@ p{
   font-size: 20px;
   transform: translate(107px, -10px);
 }
-
 .icon{
   display: flex;
   justify-content: center;
@@ -97,6 +96,13 @@ p{
   height: 40px;
   width: auto;
   margin: 30px;
+}
+.title h1 h2 {
+  text-align: left;
+  
+}
+strong{
+  font-size: 14px;
 }
 .scroll-left{
   left:0px; 
