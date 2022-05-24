@@ -305,9 +305,13 @@ background-color: #DD516D;
   padding-top: 80px;}
 
   .button-container a {
-    color: white;
-    border: 1px solid;
-    border-radius: 12px;
-    padding: 15px 22px;
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 15px 22px;
+  text-decoration: none;
+  }
+
+  .container {
     text-decoration: none;
   }
