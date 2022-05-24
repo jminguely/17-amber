@@ -153,10 +153,6 @@ main {
   background: var(--color-light);
 }
 
-.card {
-  padding: 20px;
-}
-
 .card-exhibition img {
   width: 100%;
 }
@@ -165,7 +161,8 @@ main {
   padding: 20px;
 }
 
-.product-card { 
+.product-card,
+.inner-card { 
   position: relative;
   border-radius: 50px;
   padding: 30px;
@@ -190,15 +187,42 @@ main {
   bottom: -229px;
 }
 .more-section .button {
-  color: var(--color-main);
+  color: var(--color-light);
   text-decoration: none;
   position: relative;
   bottom: -165px;
-  text-shadow: 0 0 5px #0000003b;
+  font-family: var(--font-secondary);
+  padding: 10px;
+  background-color: var(--color-main);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #0000003b;
+  transition: all 0.2s;
+}
+
+.more-section .button:active,
+.more-section .button:hover,
+.more-section .button:focus {
+  background-color: var(--color-dark);
+  color: var(--color-main);
 }
 
 .more-section .button-last {
   bottom: -200px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.inner-card {
+  font-family: var(--font-secondary);
+  font-size: 1.7rem;
+}
+
+.inner-card span {
+  font-size: 3.5rem;
+  font-family: var(--font-main);
+  text-transform: uppercase;
 }
 
 .retailers {
@@ -274,8 +298,8 @@ footer h2 {
   color: var(--color-dark);
 }
 
-.vintage header {
-
+.vintage header img {
+  fill: var(--color-dark);
 }
 
 /* for the box ↓ */
