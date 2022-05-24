@@ -1,0 +1,436 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: #e0ddd3;
+  border: solid 1px black;
+}
+
+.title-container {
+  background-image: url(../img/img_tele.webp);
+  display: flex; 
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+
+h1 {
+  width: 240px;
+  margin: 105px;
+  margin-left: 55px;
+}
+
+header nav {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px #362723;
+  margin-bottom: 10px;
+}
+
+nav a {
+  border-left: solid 1px #362723;
+  border-right: solid 1px #362723;
+  padding: 15px;
+  color: #362723;
+  text-decoration: none;
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.introduction {
+  background-image: url(../img/img_kraft.webp);
+  padding: 36px;
+  text-align: center;
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-bottom: solid 1px black;
+  color: #362723;
+}
+
+.slogan {
+  font-family: coolvetica;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.article {
+  font-family: bely-display, sans-serif;
+  padding: 36px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  margin: 49px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-fifties {
+  font-size: 77px;
+  color: #e3d110;
+  background-image: url(../img/img_50s.webp);
+  background-size: cover;
+}
+
+.article-sixties {
+  font-size: 53px;
+  color: #bd0064;
+  background-image: url(../img/img_60s.webp);
+  background-size: cover;
+}
+
+.article-seventies {
+  font-size: 40px;
+  color: #7f5017;
+  background-image: url(../img/img_70s.webp);
+  background-size: cover;
+}
+
+h2 {
+  margin: 0;
+}
+
+.button {
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 21px;
+  padding: 15px 5px;
+  width: 150px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-fifties {
+  background-color: #e3d110;
+}
+
+.button-sixties {
+  background-color: #bd0064;
+  margin: 80px 0;
+}
+
+.button-seventies {
+  background-color: #7f5017;
+}
+
+.button a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.dealers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 49px 0;
+  color: #362723;
+}
+
+.card {
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  padding: 25.5px;
+  width: 135px;
+  margin: 0; 
+}
+
+.card-fnac,
+.card-amazon {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.card-galaxus,
+.card-microspot {
+  border-bottom: solid 1px black;
+}
+
+.card-galaxus,
+.card-fnac {
+  border-right: solid 1px black;
+}
+
+.card h3 {
+  font-family: coolvetica;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 80px;
+  margin-top: 0;
+}
+
+.card a {
+  color: #362723;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer {
+  background-image: url(../img/img_kraft.webp);
+}
+
+footer img {
+  width: 100px;
+  margin-bottom: 90px;
+  margin-left: 36px;
+  margin-top: 36px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: solid 1px #362723;
+}
+
+footer a {
+  padding-bottom: 10px;
+}
+
+.collection header {
+  background-color: #e3d110;
+  color: #1eb2d9;
+  font-family: bely-display, sans-serif;
+  font-size: 45px;
+}
+
+.collection header h1 {
+  margin: 36px;
+  margin-top: 0;
+}
+
+.collection-sixties header {
+  background-color: #bd0064;
+  color: #ff6223;
+  font-size: 40px;
+}
+
+.collection-seventies header {
+  background-color: #7f5017;
+  color: #dba400;
+  font-size: 30px;
+}
+
+.collection .presentation {
+  background-color: #1eb2d9;
+  color: #e3d110;
+  font-size: 43px;
+}
+
+.collection-sixties .presentation {
+  background-color: #ff6223;
+  color: #bd0064;
+  font-size: 25px;
+}
+
+.collection-seventies .presentation {
+  background-color: #dba400;
+  color: #7f5017;
+  font-size: 23px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px black;
+}
+
+.collection .buy .button {
+  background-color: #e3d110;
+}
+
+.collection-sixties .buy .button {
+  background-color: #bd0064;
+}
+
+.collection-seventies .buy .button {
+  background-color: #7f5017;
+}
+
+.buy .button {
+  padding: 10px;
+  margin-top: 250px;
+  font-size: 17px;
+}
+
+.buy p {
+  font-family: bely-display, sans-serif;
+  font-size: 30px;
+  color: #362723;
+  margin: 12px 0;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 36px;
+  background-size: cover;
+}
+
+.collection .buy {
+  background-image: url(../img/img_boite_50s.webp);
+}
+
+.collection-sixties .buy {
+  background-image: url(../img/img_boite_60s.webp);
+}
+
+.collection-seventies .buy {
+  background-image: url(../img/img_boite_70s.webp);
+}
+
+.features h2 {
+  border-bottom: solid 1px black;
+  border-top: none;
+}
+
+.features {
+  font-family: coolvetica;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  background-image: url(../img/img_kraft.webp);
+  margin-bottom: 90px;
+  color: #362723;
+  max-height: 600px;
+}
+
+.features img {
+  border-bottom: solid 1px black;
+  width: 375px;
+}
+
+.patterns-container {
+  overflow: hidden;
+}
+
+.features p {
+  border-bottom: solid 1px black;
+  padding: 36px;
+  margin: 0;
+}
+
+.other-products h2,
+.features h2 {
+  font-family: coolvetica;
+  font-weight: 700;
+  font-style: normal;
+  border-top: solid 1px black;
+  text-align: center;
+  font-size: 32px;
+  padding: 5px 0;
+  color: #362723;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 49px;
+  overflow: hidden;
+}
+
+.products-seventies {
+  background-image: url(../img/img_70s.webp);
+}
+
+.products-sixties {
+  background-image: url(../img/img_60s.webp);
+  border-right: solid 1px black;
+}
+
+.products-fifties {
+  background-image: url(../img/img_50s.webp);
+  border-right: solid 1px black;
+}
+
+.products-seventies,
+.products-sixties,
+.products-fifties {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  background-size: cover;
+  padding: 34px;
+}
+
+.products-container .button {
+  margin-top: 150px;
+  font-size: 15px;
+  width: 120px;
+  padding: 10px 0;
+}
+
+.products-sixties .button {
+  background-color: #bd0064;
+}
+
+.products-seventies .button {
+  background-color: #7f5017;
+}
+
+.products-fifties .button {
+  background-color: #e3d110;
+}
+
+.collection footer {
+  background-image: none;
+  background-color: #e3d110;
+}
+
+.collection footer nav {
+  border-top: solid 1px #1eb2d9;
+}
+
+.collection footer a {
+  color: #1eb2d9;
+  border-left: solid 1px #1eb2d9;
+  border-right: solid 1px #1eb2d9;
+}
+
+.collection-sixties footer {
+  background-image: none;
+  background-color: #ff6223;
+}
+
+.collection-seventies footer {
+  background-image: none;
+  background-color: #dba400;
+}
+
+.collection-seventies footer nav {
+  border-top: solid 1px #7f5017;
+}
+
+.collection-seventies footer a {
+  color: #7f5017;
+  border-left: solid 1px #7f5017;
+  border-right: solid 1px #7f5017;
+}
+
+.collection-sixties footer nav {
+  border-top: solid 1px #bd0064;
+}
+
+.collection-sixties footer a {
+  color: #bd0064;
+  border-left: solid 1px #bd0064;
+  border-right: solid 1px #bd0064;
+}
+
+.collection .homepage-link {
+  border: none;
+}
