@@ -67,8 +67,9 @@ h1{
   font-weight: 400;
   color: #fffefd;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 0;
+  padding-top: 20px;
 }
 
 h2{
@@ -313,4 +314,27 @@ figure img{
 .presentation-product-picture-70s{
   align-items: center;
   justify-content: center;
+}
+
+.home-page-product ul,
+.home-page-product ul li,
+.home-page-product a{
+  max-height: 400px;
+  text-align: center;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.home-page-product a:active{
+  color: #1b1c1e;
+}
+
+.home-page-product ul{
+  margin-top: 20px;
+}
+
+.home-page-product article{
+  padding: 20px;
 }
