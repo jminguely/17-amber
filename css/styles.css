@@ -52,8 +52,8 @@ html {
 body { 
   font-family: sans-serif;
   max-width: 375px;
-  margin: auto;
   background: var(--color-light);
+  margin: auto;
 }
 
 .menu-open {
@@ -166,7 +166,7 @@ main {
   position: relative;
   border-radius: 50px;
   padding: 30px;
-  height: 250px;
+  height: 370px;
   background: var(--color-light);
   box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   margin: 50px 0;
@@ -178,6 +178,9 @@ main {
   font-family: var(--font-main);
   text-transform: uppercase;
   font-size: 30px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .product-card img {
@@ -185,6 +188,7 @@ main {
   position: absolute;
   right: -153px;
   bottom: -229px;
+  max-width: none;
 }
 .more-section .button {
   color: var(--color-light);
@@ -217,6 +221,7 @@ main {
 .inner-card {
   font-family: var(--font-secondary);
   font-size: 1.7rem;
+  height: auto;
 }
 
 .inner-card span {
@@ -302,9 +307,22 @@ footer h2 {
   fill: var(--color-dark);
 }
 
+.vintage .product-card {
+  height: 125px;
+  transition: height 0.2s;
+}
+
+.vintage .product-card:hover,
+.vintage .product-card:focus,
+.vintage .product-card:active {
+  height: 270px;
+}
 
 .vintage .product-card h1 {
+  position: relative;
   z-index: 100;
+  box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  background-color: #ffffff80;
 }
 
 .vintage .more-section .button {
@@ -313,7 +331,6 @@ footer h2 {
 
 .vintage .more-section img {
   width: 200%;
-  max-width: none;
   z-index: 0;
 }
 
