@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="sixties">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fdm3vww.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><h1><img src="img/AMBER.svg" alt="logo AMBER" /></h1
+      ></a>
+      <nav>
+        <a href="#" class="menu-burger" onclick="openMenu()" id="menu-burger">
+          <span class="first-bar">—</span>
+          <span class="second-bar">—</span>
+        </a>
+        <div class="menu-slider" id="menu-slider">
+          <a href="index.html">Home</a>
+          <hr />
+          <a href="fifties.html">Fifties Collection</a>
+          <hr />
+          <a class="menu-slider-active" href="sixties.html">Sixties Collection</a>
+          <hr />
+          <a href="seventies.html">Seventies Collection</a>
+          <hr />
+          <a href="index.html#retailers">Autres produits</a>
+          <hr />
+          <div class="icones">
+            <a href="https://www.facebook.com/"
+              ><img src="img/facebook.svg" alt="logo facebook"
+            /></a>
+            <a href="https://www.instagram.com"
+              ><img src="img/instagram.svg" alt="logo instagram"
+            /></a>
+            <a href="mailto:"><img src="img/mail.svg" alt="icone mail" /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <hr class="separator-line" />
+      <hr class="separator-line-2" />
+      <article class="presentation presentation-sixties">
+        <h1>Sixties Collection</h1>
+        <h3>
+          “No pessimist ever
+          <br />
+          discovered the
+          <br />
+          secret of the stars,
+          <br />
+          or sailed to an
+          <br />
+          uncharted land,
+          <br />
+          or opened a new
+          <br />
+          doorway for the
+          <br />
+          human spirit.”<br />
+          <br />
+          —Hellen Keller.
+        </h3>
+        <img
+          class="drawing"
+          src="img/sixties.webp"
+          alt="dessin femme sixties collection"
+        />
+        <div class="picture-in">
+        <img
+          class="picture"
+          src="img/homme-sixties.webp"
+          alt="marin des années soixante"
+        />
+        </div>
+        <p>
+          Cette boîte exclusive vous transportera dans la mode féminine basé sur
+          les marins dans les années soixante.
+        </p>
+        <!-- for the box ↓ -->
+        <div class="box-card">
+          <div class="scene">
+            <div class="cube">
+              <div class="cube__face cube__face--front"></div>
+              <div class="cube__face cube__face--back"></div>
+              <div class="cube__face cube__face--right"></div>
+              <div class="cube__face cube__face--left"></div>
+              <div class="cube__face cube__face--top"></div>
+              <div class="cube__face cube__face--bottom"></div>
+            </div>
+          </div>
+          <div class="labels-selector">
+            <label>
+              <input
+                type="radio"
+                name="rotate-cube-side"
+                value="front"
+                checked
+              />
+              face
+            </label>
+            <label>
+              <input type="radio" name="rotate-cube-side" value="right" />
+              droite
+            </label>
+            <label>
+              <input type="radio" name="rotate-cube-side" value="back" /> dos
+            </label>
+            <label>
+              <input type="radio" name="rotate-cube-side" value="left" /> gauche
+            </label>
+            <label>
+              <input type="radio" name="rotate-cube-side" value="top" /> haut
+            </label>
+            <label>
+              <input type="radio" name="rotate-cube-side" value="bottom" /> bas
+            </label>
+          </div>
+        </div>
+        </div>
+        <div class="line"></div>
+        <!-- <p class="thanks">Special thanks to
+        <a href="https://codepen.io/desandro/pen/KRWjzm" target="_blank" class="thanks-button">
+          Dave DeSandro</a></p> -->
+      </article>
+      <div class="features">
+        <div class="container">
+          <img src="img/goutte.svg" alt="icone de goutte" />
+          <p>Résistant à<br />l'eau</p>
+        </div>
+        <div class="container">
+          <img src="img/audio.svg" alt="icone d'audio spatial" />
+          <p>Audio spatial</p>
+        </div>
+        <div class="container">
+          <img src="img/batterie.svg" alt="icone de batterie" />
+          <p>Jusqu'à 6h</p>
+        </div>
+        <div class="container">
+          <img src="img/main.svg" alt="icone de main" />
+          <p>
+            Commandes<br />
+            tactiles
+          </p>
+        </div>
+      </div>
+      <div class="container-other-products">
+        <a class="button" href="index.html#retailers">Acheter 159.-</a>
+        <a class="button" href="index.html#other-products">Autre produits</a>
+      </div>
+    </main>
+    <footer>
+      <hr class="separator-line" />
+      <hr class="separator-line-2" />
+      <div class="icones icones-footer">
+        <a href="https://www.facebook.com/"
+          ><img src="img/facebook.svg" alt="logo facebook"
+        /></a>
+        <a href="https://www.instagram.com"
+          ><img src="img/instagram.svg" alt="logo instagram"
+        /></a>
+        <a href="mailto:"><img src="img/mail.svg" alt="icone mail" /></a>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
