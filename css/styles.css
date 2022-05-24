@@ -102,10 +102,16 @@ p{
 }
 .title {
   display: flex;
-}
-.title h1 h2{
   flex-direction: column;
   align-items: flex-start;
+}
+.title h1{
+  font-size: 55px;
+  margin: 10px 0px 0px 20px;
+}
+.title h2{
+  font-size: 30px;
+  margin: 10px 0px 0px 20px;
 }
 strong{
   font-size: 14px;
@@ -114,11 +120,12 @@ strong{
   display: flex;
 }
 .packaging img{
-  height: 130px;
+  height: 150px;
   border: 1px solid black;
+  margin-top: 10px 0px;
 }
 .packaging p{
-  text-align: left;
+  transform: translate(10px);
 }
 h3{
   font-size: 30px;
