@@ -7,6 +7,7 @@ body{
   font-size: 14px;
   margin: auto;
   max-width: 375px;
+  scroll-behavior: smooth;
 }
 nav {
   margin: 5px;
