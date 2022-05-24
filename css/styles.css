@@ -63,7 +63,6 @@ footer a {
 }
 
 /* comment organiser flèches là */
-/* la font s'affiche mal */
 h1 {
   font-family: 'Cash Currency';
   font-size: 25px;
@@ -218,12 +217,9 @@ a {
   font-family: 'Seravek';
 }
 
-.button-others {
-  font-family: 'Cash Currency';
-}
-
 .button-buy,
-.button-resellers {
+.button-resellers,
+.button-others {
   font-size: 18px;
   border: 1px solid;
   width: 200px;
@@ -234,6 +230,14 @@ a {
   position: absolute;
   right: 50%;
   transform: translate(50%,50%);
+}
+/* pourquoi footer se fait marcher dessus? */
+.button-others {
+  font-family: 'Cash Currency';
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid;
+  margin: 50px 0;
 }
 
 .fifties .button-buy {
@@ -334,18 +338,17 @@ a {
   background-color: #633526;
 }
 
-.fifties .product {
+.fifties {
   color: #65ADB3;
 }
 
-.sixties .product {
+.sixties {
   color: #EA541F;
 }
 
-.seventies .product {
+.seventies {
   color: #87AC29;
 }
-/* pourquoi ça s'applique pas sur le button-buy et le price? */
 
 header img {
   display: block;
