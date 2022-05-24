@@ -212,9 +212,22 @@ a {
 }
 
 .button-buy {
-  border: 1px solid;
   font-family: 'Seravek';
-  font-size: 20px;
+}
+
+.button-resellers {
+  font-family: 'Cash Currency';
+}
+
+.button-buy,
+.button-resellers {
+  border: 1px solid;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 .fifties .button-buy {
