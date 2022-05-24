@@ -41,7 +41,7 @@ main {
   width: 375px ;
 }
 
-header {
+.header-accueil {
   margin: 0;
   height: 661px;
   background-image: url(../img/nuage.png);
@@ -225,3 +225,50 @@ footer img {
   width: 30px;
   margin: 10px 10px 10px 0;
 }
+
+.seventeen-accueil {
+  margin: 0;
+  width: 375px;
+  height: 620px;
+  background-image: url(../img/\ kareem-abdul.webp);
+  background-size: cover;
+  position: relative;
+}
+
+.button-flower {
+  width: 150px;
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+}
+
+.button-flower {
+  animation-duration: 3s;
+  animation-name: flower-rotate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flower-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text {
+  background-color: #fcd472;
+  font-family: albam;
+  font-size: 36px;
+  color: white;
+  white-space:nowrap;
+  text-align: center;
+  line-height: 35px;
+  padding: 20px 0 10px 0;
+}
+
+.text span {
+  font-size: 25px;
+}
+
