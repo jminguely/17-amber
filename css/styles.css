@@ -119,14 +119,17 @@ strong{
 }
 .packaging{
   display: flex;
+  margin: 15px;
 }
 .packaging img{
   height: 150px;
   border: 1px solid black;
-  margin-top: 10px 0px;
+  margin: 20px;
 }
 .packaging p{
-  transform: translate(10px);
+  margin: auto;
+  width: 140px;
+  transform: translate(15px);
 }
 h3{
   font-size: 30px;
