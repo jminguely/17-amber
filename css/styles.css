@@ -1,0 +1,459 @@
+@font-face {
+  font-family: "ITC Anna Std";
+  src: url("AnnaStd.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bell MT Std";
+  src: url("BellMTStd-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bell Gothic Std";
+  src: url("BellGothicStd-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("MyriadPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: black;
+}
+.header-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.amber-logo {
+  display: block;
+  margin: auto;
+  max-width: 54px;
+  padding: 10px 0 5px;
+}
+
+.shopping-cart {
+  position: absolute;
+  right: 0;
+  padding-right: 23px;
+  max-width: 20px;
+  max-height: 16px;
+  padding-top: 16px;
+}
+
+article {
+  border: solid black 2px;
+  border-radius: 15px;
+  margin: 34px 26px 34px 26px;
+  padding: 23px 11px 0px 20px;
+}
+
+article p {
+  font-family: "ITC Anna Std";
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.airpod-icon {
+  display: flex;
+  width: 35px;
+  height: 40px;
+  padding-left: 220px;
+}
+
+main {
+  background-color: black;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-family: "ITC Anna Std";
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+main a {
+  font-family: "ITC Anna Std";
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: black;
+  border: solid white;
+  margin-right: 60px;
+  padding-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.card-tarantula {
+  background-color: #eb912e;
+}
+
+.card-psychose {
+  background-color: #d32e2c;
+}
+
+.card-halloween {
+  background-color: #ec711e;
+}
+
+p {
+  text-align: left;
+  margin: 0 0 1em 0;
+}
+
+.image {
+  width: 72px;
+}
+
+nav {
+  background-color: white;
+  margin: 26px 26px 24px 40px;
+}
+
+nav h1 {
+  color: black;
+  font-size: 25px;
+  font-family: "ITC Anna Std";
+  text-align: center;
+  padding-top: 0px;
+}
+
+.sellers {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  grid-row-gap: 14px;
+  grid-column-gap: 34px;
+}
+
+.products-and-links {
+  margin: 50px;
+}
+
+.microspot {
+  width: 58px;
+  height: 58px;
+}
+.fnac {
+  width: 78px;
+  height: 48px;
+}
+
+.galaxus {
+  width: 42px;
+  height: 42px;
+}
+
+.mediamarkt {
+  width: 84px;
+  height: 48px;
+}
+
+.interdiscount {
+  width: 65px;
+  height: 30px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer h1 {
+  font-family: "Myriad Pro";
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 28px 0 33px;
+}
+
+footer h2 {
+  font-family: "Bell MT Std";
+  color: #878787;
+  text-align: center;
+  font-size: 13px;
+}
+
+footer p {
+  font-family: "Bell Gothic Std";
+  color: #878787;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.footer-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+
+.payment-method {
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 61px;
+  padding: 15px 0 33px;
+}
+
+.copyrights {
+  font-family: "Bell Gothic Std";
+  color: white;
+  font-size: 7px;
+  margin-left: 26px;
+}
+
+.spotify-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.instagram-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.twitter-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.go-up-button {
+  width: 25px;
+  height: 25px;
+  display: block;
+  box-shadow: 0 0 10px #33333355;
+  position: fixed;
+  bottom: 0;
+  transform: translate(50%);
+  right: 50%;
+  z-index: 2;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  grid-column-gap: 20px;
+}
+
+.amber-logo-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+  max-width: 54px;
+  display: block;
+  margin: auto;
+  padding-bottom: 26px;
+}
+
+/* tarantula */
+
+.body-tarantula {
+  background-color: #eb912e;
+}
+
+.header-tarantula {
+  background-color: #eb912e;
+}
+
+.footer-tarantula {
+  background-color: #eb912e;
+}
+
+.main-tarantula {
+  background-color: #eb912e;
+}
+
+.years {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  grid-column-gap: 95px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+a h2 {
+  font-family: "ITC Anna Std";
+  color: white;
+}
+
+.catchphrase {
+  text-align: center;
+  font-size: 28px;
+}
+
+.box-tarantula {
+  height: 292px;
+  display: block;
+  margin: auto;
+}
+
+.airpod-amber-fifties {
+  width: 100px;
+  z-index: 1;
+}
+
+h2 {
+  text-align: center;
+  font-size: 31px;
+  text-decoration: none;
+}
+
+.button-buy {
+  background-color: black;
+  border: solid white;
+  padding-right: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  padding-left: 15px;
+}
+
+.description-airpod {
+  text-align: center;
+  color: black;
+  font-family: "ITC Anna Std";
+  padding-top: 40px;
+  font-size: 20px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.nav-tarantula {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  display: block;
+  left: 0px;
+}
+
+.button-products {
+  background-color: black;
+  border: solid white;
+  padding-right: 20px;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  padding-left: 15px;
+}
+
+.banner-other-pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+}
+
+.social-media-other {
+  margin-top: 8px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  grid-column-gap: 12px;
+}
+
+/* psychose */
+
+.box-psychose {
+  height: 292px;
+  display: block;
+  margin: auto;
+}
+
+.main-psychose {
+  background-color: #d32e2c;
+}
+
+.main-psychose h2 {
+  font-family: "ITC Anna Std";
+  color: white;
+  font-size: 31px;
+}
+
+.body-psychose {
+  background-color: #d32e2c;
+}
+
+.header-psychose {
+  background-color: #d32e2c;
+}
+
+.footer-psychose {
+  background-color: #d32e2c;
+}
+
+/* halloween */
+
+.box-halloween {
+  height: 292px;
+  display: block;
+  margin: auto;
+}
+
+.main-halloween {
+  background-color: #ec711e;
+}
+
+.body-halloween {
+  background-color: #ec711e;
+}
+
+.header-halloween {
+  background-color: #ec711e;
+}
+
+h3 {
+  font-family: "ITC Anna Std";
+  color: white;
+  font-size: 40px;
+}
+
+.signature {
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding-bottom: 33px;
+  padding-top: 14px;
+}
