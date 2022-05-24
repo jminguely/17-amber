@@ -1,0 +1,332 @@
+News Gothic Std Bold{
+font-family: news-gothic-std, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+News Gothic Std Bold Oblique{
+font-family: news-gothic-std, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+News Gothic Std Oblique{
+font-family: news-gothic-std, sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+News Gothic Std Medium{
+font-family: news-gothic-std, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+Clarendon URW Regular{
+font-family: clarendon-urw, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+Clarendon URW Bold{
+font-family: clarendon-urw, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+Clarendon URW Regular Oblique{
+font-family: clarendon-urw, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+Clarendon URW Bold Oblique{
+font-family: clarendon-urw, serif;
+font-weight: 700;
+font-style: italic;
+}
+
+html{
+  max-width: 375px;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #1b1c1e;
+  margin: 0;
+  max-width: 375px;
+  box-sizing: border-box;
+}
+
+header{
+  min-height: 285px;
+}
+
+h1{
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+  color: #fffefd;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+h2{
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+  color: #fffefd;
+  font-size: 20px;
+}
+
+
+a{
+  font-family: clarendon-urw, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  text-decoration: none;
+  color: #fffefd;
+  cursor: pointer;
+}
+
+nav{
+  display: flex;
+  flex-flow: row nowrap;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  padding: 25px 15px;
+  background-color: #1b1c1e;
+}
+
+p,
+li,
+.home-page p{
+  color: #fffefd;
+  text-align: left;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+figcaption{
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fffefd;
+  font-size: 14px;
+  
+}
+
+li{
+  font-size: 15px;
+}
+
+ul{
+  max-height: 100px;
+  max-width: 250px;
+  overflow: scroll;
+}
+
+
+nav img{
+  max-height: 45px;
+}
+
+header p{
+  font-size: 36px;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 700;
+  padding: 20px 20px 0 20px;
+}
+
+article img{
+  max-height: 200px;
+}
+
+article p{
+  background-color: #1b1c1e;
+  padding: 25px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+figure img{
+  margin: 0;
+  max-height: 150px;
+  padding: 0;
+}
+
+.fifties-page header{
+  background-image: url(../img/50s_header.jpg);
+}
+
+.sixties-page header{
+  background-image: url(../img/60s_header.webp);
+}
+
+.seventies-page header{
+  background-image: url(../img/70s_header.webp);
+}
+
+.home-page p{
+  background-image: url(../img/accueil_hitchcock_header.webp);
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  padding: 60px 20px;
+}
+
+.home-page img{
+  max-width: 375px;
+  margin: 0;
+}
+
+.button{
+  font-family: clarendon-urw, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #fffefd;
+  background-color: #1b1c1e;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.product-page{
+  position: absolute;
+  right: 20px;
+}
+
+.sale-product{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 50px 0 50px;
+  padding: 20px;
+  background-color: #1b1c1ec7;
+}
+
+.sale-product-pictures{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.sale-product-text{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  justify-content: flex-start
+
+}
+
+.fifties-page main .product{
+  background-image: url(../SVG/50s_pattern.svg);
+}
+
+.sixties-page main .product{
+  background-image: url(../SVG/60s_pattern.svg);
+}
+
+.seventies-page main .product{
+  background-image: url(../SVG/70s_pattern.svg);
+}
+
+.proposal_picture img{
+  max-height: 70px;
+}
+
+.proposal_picture{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.proposal_picture img{
+  margin: 5px 5px 0 0;
+}
+
+.other-product{
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.other-product-presentation{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation-product{
+  background-color: #1b1c1e;
+  padding: 20px 20px 20px;
+}
+
+.presentation-product-picture img{
+  max-height: 250px;
+}
+.presentation-product-other-view img{
+  max-height: 125px;
+  padding: 10px 10px 5px 0;
+}
+
+.presentation-product-picture-60s .presentation-product-other-view img{
+  padding: 10px 0 5px 10px;
+}
+
+.presentation-product-other-view{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.presentation-product-picture{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  margin: 50px 0;
+}
+
+.presentation-product-picture-60s{
+  align-items: flex-end;
+}
+
+.presentation-product-picture-70s{
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page-product ul,
+.home-page-product ul li,
+.home-page-product a,
+.contact a{
+  max-height: 400px;
+  text-align: center;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.home-page-product a:active{
+  color: #1b1c1e;
+}
+
+.home-page-product ul{
+  margin-top: 20px;
+}
+
+.home-page-product article{
+  padding: 20px;
+}
+
+.contact{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-bottom: 60px;
+}
