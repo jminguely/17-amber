@@ -221,13 +221,16 @@ a {
 
 .button-buy,
 .button-resellers {
+  font-size: 18px;
   border: 1px solid;
   width: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  position: absolute;
+  right: 50%;
+  transform: translate(25%,50%);
 }
 
 .fifties .button-buy {
