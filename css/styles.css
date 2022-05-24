@@ -310,9 +310,10 @@ footer p {
   justify-content: center;
 }
 
-a h2 {
+h2, a {
   font-family: "ITC Anna Std";
   color: white;
+  text-decoration: none;
 }
 
 .catchphrase {
