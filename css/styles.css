@@ -140,6 +140,9 @@ h3{
   font-size: 20px;
   transform: translate(107px, -10px);
 }
+footer p{
+  text-align: center;
+}
 .scroll-left{
   left:0px; 
   animation-name: scroll-left;
