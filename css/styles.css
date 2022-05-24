@@ -304,7 +304,6 @@ footer a {
   font-size: 32px;
   padding: 5px 0;
   color: #362723;
-  margin-top: 49px;
 }
 
 .products-container {
@@ -368,8 +367,9 @@ footer a {
   text-align: center;
   font-size: 20px;
   background-image: url(../img/img_kraft.webp);
-  margin-bottom: 0;
+  margin-bottom: 90px;
   color: #362723;
+  max-height: 600px;
 }
 
 .features img {
