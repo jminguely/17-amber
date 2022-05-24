@@ -244,33 +244,18 @@ a {
   max-height: 25px;
   max-width: 100px;
 }
-/* pourquoi le margin top et bottom s'enclenche pas? */
 .contact {
   display: flex;
   flex-direction: column;
   margin: 15px 10px;
 }
 
-.informations figure {
-  max-width: 50px;
-  max-height: 50px;
-  margin: 40px;
-}
-
-.informations figcaption {
-  font-family: 'Seravek';
-  font-size: 10px;
-  font-weight: 300;
-}
-
-.informations {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
+.informations{
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+} 
 
 .artist {
   padding: 0 20px;
