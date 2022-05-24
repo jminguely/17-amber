@@ -40,6 +40,8 @@
   --color-secondary: #1D1B1B;
   --color-light: #e0e0e0; 
   --color-dark: #1d1d1b;
+  --color-fifties: #e5bc8a;
+  --color-seventies: #001437;
   --box-height: 285px;
   --box-width: 142px;
 }
@@ -53,7 +55,6 @@ body {
   font-family: sans-serif;
   max-width: 375px;
   background: var(--color-light);
-  margin: auto;
 }
 
 .menu-open {
@@ -318,10 +319,21 @@ footer h2 {
   height: 270px;
 }
 
+.vintage .fifties-article {
+  background-color: var(--color-fifties);
+}
+
+.vintage .sixties-article {
+  background-color: ;
+}
+
+.vintage .seventies-article {
+  background-color: var(--color-seventies);
+}
+
 .vintage .product-card h1 {
   position: relative;
-  z-index: 100;
-  box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  z-index: 100;;
   background-color: #ffffff80;
 }
 
@@ -348,6 +360,19 @@ footer h2 {
   bottom: -235px;
   right: -86px;
 }
+
+.vintage .more-section .button {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+.vintage .more-section .button:active,
+.vintage .more-section .button:hover,
+.vintage .more-section .button:focus {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
 
 
 .vintage footer,
