@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'Cash Currency';
+  src: url(../fonts/Cash\ Currency.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Beauty Florist';
+  src: url(../fonts/Beauty\ Florist.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Chemy Retro';
+  src: url(../fonts/ChemyRetro_v01.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Love Craft';
+  src: url(../fonts/Love\ Craft.woff2);
+  font-weight: 400;
+}
+
+html {
+  background-color: #F4F0EC;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+/* et s'il était caché jusqu' main? */
+nav {
+  position: sticky;
+  top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  background-color: #776963;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #776963;
+  height: 90px;
+  margin-top: 50px;
+}
+
+footer img {
+  height: 55px;
+}
+
+footer a {
+  color: #F4F0EC;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Seravek';
+}
+
+/* comment organiser flèches là */
+h1 {
+  font-family: 'Cash Currency';
+  font-size: 25px;
+  color: #776963;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Cash Currency';
+  font-size: 11px;
+  color: #776963;
+  margin: 30px 20px 10px;
+}
+
+h3 {
+  font-size: 15px;
+  height: 45px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 10px
+}
+
+.fifties h3 {
+  font-family: 'Beauty Florist';
+  color: #F1E9BA;
+  background-color: #EE7670;
+}
+
+.sixties h3 {
+  font-family: 'Chemy Retro';
+  color: #CF2854;
+  background-color: #4B2D71;
+}
+
+.seventies h3 {
+  font-family: 'Love Craft';
+  color: #F4CC21;
+  background-color: #633526;
+}
+
+.artist h2 {
+  color: inherit;
+}
+
+.artist p {
+  color: inherit;
+  margin-left: 20px;
+}
+
+h4 {
+  font-family: 'Seravek';
+  font-weight: 600;
+  font-size: 17px;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Seravek';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: inherit;
+}
+
+p {
+  font-family: 'Seravek';
+  font-size: 14px;
+  font-weight: 400;
+  color: #776963;
+}
+
+img{
+  max-width: 375px;
+}
+
+#frank-preview,
+#arbus-preview,
+#meatyard-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F3E7E2;
+  border: 1px solid;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+}
+
+#frank-preview {
+  border-color: #E95D0C;
+}
+
+#arbus-preview {
+  border-color: #4B2D71;
+}
+
+#meatyard-preview {
+  border-color: #633526;
+}
+
+#top img {
+  height: 135px;
+  margin: 15px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.big-amber {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 70px;
+}
+
+.small-amber {
+  height: 25px;
+  flex-grow: 1;
+}
+/* flèches sur image */
+.preview-box {
+  height: 100%;
+}
+
+.button-left {
+  height: 10px;
+  top: 325px;
+  left: 20px;
+}
+
+.button-right {
+  height: 10px;
+  top: 325px;
+  left: 332px;
+}
+
+.button-home {
+  height: 15px;
+}
+
+.button-top {
+  height: 15px;
+}
+
+.fifties .button-buy {
+  border-color: #65ADB3;
+}
+
+.sixties .button-buy {
+  border-color: #EA541F;
+}
+
+.seventies .button-buy  {
+  border-color: #87AC29;
+}
+
+.price {
+  font-family: 'Seravek';
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  color: inherit;
+}
+
+#resellers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#resellers img {
+  max-height: 25px;
+  max-width: 100px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 10px;
+}
+
+.informations{
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+} 
+
+.artist {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #F3E7E2;
+}
+
+.biography {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+  align-items: flex-start;
+}
+
+.biography img {
+  max-width: 155px;
+  margin: 20px 0;
+}
+
+.works img {
+  width: 375px;
+  margin-bottom: 30px;
+}
+
+.sell {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-end;
+}
+
+.button-buy {
+  font-family: 'Seravek';
+}
+
+.button-buy,
+.button-others {
+  font-size: 18px;
+  border: 1px solid;
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.button-others {
+  font-family: 'Cash Currency';
+  font-weight: 400;
+}
+
+.fifties .artist {
+  background-color: #EE7670;
+}
+
+.sixties .artist {
+  background-color: #4B2D71;
+}
+
+.seventies .artist {
+  background-color: #633526;
+}
+
+.fifties {
+  color: #65ADB3;
+}
+
+.sixties {
+  color: #EA541F;
+}
+
+.seventies {
+  color: #87AC29;
+}
+
+header img {
+  display: block;
+}
