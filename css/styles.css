@@ -56,16 +56,13 @@ header{
   min-height: 285px;
 }
 
-article{
-  padding: 20px;
-}
-
 h1{
   font-family: clarendon-urw, serif;
   font-weight: 400;
   color: #fffefd;
   font-size: 24px;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 h2{
@@ -150,6 +147,12 @@ article img{
   max-height: 200px;
 }
 
+article p{
+  background-color: #1b1c1ec7;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
 figure img{
   margin: 0;
   max-height: 150px;
@@ -162,7 +165,7 @@ figure img{
   font-style: normal;
   font-size: 18px;
   color: #fffefd;
-  background-color: #1b1c1ec7;
+  background-color: #1b1c1e;
   padding: 5px 10px;
   border-radius: 15px;
 }
@@ -172,23 +175,12 @@ figure img{
   right: 20px;
 }
 
-
-.fifties-page main{
-  background-image: url(../SVG/50s_pattern_1.svg);
-}
-
-.sixties-page main{
-  background-image: url(../SVG/60s_pattern.svg);
-}
-
-.seventies-page main{
-  background-image: url(../SVG/70s_pattern.svg);
-}
-
 .sale-product{
   display: flex;
   flex-flow: row nowrap;
   margin: 0 0 50px;
+  padding: 20px;
+  background-color: #1b1c1ec7;
 }
 
 .sale-product-pictures{
@@ -206,6 +198,30 @@ figure img{
 
 }
 
+.fifties-page main article p{
+  background-image: url(../SVG/50s_pattern.svg);
+}
+
+.fifties-page main .sale-product{
+  background-image: url(../SVG/50s_pattern.svg);
+}
+
+.sixties-page main article p{
+  background-image: url(../SVG/60s_pattern.svg);
+}
+
+.sixties-page main .sale-product{
+  background-image: url(../SVG/60s_pattern.svg);
+}
+
+.seventies-page main article p{
+  background-image: url(../SVG/70s_pattern.svg);
+}
+
+.seventies-page main .sale-product{
+  background-image: url(../SVG/70s_pattern.svg);
+}
+
 .proposal_picture img{
   max-height: 70px;
 }
@@ -220,8 +236,8 @@ figure img{
 }
 
 .other-product{
-  background-color: #1b1c1e;
   padding: 20px;
+  margin-top: 50px;
 }
 
 .other-product-presentation{
