@@ -213,26 +213,6 @@ a {
   height: 15px;
 }
 
-.button-buy {
-  font-family: 'Seravek';
-}
-
-.button-buy,
-.button-others {
-  font-size: 18px;
-  border: 1px solid;
-  width: 200px;
-  margin: 30px auto;
-  display: block;
-  padding: 10px;
-  text-align: center;
-}
-
-.button-others {
-  font-family: 'Cash Currency';
-  font-weight: 400;
-}
-
 .fifties .button-buy {
   border-color: #65ADB3;
 }
@@ -325,6 +305,26 @@ a {
   flex-direction: column;
   justify-items: flex-start;
   align-items: flex-end;
+}
+
+.button-buy {
+  font-family: 'Seravek';
+}
+
+.button-buy,
+.button-others {
+  font-size: 18px;
+  border: 1px solid;
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.button-others {
+  font-family: 'Cash Currency';
+  font-weight: 400;
 }
 
 .fifties .artist {
