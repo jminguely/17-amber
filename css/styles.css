@@ -1,0 +1,317 @@
+@font-face{
+  font-family: "essence-default";
+  src: url("../fonts/Essence\ Sans.woff") format("woff"),
+  url("../fonts/EssenceSans.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "Drumag";
+  src: url("../fonts/DrumagStudioNF.woff") format("woff"),
+  url("../fonts/EssenceSansBoldItalic.woff2") format("woff2")
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  background-color: #CADEF4;
+}
+
+
+header h1 {
+  text-decoration: none;
+  font-family: "essence-default";
+  color: white;
+  font-size: 50px;
+  padding-top: 240px;
+  text-align: left;
+  margin: 20px;
+}
+
+.introduction-page {
+  background-image: url(../img/header-picture.webp);
+  background-size: 100%;
+}
+
+.header-menu {
+  position: sticky;
+  top: 0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+    color: white;
+    font-family: "essence-default";
+    font-size: 25px;
+}
+
+.button-shop {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.button-product {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.button-about {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 12px 22px;
+  text-decoration: none;
+}
+
+.blue-box {
+  background-color: #A3A7D1;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 20px;
+}
+
+.dark-box p {
+  color: #A3A7D1;
+}
+
+.about-title {
+  font-family: "essence-default";
+  font-size: 30px;
+  text-align: center;
+  background-color: #A3A7D1;
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  margin: 20px;
+}
+
+.article-fifties img {
+  width: 290px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.article-sixties img {
+  width: 290px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.article-seventies img {
+  width: 290px;
+  display: block;
+  margin: auto;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.box-3d {
+  width: 290px;
+  display: block;
+  margin: auto;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.cloud-decoration {
+  position: absolute;
+  z-index: 1;
+  margin-right: 80px;
+  width: 200px;
+  padding-top: 320px;
+}
+
+.bubble-icon {
+  width: 270px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  margin: auto;
+  position: relative;
+}
+
+.discover-button {
+  position: absolute;
+  z-index: 1;
+  margin-left: 60px;
+  width: 260px;
+  padding-top: 270px;
+}
+
+.middle-cloud {
+  margin-left: 100px;
+  width: 200px;
+}
+
+.article-fifties{
+text-align: right;
+font-size: 20px;
+margin: auto;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.article-sixties{
+text-align: left;
+font-size: 20px;
+margin: auto;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.article-seventies{
+  text-align: right;
+  font-size: 20px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-product {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.divider {
+  padding-top: 100px;
+}
+
+.more-product-section {
+  padding-bottom: 90px;
+}
+
+.shop-button {
+  width: 270px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.product-main {
+  font-family: "Drumag";
+  font-size: 27px;
+  color: white;
+}
+
+.scroll-up-arrow {
+  display: flex;
+  width: 70px;
+padding-top: 50px;
+padding-bottom: 70px;
+}
+
+.element-arrow{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: white;
+  padding-bottom: 100px;
+  font-family: "essence-default";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.discover-button-fifties {
+  position: absolute;
+  margin: 30px;
+  padding-top: 330px;
+  z-index: 1;
+}
+
+.discover-button-sixties {
+  position: absolute;
+  z-index: 1;
+  width: 220px;
+  margin: 30px;
+  padding-top: 330px;
+}
+
+.discover-button-seventies {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  margin: 30px;
+  padding-top: 330px;
+}
+
+.revendeur img{
+  width: 300px;
+  margin: 3%;
+}
+
+.revendeur p {
+  font-family: "essence-default";
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.revendeur {
+  background-color: #A3A7D1;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.product-title-container {
+  width: 290px;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  margin: 20px;
+}
+
+.product-body-fifties {
+  background-color: #ACDEAE;
+}
+
+.product-body-sixties {
+  background-color: #D459C7;
+}
+
+.product-body-seventies {
+background-color: #DD516D;
+}
+
+.return-button {
+  width: 140px;
+  padding-top: 90px;
+  margin: auto;
+}
+
+.footer-site {
+  background-color: #36373C;
+  padding-top: 90px;
+}
+
+.container img {
+  width: 70px;
+  padding-top: 20px;
+}
+
+.write-us-button {
+  width: 250px;
+  margin: auto;
+  padding-top: 80px;}
+
+  .button-container a {
+  color: white;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 15px 22px;
+  text-decoration: none;
+  }
+
+  .container {
+    text-decoration: none;
+  }
