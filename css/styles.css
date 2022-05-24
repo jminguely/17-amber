@@ -318,7 +318,8 @@ figure img{
 
 .home-page-product ul,
 .home-page-product ul li,
-.home-page-product a{
+.home-page-product a,
+.contact a{
   max-height: 400px;
   text-align: center;
   font-family: news-gothic-std, sans-serif;
@@ -337,4 +338,12 @@ figure img{
 
 .home-page-product article{
   padding: 20px;
+}
+
+.contact{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-bottom: 60px;
 }
