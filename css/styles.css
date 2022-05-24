@@ -135,12 +135,13 @@ h3{
   font-size: 30px;
   border: 1px solid black;
   text-align: center;
-  margin: 20px 20px;
-  width: 150px;
-  font-size: 20px;
-  transform: translate(107px, -10px);
+  margin: auto auto 0;
+  width: 220px;
+  font-size: 26px;
+  margin-bottom: 50px;
+  
 }
-footer p{
+footer  p{ 
   text-align: center;
 }
 .scroll-left{
