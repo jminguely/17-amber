@@ -46,10 +46,16 @@ font-weight: 700;
 font-style: italic;
 }
 
+html{
+  max-width: 375px;
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: #1b1c1e;
   margin: 0;
+  max-width: 375px;
+  box-sizing: border-box;
 }
 
 header{
@@ -95,7 +101,8 @@ a{
 }
 
 p,
-li{
+li,
+.home-page p{
   color: #fffefd;
   text-align: left;
   font-family: news-gothic-std, sans-serif;
@@ -158,6 +165,26 @@ figure img{
   max-height: 150px;
   padding: 0;
 }
+
+.home-page p{
+  background-image: url(../img/accueil_hitchcock_header.webp);
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  padding: 60px 20px;
+}
+
+.home-page img{
+  max-width: 375px;
+  margin: 0;
+  /* animation: imgSlider 4s linear infinite; */
+}
+
+/* @keyframes imgSlider{
+  0% {background-image: url(../img/accueil_50s_header.webp);}
+  50% {background-image: url(../img/accueil_60s_header.webp);}
+  100% {background-image: url(../img/accueil_70s_header.webp);}
+} */
 
 .button{
   font-family: clarendon-urw, serif;
