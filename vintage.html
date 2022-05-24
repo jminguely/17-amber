@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>AMBER - Vintage</title>
   </head>
   <body>
     <header>
       <h1>
-        <img src="img/amber-logo.svg" alt="logo Amber" />
+        <img src="img/amber-logo-nb.svg" alt="logo Amber" />
       </h1>
       <nav class="menu-burger" onclick="openMenu()">
         <span class="bar">–</span>
@@ -34,8 +35,34 @@
         <a href="index.html#retailers" onclick="openMenu()">- FIND US</a>
       </div>
     </header>
-    <main>
-      
+    <main class="p-5">
+      <div class="inner-card h-full">
+        <p class="font-bold">
+          Like our emblem, we keep History and his famous moments who make you 
+          and us.
+        </p>
+      </div>
+      <article class="product-card bg-[url('/img/background-vintage.svg')] bg-no-repeat bg-cover">
+        <h1>50' Edtion</h1>
+        <div class="more-section">
+          <img src="img/all-boxes.webp" alt="box fifties" class="fifties-thumbnail"/>
+          <a href="fifties.html" class="button">en savoir plus →</a>
+        </div>
+      </article>
+      <article class="product-card bg-[url('/img/background-vintage.svg')] bg-no-repeat bg-cover">
+        <h1>60' Edtion</h1>
+        <div class="more-section">
+          <img src="img/all-boxes.webp" alt="box sixties" class="sixties-thumbnail"/>
+          <a href="sixties.html" class="button">en savoir plus →</a>
+        </div>
+      </article>
+      <article class="product-card bg-[url('/img/background-vintage.svg')] bg-no-repeat bg-cover">
+        <h1>70' Edtion</h1>
+        <div class="more-section">
+          <img src="img/all-boxes.webp" alt="box seventies" class="seventies-thumbnail"/>
+          <a href="seventies.html" class="button">en savoir plus →</a>
+        </div>
+      </article>
     </main>
     <footer id="contact">
       <h2>Contact</h2>

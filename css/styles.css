@@ -302,6 +302,50 @@ footer h2 {
   fill: var(--color-dark);
 }
 
+
+.vintage .product-card h1 {
+  z-index: 100;
+}
+
+.vintage .more-section .button {
+  bottom: -120px;
+}
+
+.vintage .more-section img {
+  width: 200%;
+  max-width: none;
+  z-index: 0;
+}
+
+.vintage .more-section .fifties-thumbnail {
+  bottom: -251px;
+  right: -394px;
+}
+
+.vintage .more-section .sixties-thumbnail {
+  bottom: -380px;
+  right: -239px;
+}
+
+.vintage .more-section .seventies-thumbnail {
+  bottom: -235px;
+  right: -86px;
+}
+
+
+.vintage footer,
+.vintage footer a {
+  color: var(--color-light);
+}
+
+.vintage footer a:active,
+.vintage footer a:focus,
+.vintage footer a:hover {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+
 /* for the box ↓ */
 
 .scene {
