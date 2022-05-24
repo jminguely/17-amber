@@ -28,9 +28,10 @@ body {
   margin: auto;
   background-color: var(--background-color);
   box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+  color: var(--main-color);
 }
 
-main {
+a {
   color: var(--main-color);
 }
 
@@ -113,8 +114,11 @@ nav hr {
 
 .menu-slider a {
   font-size: 20px;
-  color: var(--main-color);
   text-decoration: none;
+}
+
+.menu-slider-active {
+  color: #0a1348a8;
 }
 
 .open {
@@ -379,6 +383,11 @@ article h1,
   position: relative;
   max-width: 165px;
   transform: translate(-27px, -10px) rotate(13deg);
+}
+
+.picture-in {
+  overflow: hidden;
+  padding: 27px 0;
 }
 
 .presentation p {
