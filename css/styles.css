@@ -62,6 +62,12 @@ p{
   border-right: 1px solid black;
   border-left: 1px solid black;
 }
+.slider-container img:first-of-type{
+  border-left: 0;
+}
+.slider-container img:last-of-type{
+  border-left: 0;
+}
 .parenthesis{
   font-size: 15px;
 }
@@ -84,6 +90,7 @@ p{
   z-index: 2;
   font-size: 21px;
   margin-bottom: 47px;
+  border-top: 0;
 }
 .venders{
   border: 1px solid black;
@@ -116,6 +123,7 @@ p{
 }
 strong{
   font-size: 14px;
+  text-align: center;
 }
 .packaging{
   display: flex;
@@ -139,7 +147,6 @@ h3{
   width: 220px;
   font-size: 26px;
   margin-bottom: 50px;
-  
 }
 footer  p{ 
   text-align: center;
