@@ -28,7 +28,8 @@ html {
 
 body {
   scroll-behavior: smooth;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 375px;
 }
 
 /* et s'il était caché jusqu' main? */
@@ -147,7 +148,6 @@ img{
   justify-content: space-between;
   background-color: #F3E7E2;
   border: 1px solid;
-  /* peut-0n faire border left and right on the same line? */
   border-left: none;
   border-right: none;
   margin-bottom: 30px;
@@ -174,11 +174,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-/* #photography-story {
-  max-height: 200px;
-  text-overflow
-} */
 
 .big-amber {
   position: absolute;
@@ -230,7 +225,7 @@ a {
   padding: 10px;
   text-align: center;
 }
-/* pourquoi footer se fait marcher dessus? */
+
 .button-others {
   font-family: 'Cash Currency';
   font-weight: 400;
