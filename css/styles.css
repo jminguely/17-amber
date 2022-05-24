@@ -77,20 +77,8 @@ h2{
   font-weight: 400;
   color: #fffefd;
   font-size: 20px;
-  margin: 0 0 20px;
 }
 
-.fifties-page header{
-  background-image: url(../img/50s_header.jpg);
-}
-
-.sixties-page header{
-  background-image: url(../img/60s_header.webp);
-}
-
-.seventies-page header{
-  background-image: url(../img/70s_header.webp);
-}
 
 a{
   font-family: clarendon-urw, serif;
@@ -100,26 +88,6 @@ a{
   text-decoration: none;
   color: #fffefd;
   cursor: pointer;
-}
-
-p,
-li,
-.home-page p{
-  color: #fffefd;
-  text-align: left;
-  font-family: news-gothic-std, sans-serif;
-  font-weight: 200;
-  font-size: 18px;
-}
-
-li{
-  font-size: 15px;
-}
-
-ul{
-  max-height: 100px;
-  max-width: 250px;
-  overflow: scroll;
 }
 
 nav{
@@ -132,14 +100,35 @@ nav{
   background-color: #1b1c1e;
 }
 
+p,
+li,
+.home-page p{
+  color: #fffefd;
+  text-align: left;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
 figcaption{
   font-family: news-gothic-std, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #fffefd;
   font-size: 14px;
-
+  
 }
+
+li{
+  font-size: 15px;
+}
+
+ul{
+  max-height: 100px;
+  max-width: 250px;
+  overflow: scroll;
+}
+
 
 nav img{
   max-height: 45px;
@@ -157,8 +146,9 @@ article img{
 }
 
 article p{
-  background-color: #1b1c1ec7;
+  background-color: #1b1c1e;
   padding: 25px;
+  margin-bottom: 40px;
   box-sizing: border-box;
 }
 
@@ -166,6 +156,18 @@ figure img{
   margin: 0;
   max-height: 150px;
   padding: 0;
+}
+
+.fifties-page header{
+  background-image: url(../img/50s_header.jpg);
+}
+
+.sixties-page header{
+  background-image: url(../img/60s_header.webp);
+}
+
+.seventies-page header{
+  background-image: url(../img/70s_header.webp);
 }
 
 .home-page p{
@@ -179,14 +181,7 @@ figure img{
 .home-page img{
   max-width: 375px;
   margin: 0;
-  /* animation: imgSlider 4s linear infinite; */
 }
-
-/* @keyframes imgSlider{
-  0% {background-image: url(../img/accueil_50s_header.webp);}
-  50% {background-image: url(../img/accueil_60s_header.webp);}
-  100% {background-image: url(../img/accueil_70s_header.webp);}
-} */
 
 .button{
   font-family: clarendon-urw, serif;
@@ -207,7 +202,7 @@ figure img{
 .sale-product{
   display: flex;
   flex-flow: row nowrap;
-  margin: 0 0 50px;
+  margin: 50px 0 50px;
   padding: 20px;
   background-color: #1b1c1ec7;
 }
@@ -227,27 +222,15 @@ figure img{
 
 }
 
-.fifties-page main article p{
+.fifties-page main .product{
   background-image: url(../SVG/50s_pattern.svg);
 }
 
-.fifties-page main .sale-product{
-  background-image: url(../SVG/50s_pattern.svg);
-}
-
-.sixties-page main article p{
+.sixties-page main .product{
   background-image: url(../SVG/60s_pattern.svg);
 }
 
-.sixties-page main .sale-product{
-  background-image: url(../SVG/60s_pattern.svg);
-}
-
-.seventies-page main article p{
-  background-image: url(../SVG/70s_pattern.svg);
-}
-
-.seventies-page main .sale-product{
+.seventies-page main .product{
   background-image: url(../SVG/70s_pattern.svg);
 }
 
