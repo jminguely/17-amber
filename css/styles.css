@@ -94,6 +94,7 @@ a{
   font-style: normal;
   font-size: 21px;
   text-decoration: none;
+  color: #fffefd;
 }
 
 p,
@@ -121,7 +122,8 @@ nav{
   position: sticky;
   align-items: center;
   top: 0;
-  padding: 25px 20px;
+  padding: 25px 15px;
+  background-color: #1b1c1e;
 }
 
 figcaption{
