@@ -98,6 +98,7 @@ a{
   font-size: 21px;
   text-decoration: none;
   color: #fffefd;
+  cursor: pointer;
 }
 
 p,
@@ -272,4 +273,44 @@ figure img{
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.presentation-product{
+  background-color: #1b1c1e;
+  padding: 20px 20px 20px;
+}
+
+.presentation-product-picture img{
+  max-height: 250px;
+}
+.presentation-product-other-view img{
+  max-height: 125px;
+  padding: 10px 10px 5px 0;
+}
+
+.presentation-product-picture-60s .presentation-product-other-view img{
+  padding: 10px 0 5px 10px;
+}
+
+.presentation-product-other-view{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.presentation-product-picture{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  margin: 50px 0;
+}
+
+.presentation-product-picture-60s{
+  align-items: flex-end;
+}
+
+.presentation-product-picture-70s{
+  align-items: center;
+  justify-content: center;
 }
