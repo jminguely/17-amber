@@ -6,7 +6,6 @@ body {
 
 img {
   width: 350px;
-  transform: translate(-10%);
   margin: 25px;
 }
 
@@ -59,7 +58,6 @@ img {
 
 .music {
   width: 110%;
-  transform: translate(-10%);
   margin: 0px;
 }
 
@@ -77,10 +75,10 @@ footer {
   padding-bottom: 10px;
 }
 
-footer p {
+footer h1 {
   color: #ffffff;
 }
 
-footer h1 {
+nav a {
   color: #ffffff;
 }
