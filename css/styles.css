@@ -1,7 +1,21 @@
+/* font-family: 'Source Sans Pro', sans-serif */
+
+  /* font-family: 'KC Leisure Park';
+  font-weight: bold;
+  font-style: normal; */
+
+@font-face {
+  font-family: 'leisure';
+  src: url(../fonts/KCLeisureParkBold.woff2);
+  src: url(../fonts/KCLeisureParkBold.woff);
+  font-style: bold;
+  font-display: swap;
+}
+
 :root {
-  --blue: #19232F;
-  --green: #CFE5CC;
-  --pink: #F0838F;
+  --orange: #19232F;
+  --pink: #CFE5CC;
+  --beige: #F0838F;
   --white: #FFFF;
 }
 
@@ -15,6 +29,8 @@ body {
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
   text-align: center;
   margin: auto;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -48,7 +64,7 @@ main {
   align-items: center;
   color: white;
   padding-bottom: 0px;
-  background-image: url(../img/70S_nav_backgrounds.png);
+  background-image: url(../img/60S_nav_backgrounds_garfield.webp);
 }
 
 .navbar-links {
@@ -83,13 +99,14 @@ main {
   flex-direction: column;
   justify-content: space-between;
   width: 40px;
-  height: 21px;
+  height: 27px;
   
 }
 
 .toggle-button .bar {
-  height: 3px;
+  height: 5px;
   width: 100%;
+  border-radius: 10px;
   background-color: white;
 }
 
@@ -118,6 +135,51 @@ main {
   }
 }
 
+/* main */
+
+main {
+  background-image: url(../img/background_body.webp);
+  padding-top: 135px;
+  }
+
+.container-text-main img {
+  width: auto;
+  height: 145px;
+  margin: 40px 0 0;
+}
+
+.container-text-main p {
+ max-width: 250px;
+text-align: left;
+margin: 0 35px;
+}
+
+.catch-phrase, .container-text-main {
+  background-image: url(../img/color_block_garfield.webp);
+  background-size: contain;
+  height: 748px;
+  padding: 0px;
+}
+
+.card-informations-container {
+  display: flex;
+  text-align: left;
+  margin: 35px;
+}
+
+.informations-category-container { 
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.informations-category-filer {
+  margin-left: 25px;
+}
+
+.card-informations-container li {
+  margin: 20px 0px 0px 0px;
+}
+
 /* Button */
 
 .button {
@@ -133,39 +195,148 @@ main {
   font-size: 20px;
 }
 
+.button:hover  {
+  background-color: #19232F;
+  color: white;
+  transition: 0.5s;
+}
+
 /* images */
 
-.packaging-presentation
- img {
- width: auto;
- height: 450px;
- margin-bottom: 0px;
-}
+.title-image {
+  width: auto;
+  height: 70px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+ }
+ 
+ .garfield-box {
+  width: auto;
+  height: 450px;
+  margin-bottom: 0px;
+ }
 
 .packaging-presentation {
   padding-bottom: 100px;
+  background-color: white;
+  padding-top: 40px;
 }
 
-.catch-phrase, .container-text-main {
-  background-image: url(../img/color_block_garfield.webp);
+.img-card img {
   width: 375px;
-  height: 600px;
+  height: 700px;
   padding: 0px;
+}
+
+.colorful-block {
+  background-image: url(../img/garfield_block_color_footer\ copie.webp);
+  background-size: contain;
+  width: auto;
+  height: 560px;
+}
+
+.colorful-block img {
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
 }
 
 /* Text */
 
 .phrase {
+  margin-top: 0px;
   font-size: 60px;
   color: white;
   display: flex;
 }
 
 p {
-  color: white;
   font-size: 16px;
 }
 
 h2 {
   padding-top: 30px;
+}
+
+h1 {
+  color: black;
+}
+
+.cart-product-card h4 {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.button-cart {
+  background-color: #19232F;
+  margin-top: 20px;
+}
+
+.button-cart:hover {
+  background-color: rgb(220, 220, 220);
+  color: rgb(39, 39, 39);
+}
+
+/* card */
+
+.card {
+  background-color: white;
+  margin: 35px;
+  margin-top: 50px;
+  padding:  8px 0 25px ;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  border-radius: 25px;
+  color: black;
+}
+
+.card img {
+  width: auto;
+  height: 210px;
+  margin-bottom: 0px;
+}
+
+.card h3 {
+  background-color: rgb(64, 64, 64);
+  padding: 5px 0 0 5px;
+  color: var(--white);
+  border-radius: 10px 30px 30px 0 ;
+  text-align: left;
+  font-size: 30px;
+  padding: 10px;
+  width: 250px;
+}
+
+.card p {
+  max-width: 250px;
+  text-align: left;
+  margin: 0 35px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  padding: 30px;
+}
+
+.partenaires img {
+  width: 300px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-informations-card-footer {
+  text-align: right;
+  padding: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-family: 'leisure';
 }
