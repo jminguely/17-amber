@@ -9,64 +9,103 @@
     <title>fifties</title>
   </head>
   <body class="m-auto">
-    <h2>
-      Like Spoutnik, be the first in the next age.
-    </h2>
-    <div class="card-expectation">
-      <h3>The 50' in the space war</h3>
-      <p>
-        The space war comonly started with Spoutnik, launched by the USSR in 1955.
-        After that, nothing will be the same.
-      </p>
-    </div>
-    <div class="scene">
-      <div class="cube">
-        <div class="cube__face cube__face--front"></div>
-        <div class="cube__face cube__face--back"></div>
-        <div class="cube__face cube__face--right"></div>
-        <div class="cube__face cube__face--left"></div>
-        <div class="cube__face cube__face--top"></div>
-        <div class="cube__face cube__face--bottom"></div>
+    <header>
+      <h1>
+        <img src="img/amber-logo-nb.svg" alt="logo Amber" />
+      </h1>
+      <nav class="menu-burger" onclick="openMenu()">
+        <span class="bar">–</span>
+        <span class="bar">–</span>
+        <span class="bar">–</span>
+      </nav>
+      <div class="menu-slider">
+        <div class="menu-header">
+          <h1 class="logo-menu">
+            <img src="img/amber-logo.svg" alt="logo Amber" />
+          </h1>
+          <div class="menu-cross" onclick="openMenu()">
+            <span class="bar bar-1">–</span>
+            <span class="bar bar-2">–</span>
+            <span class="bar bar-3">–</span>
+          </div>
+        </div>
+        <a href="index.html" onclick="openMenu()">- HOME</a>
+        <a href="index.html#product" onclick="openMenu()">- PRODUCT</a>
+        <a href="#contact" onclick="openMenu()">- CONTACT US</a>
+        <a href="index.html#retailers" onclick="openMenu()">- FIND US</a>
       </div>
-    </div>
-    <div class="radio-group">
-      <label>
-        <input type="radio" name="rotate-cube-side" value="front" checked /> front
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="right" /> right
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="back" /> back
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="left" /> left
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="top" /> top
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
-      </label>
-    </div>
-    <div class="spec">
-      <div>
-        <img src="" alt="icon noise concelling">
-        <span>Noise Cancelling</span>
+    </header>
+    <main>
+      <h2>
+        Like Spoutnik, be the first in the next age.
+      </h2>
+      <div class="card-expectation">
+        <h3>The 50' in the space war</h3>
+        <p>
+          The space war comonly started with Spoutnik, launched by the USSR in 1955.
+          After that, nothing will be the same.
+        </p>
       </div>
-      <div>
-        <img src="" alt="icon water proof">
-        <span>Water Proof</span>
+      <div class="scene">
+        <div class="cube">
+          <div class="cube__face cube__face--front"></div>
+          <div class="cube__face cube__face--back"></div>
+          <div class="cube__face cube__face--right"></div>
+          <div class="cube__face cube__face--left"></div>
+          <div class="cube__face cube__face--top"></div>
+          <div class="cube__face cube__face--bottom"></div>
+        </div>
       </div>
-      <div>
-        <img src="" alt="icon touch control">
-        <span>Touch Control</span>
+      <div class="radio-group">
+        <label>
+          <input type="radio" name="rotate-cube-side" value="front" checked /> front
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="right" /> right
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="back" /> back
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="left" /> left
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="top" /> top
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
+        </label>
       </div>
-      <div>
-        <img src="" alt="icon bass amplifier">
-        <span>Bass Amplifier</span>
+      <div class="spec">
+        <div class="spec-icons">
+          <img src="" alt="icon noise concelling">
+          <span>Noise Cancelling</span>
+        </div>
+        <div class="spec-icons">
+          <img src="" alt="icon water proof">
+          <span>Water Proof</span>
+        </div>
+        <div class="spec-icons">
+          <img src="" alt="icon touch control">
+          <span>Touch Control</span>
+        </div>
+        <div class="spec-icons">
+          <img src="" alt="icon bass amplifier">
+          <span>Bass Amplifier</span>
+        </div>
       </div>
-    </div>
+    </main>
+    <footer id="contact">
+      <h2>Contact</h2>
+      <div class="link-contact">
+        <a href="mailto:amber.support@info.com" class="button" >→ mail</a>
+        <a href="https://www.twitter.com" class="button">→ twitter</a>
+        <a href="https://www.tiktok.com" class="button">→ tiktok</a>
+      </div>
+      <div class="copyright">
+        <p>©2022 Francois Devantay</p>
+      </div>
+    </footer>
   </body>
   <script src="js/script.js"></script>
 </html>
