@@ -241,7 +241,8 @@ main {
   padding: 20px;
 }
 
-.retailers h2 {
+.retailers h2,
+.vintage h2 {
   flex-grow: 1;
   width: 100%;
   margin: 0 0 30px;
@@ -321,10 +322,6 @@ footer h2 {
 
 .vintage .fifties-article {
   background-color: var(--color-fifties);
-}
-
-.vintage .sixties-article {
-  background-color: ;
 }
 
 .vintage .seventies-article {
