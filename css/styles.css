@@ -216,8 +216,12 @@ h2  {
 
 footer {
   display: flex;
-  background-color: #5f80f7;
   justify-content: flex-end;
+}
+
+.footer-accueil {
+  background-color: #5f80f7;
+  padding: 0 0 0 247px;
 }
 
 footer img {
@@ -272,3 +276,107 @@ footer img {
   font-size: 25px;
 }
 
+.box-70s-airpods {
+  max-width: 375px;
+  background-color: #f7b854;
+}
+
+
+.box-70s {
+  background-color: #f9c973;
+  padding: 88px;
+  width: 200px;
+}
+
+.seventeen {
+  font-family: albam;
+  background-color: #f7a348;
+}
+
+.seventeen img {
+  width: 90px;
+}
+
+.card-buy {
+  display: flex;
+  font-size: 47px;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 11px 0 33px;
+  margin: 0px;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 47px;
+  padding: 0 0 47px 0;
+}
+
+.view img{
+  transform: rotate(90deg);
+  height: 178px;
+}
+
+.details-seventeen {
+  background-color: #dcaa44;
+  font-family: albam;
+}
+
+.details img {
+  width: 50px;
+}
+
+.icone-detail {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center
+}
+
+.details {
+  text-align: center;
+  color: white;
+  padding: 100px 90px 130px 90px;
+}
+
+.card-seventeen {
+  font-family: albam;
+  font-size: 21px;
+  background-color: #d9a050;
+}
+
+.autres {
+  font-size: 36px;
+  text-align: center;
+  padding: 25px 0 45px 0;
+}
+
+.autres p {
+  color: white;
+  margin: 0 0 30px 0;
+}
+
+.autres img {
+  width: 200px;
+}
+
+.kareem-logo {
+  background-color: #a03e2e;
+  width: 80px;
+  padding: 20px 148px 20px 147px;
+  text-align: center;
+}
+
+.produits-seventeen {
+  font-family: albam;
+  background-color: #c46a26;
+}
+
+.footer-seventeen {
+  background-color: #561d04;
+  padding: 0 0 0 247px;
+}
