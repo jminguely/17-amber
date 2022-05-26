@@ -27,10 +27,14 @@ body {
 }
 
 .buttons-homepage {
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.pink-title {
+  color:white;
+  background: #e8a5ae;
 }
 
 .pink-bg {
@@ -39,7 +43,7 @@ body {
   border-radius: 15px;
   border-style: solid;
   text-decoration: none;
-
+  color: white;
 }
 
 .green-bg {
@@ -48,6 +52,7 @@ body {
   border-radius: 15px;
   border-style: solid;
   text-decoration: none;
+  color: white;
 }
 
 .orange-bg {
@@ -56,10 +61,11 @@ body {
   border-radius: 15px;
   border-style: solid;
   text-decoration: none;
+  color: white;
 }
 
 .resell-logos {
-  width: 50px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -87,4 +93,8 @@ body {
 .footer-info-orange {
   background: #e7771c;
   color: white;
+}
+
+.eikon-footer-logo {
+  width: 80px;
 }
