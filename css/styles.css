@@ -1,0 +1,157 @@
+:root {
+  --header-footer-color: #082124;
+  --title-font: 'Melgis Free', sans-serif;
+  --text-font:  'Minion Pro',serif;
+  --text-color: #000;
+}
+
+html,body {
+  max-width: 380px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+}
+
+.logo {
+height: 50px;
+position: relative;
+left: 50%;
+top:0;
+transform: translate(-50px, 0);
+}
+
+.nav-container {
+  width: 380px;
+  background-color: var(--header-footer-color);
+  position: fixed;
+  top:0;
+  z-index: 3;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url("../img/ciel.jpeg");
+  box-shadow: 10px 0px 105px 0 #ECF8FD;
+}
+
+.header-container {
+  padding: 35px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+}
+
+h2 {
+  padding: 40px 35px;
+  font-family: var(--title-font);
+  font-size: 40px;
+  text-align: center;
+  color: var(--header-footer-color);
+  margin: 0;
+}
+
+.brand{
+  line-height: 70px;
+  font-size: 80px;
+  padding: 0 35px;
+  margin: 0;
+}
+
+.pictures {
+  width: 380px;
+}
+
+.text-header {
+  left: 0;
+  top: 200px;
+  font-family: var(--title-font);
+  font-size: 30px;
+}
+
+.button-header {
+  left: 0;
+  top: 300px;
+  margin: 70px 50px 0 50px;
+}
+
+main{
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin: 0;
+  background: transparent;
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+              inset -4px -4px 6px 0 rgba(255,255,255,.2),
+              inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  text-decoration: none;
+  background: #08212440;
+  border: none;
+}
+
+.button-article {
+  position: static;
+  transform: translate(0, -30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 70px;
+}
+
+.article {
+  width: 375px;
+  text-align: center;
+}
+
+ul {
+  margin: 80px 35px 80px 10px;
+  list-style-type: circle;
+}
+
+li {
+  margin: 40px 0;
+}
+
+.woman {
+  box-shadow: 30px 0px 200px 70px #ABA698;
+  margin: 0;
+}
+
+.man {
+  box-shadow: 0px 30px 200px 70px #ABA698;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #082124;
+}
+
+footer h3{
+  color: white;
+}
