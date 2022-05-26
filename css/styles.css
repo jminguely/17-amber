@@ -64,7 +64,18 @@ main {
   align-items: center;
   color: white;
   padding-bottom: 0px;
+}
+
+.sixties-nav {
   background-image: url(../img/60S_nav_backgrounds_garfield.webp);
+}
+
+.seventies-nav {
+  background-image: url(../img/70S_nav_backgrounds.png);
+}
+
+.fifties-nav {
+  background-image: url(../img/50S_nav_backgrounds_felix.webp);
 }
 
 .navbar-links {
@@ -155,10 +166,21 @@ margin: 0 35px;
 }
 
 .catch-phrase, .container-text-main {
-  background-image: url(../img/color_block_garfield.webp);
   background-size: contain;
   height: 748px;
   padding: 0px;
+}
+
+.catch-phrase, .sixties-color {
+  background-image: url(../img/color_block_garfield.webp);
+}
+
+.catch-phrase, .seventies-color {
+  background-image: url(../img/color_block_pinkpanther.webp);
+}
+
+.catch-phrase, .fifties-color {
+  background-image: url(../img/color_block_felix.webp);
 }
 
 .card-informations-container {
@@ -184,7 +206,6 @@ margin: 0 35px;
 /* Button */
 
 .button {
-  background-color: #e46e34;
   padding: 10px;
   display: flex;
   padding: 8px;
@@ -195,6 +216,18 @@ margin: 0 35px;
   border-radius: 25px;
   font-size: 20px;
   text-decoration: none;
+}
+
+.button-main-sixties {
+  background-color: #e46e34;
+}
+
+.button-main-seventies {
+  background-color: #f98cb4;
+}
+
+.button-main-fifties {
+  background-color: #c7a485;
 }
 
 .button:hover  {
@@ -231,7 +264,6 @@ margin: 0 35px;
 }
 
 .colorful-block {
-  background-image: url(../img/garfield_block_color_footer\ copie.webp);
   background-size: contain;
   width: auto;
   height: 560px;
@@ -241,6 +273,14 @@ margin: 0 35px;
   width: 300px;
   height: 350px;
   margin-left: 40px;
+}
+
+ .sixties-caption-block {
+  background-image: url(../img/garfield_block_color_footer\ copie.webp);
+}
+
+.seventies-caption-block {
+  background-image: url(../img/pinkpanther_block_color_footer.webp);
 }
 
 /* Text */
