@@ -399,9 +399,13 @@ footer h2 {
   text-align: center;
   font-size: 2rem;
   line-height: 2rem;
-  width: 300px;
-  margin: auto;
   padding: 140px 20px;
+}
+
+.fifties main,
+.sixties main,
+.seventies main {
+  padding: 20px;
 }
 
 .card-expectation {
@@ -409,7 +413,9 @@ footer h2 {
   padding: 20px;
   width: 75%;
   font-family: var(--font-secondary);
-  margin: auto;
+  margin: 0 auto 30px;
+  box-shadow: 3px 3px 10px #0000003b;
+  border-radius: 20px;
 }
 
 .card-expectation h3 {
@@ -418,12 +424,87 @@ footer h2 {
   font-style: italic;
 }
 
+.card-box {
+  background-color: var(--color-dark);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.radio-group {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  color: var(--color-fifties);
+  font-family: var(--font-secondary);
+  font-size: 10px;
+}
+
+input[type="radio"] {
+  box-sizing: border-box;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: var(--color-fifties);
+  transition: background-color 0.3s;
+  margin: 0 0 10px;
+  border-radius: 5px;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--color-dark);
+  border: solid var(--color-fifties) 2px;
+  z-index: 1;
+}
+
+hr {
+  border: var(--color-fifties) solid 2px;
+  position: absolute;
+  width: 90%;
+  top: 17%;
+  left: 5%;
+  z-index: 0;
+}
+
+.spec {
+  margin: 10px 0 0 0;
+}
+
+.earmos {
+  position: sticky;
+  top: 25%;
+}
+
+.spec-icons {
+  height: 400px;
+}
+
+.spec-icons img,
+.spec-icons span {
+  position: sticky;
+}
+
+.spec-icons img {
+  top: 30%;
+}
+
+.spec-icons span {
+  top: 40%;
+}
+
 /* for the box ↓ */
 
 .scene {
   width: var(--box-width);
   height: var(--box-height);
-  margin: auto;
+  margin: 0 auto 45px;
   perspective: 500px;
 }
 
@@ -434,17 +515,31 @@ footer h2 {
   transform-style: preserve-3d;
   transform: translateZ(-100px);
   transition: transform 1s;
+  z-index: 1;
 }
 
-.cube.show-front  { transform: translateZ(-100px) rotateY(   0deg); }
-.cube.show-right  { transform: translateZ(-100px) rotateY( -90deg); }
-.cube.show-back   { transform: translateZ(-100px) rotateY(-180deg); }
-.cube.show-left   { transform: translateZ(-100px) rotateY(  90deg); }
-.cube.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
-.cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
+.cube.show-front  { 
+  transform: translateZ(-100px) rotateY(   0deg); 
+}
+.cube.show-right  { 
+  transform: translateZ(-100px) rotateY( -90deg); 
+}
+.cube.show-back   { 
+  transform: translateZ(-100px) rotateY(-180deg); 
+}
+.cube.show-left   { 
+  transform: translateZ(-100px) rotateY(  90deg); 
+}
+.cube.show-top    { 
+  transform: translateZ(-100px) rotateX( -90deg); 
+}
+.cube.show-bottom { 
+  transform: translateZ(-100px) rotateX(  90deg); 
+}
 
 .cube__face {
   position: absolute;
+  box-shadow: 0px 0px 68px 4px  #000000;
 }
 
 .cube__face--front  { 
@@ -517,40 +612,3 @@ footer h2 {
 .seventies .cube__face--left { background-image: url(../img/70-box/left-70-box.png); }
 .seventies .cube__face--top { background-image: url(../img/70-box/top-70-box.png); }
 .seventies .cube__face--bottom { background-image: url(../img/70-box/bottom-70-box.png); }
-
-label { 
-  margin-right: 10px;
-}
-
-input[type="radio"] {
-  display: none; 
-  appearance: none;
-  background-color: #fff;
-  margin: 0;
-}
-
-label {
-  background-color: black;
-  padding: 10px;
-  border: solid black 2px;
-  user-select: none;
-  align-self: flex-end;
-  font-size: 13px;
-}
-
-label:after,
-label:focus,
-label:hover {
-  background-color: white;
-  color: black;
-  border-radius: 40px;
-}
-
-input[type="radio"]:checked,
-label:checked,
-label:active {
-  background: black;
-  border: 2px solid white;
-  border-radius: 40px;
-  color: white;
-}
