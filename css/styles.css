@@ -91,7 +91,6 @@ header h1 img {
   flex-direction: column;
   justify-content: space-between;
   height: 25px;
-  cursor: pointer;
 }
 
 .bar {
@@ -139,12 +138,10 @@ header h1 img {
 
 .bar-1 {
   transform: translate(4px, 7px) rotate(45deg);
-  color: var(--color-main);
 }
 
 .bar-3 {
   transform: translate(0, -10px) rotate(-45deg);
-  color: var(--color-main);
 }
 
 .menu-open  .menu-slider {
