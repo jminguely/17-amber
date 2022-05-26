@@ -11,9 +11,9 @@
 }
 
 @font-face {
-  font-family: ragsak;
-  src: url(../fonts/RagsakFree.woff);
-  src: url(../fonts/RagsakFree.woff2);
+  font-family: eckmann;
+  src: url(../fonts/Eckmannpsych-Medium.woff);
+  src: url(../fonts/Eckmannpsych-Medium.woff2);
 }
 
 @font-face {
@@ -189,7 +189,7 @@ h2  {
 }
 
 .s60 p {
-  font-family: ragsak;
+  font-family: eckmann;
 }
 
 .s50 p {
@@ -219,6 +219,7 @@ footer {
   justify-content: flex-end;
 }
 
+
 .footer-accueil {
   background-color: #5f80f7;
   padding: 0 0 0 247px;
@@ -230,13 +231,20 @@ footer img {
   margin: 10px 10px 10px 0;
 }
 
-.seventeen-accueil {
+.accueil {
   margin: 0;
   width: 375px;
   height: 620px;
-  background-image: url(../img/\ kareem-abdul.webp);
   background-size: cover;
   position: relative;
+}
+
+.seventeen-back  {
+  background-image: url(../img/\ kareem-abdul.webp);
+}
+
+.sixteen-back {
+  background-image: url(../img/jerry-lucas.webp);
 }
 
 .button-flower {
@@ -261,10 +269,18 @@ footer img {
   }
 }
 
-.text {
+.kareem-seventen{
   background-color: #fcd472;
   font-family: albam;
-  font-size: 36px;
+}
+
+.jerry-sixteen{
+  background-color: #f0afc7;
+  font-family: eckmann;
+}
+
+.text {
+  font-size: 35px;
   color: white;
   white-space:nowrap;
   text-align: center;
@@ -276,14 +292,19 @@ footer img {
   font-size: 25px;
 }
 
-.box-70s-airpods {
+.airpods {
   max-width: 375px;
-  background-color: #f7b854;
 }
 
-
-.box-70s {
+.rose-70s {
   background-color: #f9c973;
+}
+
+.bleu-60s {
+  background-color: #5ddaff;
+}
+
+.box {
   padding: 88px;
   width: 200px;
 }
@@ -293,7 +314,13 @@ footer img {
   background-color: #f7a348;
 }
 
-.seventeen img {
+
+.sixteen {
+  font-family: eckmann;
+  background-color: #2eb2e2;
+}
+
+.card-buy  img {
   width: 90px;
 }
 
@@ -326,6 +353,11 @@ footer img {
   font-family: albam;
 }
 
+.details-sixteen {
+  background-color: #75c3d8;
+  font-family: eckmann;
+}
+
 .details img {
   width: 50px;
 }
@@ -341,12 +373,17 @@ footer img {
   text-align: center;
   color: white;
   padding: 100px 90px 130px 90px;
+  font-size: 21px;
 }
 
 .card-seventeen {
   font-family: albam;
-  font-size: 21px;
   background-color: #d9a050;
+}
+
+.card-sixteen {
+  font-family: eckmann;
+  background-color: #73d0da;
 }
 
 .autres {
@@ -364,8 +401,16 @@ footer img {
   width: 200px;
 }
 
-.kareem-logo {
+.kareem {
   background-color: #a03e2e;
+}
+
+.jerry {
+  background-color: #0098bf;
+}
+
+
+.icone {
   width: 80px;
   padding: 20px 148px 20px 147px;
   text-align: center;
@@ -376,7 +421,17 @@ footer img {
   background-color: #c46a26;
 }
 
+.produits-sixteen {
+  font-family: eckmann;
+  background-color: #05b7d5;
+}
+
 .footer-seventeen {
+  padding: 0 0 0 247px;
   background-color: #561d04;
+}
+
+.footer-sixteen {
+  background-color: #024d75;
   padding: 0 0 0 247px;
 }
