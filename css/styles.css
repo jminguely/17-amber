@@ -283,6 +283,10 @@ margin: 0 35px;
   background-image: url(../img/pinkpanther_block_color_footer.webp);
 }
 
+.fifties-caption-block {
+  background-image: url(../img/felix_block_color_footer.webp);
+}
+
 /* Text */
 
 .phrase {
