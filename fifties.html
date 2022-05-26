@@ -6,9 +6,25 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'main': '#CF5E02',
+              'second': '#1D1B1B',
+              'light': '#e0e0e0',
+              'dark': '#1d1d1b',
+              'fifties': '#e5bc8a',
+              'seventies': '#001437',
+            }
+          }
+        }
+      }
+    </script>
     <title>fifties</title>
   </head>
-  <body class="m-auto">
+  <body class="m-auto bg-fifties">
     <header>
       <h1>
         <img src="img/amber-logo-nb.svg" alt="logo Amber" />
@@ -35,7 +51,7 @@
         <a href="index.html#retailers" onclick="openMenu()">- FIND US</a>
       </div>
     </header>
-    <main>
+    <main class="bg-[url('/img/background-vintage.svg')] bg-no-repeat bg-fixed">
       <h2>
         Like Spoutnik, be the first in the next age.
       </h2>
@@ -46,37 +62,40 @@
           After that, nothing will be the same.
         </p>
       </div>
-      <div class="scene">
-        <div class="cube">
-          <div class="cube__face cube__face--front"></div>
-          <div class="cube__face cube__face--back"></div>
-          <div class="cube__face cube__face--right"></div>
-          <div class="cube__face cube__face--left"></div>
-          <div class="cube__face cube__face--top"></div>
-          <div class="cube__face cube__face--bottom"></div>
+      <div class="card-box">
+        <div class="scene">
+          <div class="cube">
+            <div class="cube__face cube__face--front"></div>
+            <div class="cube__face cube__face--back"></div>
+            <div class="cube__face cube__face--right"></div>
+            <div class="cube__face cube__face--left"></div>
+            <div class="cube__face cube__face--top"></div>
+            <div class="cube__face cube__face--bottom"></div>
+          </div>
+        </div>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="rotate-cube-side" value="front" checked /> front
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="right" /> right
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="back" /> back
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="left" /> left
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="top" /> top
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
+          </label>
         </div>
       </div>
-      <div class="radio-group">
-        <label>
-          <input type="radio" name="rotate-cube-side" value="front" checked /> front
-        </label>
-        <label>
-          <input type="radio" name="rotate-cube-side" value="right" /> right
-        </label>
-        <label>
-          <input type="radio" name="rotate-cube-side" value="back" /> back
-        </label>
-        <label>
-          <input type="radio" name="rotate-cube-side" value="left" /> left
-        </label>
-        <label>
-          <input type="radio" name="rotate-cube-side" value="top" /> top
-        </label>
-        <label>
-          <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
-        </label>
-      </div>
       <div class="spec">
+        <img src="img/earmos-exhibition.webp" alt="ear mos">
         <div class="spec-icons">
           <img src="" alt="icon noise concelling">
           <span>Noise Cancelling</span>
