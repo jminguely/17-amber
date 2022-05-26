@@ -31,24 +31,31 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  text-decoration: none;
-  border-radius: 15px;
-  border-style: solid;
 }
 
 .pink-bg {
-  color: white;
   border-color: #e8a5ae;
+  background-color: #e8a5ae;
+  border-radius: 15px;
+  border-style: solid;
+  text-decoration: none;
+
 }
 
 .green-bg {
-  color: white;
   border-color: #2b9888;
+  background-color: #2b9888;
+  border-radius: 15px;
+  border-style: solid;
+  text-decoration: none;
 }
 
 .orange-bg {
-  color: white;
   border-color: #e7771c;
+  background-color: #e7771c;
+  border-radius: 15px;
+  border-style: solid;
+  text-decoration: none;
 }
 
 .resell-logos {
