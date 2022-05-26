@@ -7,7 +7,8 @@ body {
   max-height: auto;
 }
 .pink-bg {
-background: #e8a5ae;
+  color: white;
+  background: #e8a5ae;
 }
 
 .pink-text {
@@ -15,6 +16,7 @@ background: #e8a5ae;
 }
 
 .green-bg {
+  color: white;
   background: #2b9888;
 }
 
@@ -22,6 +24,7 @@ background: #e8a5ae;
   color: #2b9888;
 }
 .orange-bg {
+  color: white;
   background: #e7771c;
 }
 
@@ -32,6 +35,14 @@ background: #e8a5ae;
 .button-homepage {
   color: white;
   border-radius: 15px;
+}
+
+.resell-logos {
+  width: 50px;
+}
+
+.arrow {
+  width: 50px;
 }
 
 .footer-info {
