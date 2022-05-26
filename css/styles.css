@@ -32,13 +32,31 @@ body {
   color: #e7771c;
 }
 
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+  color: white;
+  background: black;
+}
+
+.menu-bar .left-element {
+  align-self: flex-start;
+  order: -1;
+}
+
 .button-homepage {
   color: white;
   border-radius: 15px;
 }
 
 .resell-logos {
-  width: 50px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .arrow {
