@@ -6,36 +6,12 @@ body {
   max-width: 375px;
   max-height: auto;
 }
-.pink-bg {
-  color: white;
-  background: #e8a5ae;
-}
 
-.pink-text {
-  color: #e8a5ae;
-}
-
-.green-bg {
-  color: white;
-  background: #2b9888;
-}
-
-.green-text {
-  color: #2b9888;
-}
-.orange-bg {
-  color: white;
-  background: #e7771c;
-}
-
-.orange-text {
-  color: #e7771c;
-}
 
 .menu-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-self: flex-end;
   color: white;
   background: black;
@@ -43,20 +19,43 @@ body {
 
 .menu-bar .left-element {
   align-self: flex-start;
-  order: -1;
+  order: 1;
 }
 
-.button-homepage {
+.amber-logo {
+  width: 30px;
+}
+
+.buttons-homepage {
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
   border-radius: 15px;
+  border-style: solid;
+}
+
+.pink-bg {
+  color: white;
+  border-color: #e8a5ae;
+}
+
+.green-bg {
+  color: white;
+  border-color: #2b9888;
+}
+
+.orange-bg {
+  color: white;
+  border-color: #e7771c;
 }
 
 .resell-logos {
-  width: 150px;
+  width: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
 
 .arrow {
