@@ -30,7 +30,7 @@ transform: translate(-50px, 0);
   margin: 0;
 }
 
-header {
+.home header {
   background-image: url("../img/ciel.jpeg");
   box-shadow: 10px 0px 105px 0 #ECF8FD;
 }
@@ -80,9 +80,7 @@ h2 {
 
 main{
   display: flex;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -135,23 +133,29 @@ li {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
   background-color: #082124;
 }
 
 footer h3{
   color: white;
+}
+
+.fifties header {
+  background-image: url(../img/header_fifties.png);
+  height: 800px;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.sixties header {
+  background-image: url(../img/header_sixties.png);
+  height: 800px;
+  margin-top: 50px;
+}
+
+.seventies header {
+  background-image: url(../img/header_seventies.png);
+  height: 800px;
+  margin-top: 50px;
 }
