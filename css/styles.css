@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  max-height: auto;
+}
+
+.footer-info {
+  background: black;
+  color: white;
+}
