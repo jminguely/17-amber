@@ -442,9 +442,22 @@ label {
   justify-content: space-between;
   align-items: center;
   width: 50px;
+  font-size: 10px;
+}
+
+.fifties label {
   color: var(--color-fifties);
   font-family: var(--font-secondary);
-  font-size: 10px;
+}
+
+.sixties label {
+  color: var(--color-fifties);
+  font-family: var(--font-secondary);
+}
+
+.seventies label {
+  color: var(--color-fifties);
+  font-family: var(--font-secondary);
 }
 
 input[type="radio"] {
@@ -452,7 +465,6 @@ input[type="radio"] {
   appearance: none;
   height: 20px;
   width: 20px;
-  background-color: var(--color-fifties);
   transition: background-color 0.3s;
   margin: 0 0 10px;
   border-radius: 5px;
@@ -462,6 +474,18 @@ input[type="radio"]:checked {
   background-color: var(--color-dark);
   border: solid var(--color-fifties) 2px;
   z-index: 1;
+}
+
+.fifties input[type="radio"] {
+  background-color: var(--color-fifties);
+}
+
+.sixties input[type="radio"] {
+  background-color: var(--color-fifties);
+}
+
+.seventies input[type="radio"] {
+  background-color: var(--color-fifties);
 }
 
 hr {
@@ -474,16 +498,17 @@ hr {
 }
 
 .spec {
-  margin: 10px 0 0 0;
+  margin: 120px 0;
 }
 
 .earmos {
   position: sticky;
   top: 25%;
+  z-index: 2;
 }
 
 .spec-icons {
-  height: 400px;
+  height: 1100px;
 }
 
 .spec-icons img,
@@ -492,11 +517,46 @@ hr {
 }
 
 .spec-icons img {
-  top: 30%;
+  top: 25%;
 }
 
 .spec-icons span {
-  top: 40%;
+  top: 78%;
+  z-index: 1;
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+}
+
+.spec .tc span {
+  padding-left: 158px;
+}
+
+.fifties main .button,
+.sixtiex main .button,
+.seventies main .button {
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-family: var(--font-main);
+}
+
+.fifties main .button {
+  background-color: var(--color-dark);
+  color: var(--color-fifties);
+}
+
+
+.sixties main .button {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+
+.seventies main .button {
+  background-color: var(--color-dark);
+  color: var(--color-fifties);
 }
 
 /* for the box ↓ */
