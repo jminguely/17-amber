@@ -247,6 +247,11 @@ footer img {
   background-image: url(../img/jerry-lucas.webp);
 }
 
+.fifteen-back {
+  background-image: url(../img/paul-arizin.webp);
+}
+
+
 .button-flower {
   width: 150px;
   position: absolute;
@@ -272,15 +277,22 @@ footer img {
 .kareem-seventen{
   background-color: #fcd472;
   font-family: albam;
+  font-size: 36px;
 }
 
 .jerry-sixteen{
   background-color: #f0afc7;
   font-family: eckmann;
+  font-size: 36px;
+}
+
+.paul-fifteen{
+  background-color: #f0afc7;
+  font-family: jassin;
+  font-size: 28px;
 }
 
 .text {
-  font-size: 35px;
   color: white;
   white-space:nowrap;
   text-align: center;
@@ -289,20 +301,25 @@ footer img {
 }
 
 .text span {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .airpods {
   max-width: 375px;
 }
 
-.rose-70s {
+.orange-70s {
   background-color: #f9c973;
 }
 
 .bleu-60s {
   background-color: #5ddaff;
 }
+
+.rose-50s {
+  background-color: #f6a4ae;
+}
+
 
 .box {
   padding: 88px;
@@ -314,6 +331,10 @@ footer img {
   background-color: #f7a348;
 }
 
+.fifteen {
+  font-family: jassin;
+  background-color: #f67ab1;
+}
 
 .sixteen {
   font-family: eckmann;
@@ -353,6 +374,11 @@ footer img {
   font-family: albam;
 }
 
+.details-fifteen {
+  background-color: #f6c7e4;
+  font-family: jassin;
+}
+
 .details-sixteen {
   background-color: #75c3d8;
   font-family: eckmann;
@@ -386,6 +412,12 @@ footer img {
   background-color: #73d0da;
 }
 
+.card-fifteen {
+  font-family: jassin;
+  background-color: #ecbad8;
+}
+
+
 .autres {
   font-size: 36px;
   text-align: center;
@@ -409,6 +441,9 @@ footer img {
   background-color: #0098bf;
 }
 
+.paul {
+  background-color: #f66b80;
+}
 
 .icone {
   width: 80px;
@@ -419,6 +454,11 @@ footer img {
 .produits-seventeen {
   font-family: albam;
   background-color: #c46a26;
+}
+
+.produits-fifteen {
+  font-family: jassin;
+  background-color: #ef99c4;
 }
 
 .produits-sixteen {
@@ -433,5 +473,10 @@ footer img {
 
 .footer-sixteen {
   background-color: #024d75;
+  padding: 0 0 0 247px;
+}
+
+.footer-fifteen {
+  background-color: #b44957;
   padding: 0 0 0 247px;
 }
