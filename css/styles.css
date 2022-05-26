@@ -6,6 +6,33 @@ body {
   max-width: 375px;
   max-height: auto;
 }
+.pink-bg {
+background: #e8a5ae;
+}
+
+.pink-text {
+  color: #e8a5ae;
+}
+
+.green-bg {
+  background: #2b9888;
+}
+
+.green-text {
+  color: #2b9888;
+}
+.orange-bg {
+  background: #e7771c;
+}
+
+.orange-text {
+  color: #e7771c;
+}
+
+.button-homepage {
+  color: white;
+  border-radius: 15px;
+}
 
 .footer-info {
   background: black;
@@ -14,5 +41,15 @@ body {
 
 .footer-info-pink {
   background: #e8a5ae;
+  color: white;
+}
+
+.footer-info-green {
+  background: #2b9888;
+  color: white;
+}
+
+.footer-info-orange {
+  background: #e7771c;
   color: white;
 }
