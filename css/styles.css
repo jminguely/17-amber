@@ -361,9 +361,17 @@ footer h2 {
   right: -86px;
 }
 
-.vintage .more-section .button {
+.button-more {
   color: var(--color-dark);
   background-color: var(--color-light);
+  text-decoration: none;
+  position: relative;
+  bottom: -120px;
+  font-family: var(--font-secondary);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #0000003b;
+  transition: all 0.2s;
 }
 
 .vintage .more-section .button:active,
@@ -389,7 +397,8 @@ footer h2 {
 
 /* for vintage arcticle page ↓ */
 
-.fifties {
+.fifties,
+.sixties {
   color: var(--color-dark);
 }
 
@@ -413,7 +422,7 @@ footer h2 {
   padding: 20px;
   width: 75%;
   font-family: var(--font-secondary);
-  margin: 0 auto 30px;
+  margin: 0 auto 200px;
   box-shadow: 3px 3px 10px #0000003b;
   border-radius: 20px;
 }
@@ -451,12 +460,12 @@ label {
 }
 
 .sixties label {
-  color: var(--color-fifties);
+  color: var(--color-light);
   font-family: var(--font-secondary);
 }
 
 .seventies label {
-  color: var(--color-fifties);
+  color: var(--color-seventies);
   font-family: var(--font-secondary);
 }
 
@@ -471,9 +480,22 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
+  z-index: 1;
+}
+
+.fifties input[type="radio"]:checked {
   background-color: var(--color-dark);
   border: solid var(--color-fifties) 2px;
-  z-index: 1;
+}
+
+.sixties input[type="radio"]:checked {
+  background-color: var(--color-dark);
+  border: solid var(--color-light) 2px;
+}
+
+.seventies input[type="radio"]:checked {
+  background-color: var(--color-dark);
+  border: solid var(--color-fifties) 2px;
 }
 
 .fifties input[type="radio"] {
@@ -481,7 +503,7 @@ input[type="radio"]:checked {
 }
 
 .sixties input[type="radio"] {
-  background-color: var(--color-fifties);
+  background-color: var(--color-light);
 }
 
 .seventies input[type="radio"] {
@@ -489,12 +511,23 @@ input[type="radio"]:checked {
 }
 
 hr {
-  border: var(--color-fifties) solid 2px;
   position: absolute;
   width: 90%;
   top: 17%;
   left: 5%;
   z-index: 0;
+}
+
+.fifties hr {
+  border: var(--color-fifties) solid 2px;
+}
+
+.sixties hr {
+  border: var(--color-light) solid 2px;
+}
+
+.seventies hr {
+  border: var(--color-fifties) solid 2px;
 }
 
 .spec {
@@ -531,9 +564,7 @@ hr {
   padding-left: 158px;
 }
 
-.fifties main .button,
-.sixtiex main .button,
-.seventies main .button {
+.vintage main .button {
   padding: 20px;
   border-radius: 20px;
   text-align: center;

@@ -24,37 +24,111 @@
     </script>
     <title>sixties</title>
   </head>
-  <body class="m-auto">
-    <div class="scene">
-      <div class="cube">
-        <div class="cube__face cube__face--front"></div>
-        <div class="cube__face cube__face--back"></div>
-        <div class="cube__face cube__face--right"></div>
-        <div class="cube__face cube__face--left"></div>
-        <div class="cube__face cube__face--top"></div>
-        <div class="cube__face cube__face--bottom"></div>
+  <body class="m-auto bg-light">
+    <header>
+      <h1>
+        <img src="img/amber-logo-nb.svg" alt="logo Amber" />
+      </h1>
+      <nav class="menu-burger" onclick="openMenu()">
+        <span class="bar">–</span>
+        <span class="bar">–</span>
+        <span class="bar">–</span>
+      </nav>
+      <div class="menu-slider">
+        <div class="menu-header">
+          <h1 class="logo-menu">
+            <img src="img/amber-logo.svg" alt="logo Amber" />
+          </h1>
+          <div class="menu-cross" onclick="openMenu()">
+            <span class="bar bar-1">–</span>
+            <span class="bar bar-2">–</span>
+            <span class="bar bar-3">–</span>
+          </div>
+        </div>
+        <a href="index.html" onclick="openMenu()">- HOME</a>
+        <a href="index.html#product" onclick="openMenu()">- PRODUCT</a>
+        <a href="#contact" onclick="openMenu()">- CONTACT US</a>
+        <a href="index.html#retailers" onclick="openMenu()">- FIND US</a>
       </div>
-    </div>
-    <p class="radio-group">
-      <label>
-        <input type="radio" name="rotate-cube-side" value="front" checked /> front
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="right" /> right
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="back" /> back
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="left" /> left
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="top" /> top
-      </label>
-      <label>
-        <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
-      </label>
-    </p>    
+    </header>
+    <main class="bg-[url('/img/background-vintage.svg')] bg-no-repeat bg-fixed">
+      <h2>
+        that's one small step for a man but one giant leap for mankind
+      </h2>
+      <div class="card-expectation">
+        <h3>The 60' in the space war</h3>
+        <p>
+          In 1969 the US have made a giant leap in space knowledge, the first 
+          man on the moon. That was at this moment, the US thought they won the race.
+        </p>
+      </div>
+      <div class="card-box">
+        <div class="scene">
+          <div class="cube">
+            <div class="cube__face cube__face--front"></div>
+            <div class="cube__face cube__face--back"></div>
+            <div class="cube__face cube__face--right"></div>
+            <div class="cube__face cube__face--left"></div>
+            <div class="cube__face cube__face--top"></div>
+            <div class="cube__face cube__face--bottom"></div>
+          </div>
+        </div>
+        <div class="radio-group">
+          <hr>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="front" checked /> Front
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="right" /> Right
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="back" /> Back
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="left" /> Left
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="top" /> Top
+          </label>
+          <label>
+            <input type="radio" name="rotate-cube-side" value="bottom" /> Back
+          </label>
+        </div>
+      </div>
+      <div class="spec">
+        <img src="img/earmos-exhibition.webp" alt="ear mos" class="earmos">
+        <div class="spec-icons nc">
+          <img src="img/icons/noise-cancelling.svg" alt="icon noise concelling">
+          <span>Noise Cancelling</span>
+        </div>
+        <div class="spec-icons wt">
+          <img src="img/icons/Waterproof.svg" alt="icon water proof">
+          <span>Water Proof</span>
+        </div>
+        <div class="spec-icons tc">
+          <img src="img/icons/touch-control.svg" alt="icon touch control">
+          <span>Touch Control</span>
+        </div>
+        <div class="spec-icons ba">
+          <img src="img/icons/bass-boost.svg" alt="icon bass amplifier">
+          <span>Bass Amplifier</span>
+        </div>
+      </div>
+      <div class="button">
+        <a href="index.html#retailers">BUY NOW</a>
+      </div>
+    </main>
+    <footer id="contact">
+      <h2>Contact</h2>
+      <div class="link-contact">
+        <a href="mailto:amber.support@info.com" class="button" >→ mail</a>
+        <a href="https://www.twitter.com" class="button">→ twitter</a>
+        <a href="https://www.tiktok.com" class="button">→ tiktok</a>
+      </div>
+      <div class="copyright">
+        <p>©2022 Francois Devantay</p>
+      </div>
+    </footer>
   </body>
   <script src="js/script.js"></script>
 </html>
