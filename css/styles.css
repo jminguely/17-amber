@@ -37,6 +37,7 @@ body {
 .button-style {
   font-family: 'BIZ UDPGothic', sans-serif;
   padding: 12px 20px;
+  margin-top: 55px;
 }
 
 .pink-title {
@@ -145,7 +146,6 @@ h1 h2 {
   font-family: 'BIZ UDPGothic', sans-serif;
   text-align: center;
 }
-
 
 p h3 {
   font-family: 'Noto Serif JP', serif;
