@@ -1,6 +1,6 @@
 *,
 *:before,
-*:after { 
+*:after {
   margin: 0;
   padding: 0;
 }
@@ -36,9 +36,9 @@
   --font-main-lt-it: GT-Pres-Lt-It;
   --font-secondary: GT-Alp;
   --font-secondary-it: GT-Alp-It;
-  --color-main: #CF5E02;
-  --color-secondary: #1D1B1B;
-  --color-light: #e0e0e0; 
+  --color-main: #cf5e02;
+  --color-secondary: #1d1b1b;
+  --color-light: #e0e0e0;
   --color-dark: #1d1d1b;
   --color-fifties: #e5bc8a;
   --color-seventies: #001437;
@@ -51,7 +51,7 @@ html {
   background: var(--color-light);
 }
 
-body { 
+body {
   font-family: sans-serif;
   max-width: 375px;
   background: var(--color-light);
@@ -146,10 +146,9 @@ header h1 img {
   color: var(--color-main);
 }
 
-.menu-open  .menu-slider {
+.menu-open .menu-slider {
   display: flex;
 }
-
 
 /* for the main ↓ */
 
@@ -166,13 +165,13 @@ header h1 img {
 }
 
 .product-card,
-.inner-card { 
+.inner-card {
   position: relative;
   border-radius: 50px;
   padding: 30px;
   height: 370px;
   background: var(--color-light);
-  box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   margin: 50px 0;
   overflow: hidden;
   color: var(--color-secondary);
@@ -333,7 +332,7 @@ footer h2 {
 
 .vintage .product-card h1 {
   position: relative;
-  z-index: 100;;
+  z-index: 100;
   background-color: #ffffff80;
 }
 
@@ -380,8 +379,6 @@ footer h2 {
   background-color: var(--color-dark);
   color: var(--color-light);
 }
-
-
 
 .vintage footer,
 .vintage footer a {
@@ -586,9 +583,15 @@ hr {
   padding: 20px;
   border-radius: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 10px;
   font-family: var(--font-main);
+}
+
+.vintage main .button span {
+  letter-spacing: normal;
+  font-family: var(--font-secondary);
+  font-size: 20px;
 }
 
 .fifties main .button {
@@ -596,12 +599,10 @@ hr {
   color: var(--color-fifties);
 }
 
-
 .sixties main .button {
   background-color: var(--color-dark);
   color: var(--color-light);
 }
-
 
 .seventies main .button {
   background-color: var(--color-light);
@@ -636,70 +637,70 @@ hr {
   z-index: 1;
 }
 
-.cube.show-front  { 
-  transform: translateZ(-100px) rotateY(   0deg); 
+.cube.show-front {
+  transform: translateZ(-100px) rotateY(0deg);
 }
-.cube.show-right  { 
-  transform: translateZ(-100px) rotateY( -90deg); 
+.cube.show-right {
+  transform: translateZ(-100px) rotateY(-90deg);
 }
-.cube.show-back   { 
-  transform: translateZ(-100px) rotateY(-180deg); 
+.cube.show-back {
+  transform: translateZ(-100px) rotateY(-180deg);
 }
-.cube.show-left   { 
-  transform: translateZ(-100px) rotateY(  90deg); 
+.cube.show-left {
+  transform: translateZ(-100px) rotateY(90deg);
 }
-.cube.show-top    { 
-  transform: translateZ(-100px) rotateX( -90deg); 
+.cube.show-top {
+  transform: translateZ(-100px) rotateX(-90deg);
 }
-.cube.show-bottom { 
-  transform: translateZ(-100px) rotateX(  90deg); 
+.cube.show-bottom {
+  transform: translateZ(-100px) rotateX(90deg);
 }
 
 .cube__face {
   position: absolute;
-  box-shadow: 0px 0px 68px 4px  #000000;
+  box-shadow: 0px 0px 68px 4px #000000;
 }
 
 .seventies .cube__face {
   box-shadow: 0px 0px 68px 4px #0000003b;
 }
 
-.cube__face--front  { 
+.cube__face--front {
   width: var(--box-width);
   height: var(--box-height);
   line-height: var(--box-height);
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
-.cube__face--right  { 
+.cube__face--right {
   width: var(--box-width);
   height: var(--box-height);
   line-height: var(--box-height);
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
-.cube__face--back   { 
+.cube__face--back {
   width: var(--box-width);
   height: var(--box-height);
   line-height: var(--box-height);
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
-.cube__face--left   { 
+.cube__face--left {
   width: var(--box-width);
   height: var(--box-height);
   line-height: var(--box-height);
   background-size: var(--box-width), var(--box-height);
   background-repeat: none;
 }
-.cube__face--top    { 
+.cube__face--top {
   width: var(--box-width);
   height: var(--box-width);
   line-height: var(--box-width);
   background-size: var(--box-width), var(--box-width);
   background-repeat: none;
 }
-.cube__face--bottom { 
+.cube__face--bottom {
   width: var(--box-width);
   height: var(--box-width);
   line-height: var(--box-width);
@@ -707,30 +708,78 @@ hr {
   background-repeat: none;
 }
 
-.cube__face--front  { transform: rotateY(  0deg) translateZ(70px); }
-.cube__face--right  { transform: rotateY( 90deg) translateZ(70px); }
-.cube__face--back   { transform: rotateY(180deg) translateZ(70px); }
-.cube__face--left   { transform: rotateY(-90deg) translateZ(70px); }
-.cube__face--top    { transform: rotateX( 90deg) translateZ(70px); }
-.cube__face--bottom { transform: rotateX(-90deg) translateZ(214px); }
+.cube__face--front {
+  transform: rotateY(0deg) translateZ(70px);
+}
+.cube__face--right {
+  transform: rotateY(90deg) translateZ(70px);
+}
+.cube__face--back {
+  transform: rotateY(180deg) translateZ(70px);
+}
+.cube__face--left {
+  transform: rotateY(-90deg) translateZ(70px);
+}
+.cube__face--top {
+  transform: rotateX(90deg) translateZ(70px);
+}
+.cube__face--bottom {
+  transform: rotateX(-90deg) translateZ(214px);
+}
 
-.fifties .cube__face--front { background-image: url(../img/50-box/front-50-box.png); }
-.fifties .cube__face--right { background-image: url(../img/50-box/right-50-box.png); }
-.fifties .cube__face--back { background-image: url(../img/50-box/back-50-box.png); }
-.fifties .cube__face--left { background-image: url(../img/50-box/left-50-box.png); }
-.fifties .cube__face--top { background-image: url(../img/50-box/top-50-box.png); }
-.fifties .cube__face--bottom { background-image: url(../img/50-box/bottom-50-box.png); }
+.fifties .cube__face--front {
+  background-image: url(../img/50-box/front-50-box.png);
+}
+.fifties .cube__face--right {
+  background-image: url(../img/50-box/right-50-box.png);
+}
+.fifties .cube__face--back {
+  background-image: url(../img/50-box/back-50-box.png);
+}
+.fifties .cube__face--left {
+  background-image: url(../img/50-box/left-50-box.png);
+}
+.fifties .cube__face--top {
+  background-image: url(../img/50-box/top-50-box.png);
+}
+.fifties .cube__face--bottom {
+  background-image: url(../img/50-box/bottom-50-box.png);
+}
 
-.sixties .cube__face--front { background-image: url(../img/60-box/front-60-box.png); }
-.sixties .cube__face--right { background-image: url(../img/60-box/fight-60-box.png); }
-.sixties .cube__face--back { background-image: url(../img/60-box/back-60-box.png); }
-.sixties .cube__face--left { background-image: url(../img/60-box/left-60-box.png); }
-.sixties .cube__face--top { background-image: url(../img/60-box/top-60-box.png); }
-.sixties .cube__face--bottom { background-image: url(../img/60-box/bottom-60-box.png); }
+.sixties .cube__face--front {
+  background-image: url(../img/60-box/front-60-box.png);
+}
+.sixties .cube__face--right {
+  background-image: url(../img/60-box/fight-60-box.png);
+}
+.sixties .cube__face--back {
+  background-image: url(../img/60-box/back-60-box.png);
+}
+.sixties .cube__face--left {
+  background-image: url(../img/60-box/left-60-box.png);
+}
+.sixties .cube__face--top {
+  background-image: url(../img/60-box/top-60-box.png);
+}
+.sixties .cube__face--bottom {
+  background-image: url(../img/60-box/bottom-60-box.png);
+}
 
-.seventies .cube__face--front { background-image: url(../img/70-box/front-70-box.png); }
-.seventies .cube__face--right { background-image: url(../img/70-box/right-70-box.png); }
-.seventies .cube__face--back { background-image: url(../img/70-box/back-70-box.png); }
-.seventies .cube__face--left { background-image: url(../img/70-box/left-70-box.png); }
-.seventies .cube__face--top { background-image: url(../img/70-box/top-70-box.png); }
-.seventies .cube__face--bottom { background-image: url(../img/70-box/bottom-70-box.png); }
+.seventies .cube__face--front {
+  background-image: url(../img/70-box/front-70-box.png);
+}
+.seventies .cube__face--right {
+  background-image: url(../img/70-box/right-70-box.png);
+}
+.seventies .cube__face--back {
+  background-image: url(../img/70-box/back-70-box.png);
+}
+.seventies .cube__face--left {
+  background-image: url(../img/70-box/left-70-box.png);
+}
+.seventies .cube__face--top {
+  background-image: url(../img/70-box/top-70-box.png);
+}
+.seventies .cube__face--bottom {
+  background-image: url(../img/70-box/bottom-70-box.png);
+}
