@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 10px 17px;
 }
 
 .button-style {
@@ -70,6 +71,12 @@ body {
   color: white;
 }
 
+.img50 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .resell-logos {
   width: 200px;
   display: flex;
@@ -77,7 +84,14 @@ body {
   justify-content: space-between;
 }
 
+main {
+  margin-bottom: 300px;
+}
+
 .arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50px;
 }
 
