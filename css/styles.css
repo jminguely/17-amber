@@ -50,6 +50,7 @@ padding: 10px;
 
 main {
   padding-top: 150px;
+  padding-bottom: 1px;
 }
 
 /* Navigation */
@@ -64,6 +65,10 @@ main {
   align-items: center;
   color: white;
   padding-bottom: 0px;
+}
+
+.index-nav {
+  background-image: url(../img/nav_backgrounds_index.webp);
 }
 
 .sixties-nav {
@@ -146,6 +151,28 @@ main {
   }
 }
 
+/* header/main */
+
+.index-characters {
+  background-image: url(../img/header_main_index.webp);
+  background-repeat: no-repeat;
+  background-size: 375px;
+  height: 650px;
+}
+
+.index-characters p {
+  color: #19232F; 
+  margin-top: 0px;
+  max-width: 330px;
+  text-align: left;
+  padding-left: 50px;
+  word-break: break-all;
+}
+
+.index-characters, .header-who p {
+  margin-bottom: 0px;
+}
+
 /* main */
 
 main {
@@ -161,8 +188,8 @@ main {
 
 .container-text-main p {
  max-width: 250px;
-text-align: left;
-margin: 0 35px;
+ text-align: left;
+ margin: 0 35px;
 }
 
 .catch-phrase, .container-text-main {
@@ -203,6 +230,27 @@ margin: 0 35px;
   margin: 20px 0px 0px 0px;
 }
 
+.container-product-index {
+  background-image: url(../img/product_background_index.webp);
+  padding-bottom: 20px;
+  padding-top: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.container-text-main, .seventies-color img {
+ padding-right: 30px;
+}
+
+.container-text-main, .fifties-color img {
+  width: 375px;
+}
+
+.fifties-color img {
+  padding-left: 30px;
+}
+
 /* Button */
 
 .button {
@@ -238,11 +286,21 @@ margin: 0 35px;
 
 /* images */
 
-.title-image {
-  width: auto;
-  height: 70px;
+.svg-index {
+  height: auto;
+  width: 280px;
   margin-bottom: 0px;
-  margin-top: 20px;
+  padding-top: 60px;
+}
+
+.name-box {
+  height: 80px;
+}
+
+.header-who {
+  width: auto;
+  height: 80px;
+  margin: 400px 15px 0px;
  }
  
  .garfield-box {
@@ -270,21 +328,36 @@ margin: 0 35px;
 }
 
 .colorful-block img {
-  width: 300px;
+  width: 250px;
   height: 350px;
   margin-left: 40px;
 }
 
- .sixties-caption-block {
+.sixties-caption-block {
   background-image: url(../img/garfield_block_color_footer\ copie.webp);
 }
 
 .seventies-caption-block {
   background-image: url(../img/pinkpanther_block_color_footer.webp);
+  padding-top: 20px;
 }
 
 .fifties-caption-block {
   background-image: url(../img/felix_block_color_footer.webp);
+}
+
+.fifties-caption-block img {
+  padding-bottom: 140px;
+  margin-left: 0px;
+}
+
+.seventies-caption-block img {
+  padding-bottom: 190px;
+  margin-left: 0px;
+}
+
+.container-text-main p {
+  font-weight: bold;
 }
 
 /* Text */
