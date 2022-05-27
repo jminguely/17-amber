@@ -205,10 +205,6 @@ footer h3 {
   gap: 10px;
 }
 
-.arrow {
-  width: 20px;
-}
-
 .box header {
   height: 800px;
   margin-top: 50px;
@@ -219,18 +215,79 @@ footer h3 {
   position: static;
 }
 
+.bear {
+  width: 200px;
+}
+
+.tiger {
+  width: 180px;
+}
+
 .fifties header {
-  background-image: url(../img/header_fifties.png);
+  background-image: url(../img/header_fifties.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sixties header {
-  background-image: url(../img/header_sixties.png);
+  background-image: url(../img/header_sixties.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .seventies header {
-  background-image: url(../img/header_seventies.png);
+  background-image: url(../img/header_seventies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.fifties .sixties .seventies ul {
-  list-style: none;
+.infos {
+  display: flex;
+  flex-direction: row;
 }
+
+.question {
+  list-style: none;
+  margin: 0;
+  padding: 0 100px 0 0;
+}
+
+.answer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.song {
+  font-family: var(--text-font);
+  font-size: 18px;
+  padding: 0 55px;
+  text-align: center;
+}
+
+.intro {
+  font-family: var(--text-font);
+  font-size: 18px;
+  padding: 0 35px;
+}
+
+.box main {
+  position: relative;
+}
+
+.fifties .button {
+  background: #98c2dac8;
+  margin: 20px 10px 10px 10px;
+}
+
+.sixties .button {
+  background: #0a7155bd;
+  margin: 20px 10px 10px 10px;
+}
+
+.seventies .button {
+  background: #e6c08abc;
+  margin: 20px 10px 10px 10px;
+}
+
