@@ -1,0 +1,221 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  max-height: auto;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-end;
+  color: white;
+  background: black;
+  font-family: "BIZ UDPGothic", sans-serif;
+}
+
+.menu-bar .left-element {
+  align-self: flex-start;
+  order: -1;
+}
+
+.amber-logo {
+  width: 180px;
+}
+
+.gojira-poster-intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons-homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 17px;
+}
+
+.button-style {
+  font-family: "BIZ UDPGothic", sans-serif;
+  padding: 12px 20px;
+  margin-bottom: 174px;
+  margin-top: 55px;
+}
+
+.pink-title {
+  color: white;
+  background: #e8a5ae;
+}
+
+.green-title {
+  color: white;
+  background: #2b9888;
+}
+
+.orange-title {
+  color: white;
+  background: #e7771c;
+}
+
+
+.pink-bg {
+  border-color: #e8a5ae;
+  background-color: #e8a5ae;
+  border-radius: 15px;
+  border-style: solid;
+  text-decoration: none;
+  color: white;
+}
+
+.green-bg {
+  border-color: #2b9888;
+  background-color: #2b9888;
+  border-radius: 15px;
+  border-style: solid;
+  text-decoration: none;
+  color: white;
+}
+
+.orange-bg {
+  border-color: #e7771c;
+  background-color: #e7771c;
+  border-radius: 15px;
+  border-style: solid;
+  text-decoration: none;
+  color: white;
+}
+
+.shopnow-posters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.shopnow-poster {
+  margin-bottom: 135px;
+}
+
+.all-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.portrait-pink {
+  border: 2px solid #e8a5ae;
+  box-sizing: border-box;
+  margin-bottom: 115px;
+}
+
+.portrait-green {
+  border: 2px solid #2b9888;
+  box-sizing: border-box;
+  margin-bottom: 115px;
+}
+
+.portrait-orange {
+  border: 2px solid #e7771c;
+  box-sizing: border-box;
+  margin-bottom: 115px;
+}
+
+.resell-logos {
+  margin-top: 160px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resell-logos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.footer-info {
+  background: black;
+  color: white;
+}
+
+.footer-info-pink {
+  background: #e8a5ae;
+  color: white;
+}
+
+.footer-info-green {
+  background: #2b9888;
+  color: white;
+}
+
+.footer-info-orange {
+  background: #e7771c;
+  color: white;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+.eikon-footer-logo {
+  width: 80px;
+}
+
+.pink-text {
+  color: #e8a5ae;
+}
+
+.green-text {
+  color: #2b9888;
+}
+
+.orange-text {
+  color: #e7771c;
+}
+
+h1, h2 {
+  font-family: "BIZ UDPGothic", sans-serif;
+  text-align: center;
+}
+
+.price-text {
+  font-family: "BIZ UDPGothic", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price {
+ font-size: 100px;
+}
+
+p,
+h3 {
+  font-family: "Noto Serif JP", serif;
+}
+
+h1 {
+  font-size: 47px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 30px;
+}
