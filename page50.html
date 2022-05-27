@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&family=Noto+Serif+JP&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>gd-web</title>
 </head>
 
 <body>
   <header>
-    <div class="menu-bar pink-title">
+    <div class="menu-bar pink-title" id="up">
       <p>ゴジラ</p>
       <p>EN</p>
       <p>JP</p>
@@ -20,8 +23,8 @@
     <img class="amber-logo" src="img/amber-pink.svg" alt="Amber-logo-50">
     <img src="img/50introtext.jpg" alt="into-page-50">
     <h1 class="pink-title">ゴジラ</h1>
-    <p><strong>Godzilla from the 50’s</strong></p>
-    <p>This Godzilla appeared
+    <p class="pink-text"><strong>Godzilla from the 50’s</strong></p>
+    <p class="pink-text">This Godzilla appeared
       in the first movie in 1954.
       Haruo Nakajima acted as
       Godzilla from 1954 till
@@ -31,22 +34,26 @@
   <main>
     <img src="img/pattern50_1.svg" alt="pattern50">
     <h1 class="pink-title">PRODUCT</h1>
-    <img href="img/box1.png" href="50box">
-    <p>69.-</p>
-    <p>in-ear</p>
-    <p>7h batterylife</p>
-    <p><strong>Eikon</strong> Airpods Pro(ANC)</p>
-    <a href="index.html#reseller" class="pink-bg">Buy</a>
+    <img href="img/box1.jpg" href="50box">
+    <div class="pink-text">
+      <p>69.-</p>
+      <p>in-ear</p>
+      <p>7h batterylife</p>
+      <p><strong>Eikon</strong> Airpods Pro(ANC)</p>
+    </div>
+    <a href="index.html#reseller" class="pink-bg button-style">Buy</a>
     <img src="img/pattern50_1.svg" alt="pattern50">
     <h1 class="pink-title">OTHER
       PRODUCTS</h1>
     <img src="img/homepage-deco50.jpg" alt="other-product-showcase">
-    <a href="index.html" class="pink-bg">Home</a>
+    <a href="index.html" class="pink-bg button-style">Home</a>
   </main>
   <footer>
-    <img class="arrow" src="img/pink-arrow.svg" alt="pink-arrow-homepage">
+    <a href="#up">
+      <img class="arrow" src="img/pink-arrow.svg" alt="pink-arrow-homepage">
+    </a>
     <img src="img/buildings.svg" alt="buildings">
-    <div class="footer-info-pink">
+    <div class="footer-info-pink footer-text">
       <p>Noah Akira Ellena</p>
       <p>IMD12</p>
       <p>Amber</p>
@@ -56,7 +63,7 @@
       <p>Jassin</p>
       <p>Pure Psychedelia </p>
       <p>Summer of 76-New</p>
-      <img src="img/eikon-logo.svg" alt="logo-eikon">
+      <img class="eikon-footer-logo" src="img/eikon-logo.svg" alt="logo-eikon">
     </div>
   </footer>
 </body>

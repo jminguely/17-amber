@@ -7,7 +7,6 @@ body {
   max-height: auto;
 }
 
-
 .menu-bar {
   display: flex;
   flex-direction: row;
@@ -15,11 +14,13 @@ body {
   align-self: flex-end;
   color: white;
   background: black;
+  font-family: 'BIZ UDPGothic', sans-serif;
 }
+
 
 .menu-bar .left-element {
   align-self: flex-start;
-  order: 1;
+  order: -1;
 }
 
 .amber-logo {
@@ -30,6 +31,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.button-style {
+  font-family: 'BIZ UDPGothic', sans-serif;
+  padding: 12px 20px;
 }
 
 .pink-title {
@@ -95,6 +101,30 @@ body {
   color: white;
 }
 
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
 .eikon-footer-logo {
   width: 80px;
+}
+
+.pink-text {
+  color: #e8a5ae;
+}
+
+.green-text {
+  color: #2b9888;
+}
+
+.orange-text {
+  color: #e7771c;
+}
+
+p {
+  font-family: 'Noto Serif JP', serif;
+}
+
+h1 h2 h3 {
+  font-family: 'BIZ UDPGothic', sans-serif;
 }
