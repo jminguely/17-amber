@@ -1,6 +1,6 @@
 :root {
   --header-footer-color: #082124;
-  --title-font: 'Melgis Free', sans-serif;
+  --title-font: 'Quiche-sans';
   --text-font:  'Minion Pro',serif;
   --text-color: #000;
 }
@@ -20,6 +20,16 @@ html,body {
   transform: translate(-50px, 0);
 }
 
+.panier-nav {
+  width: 357px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  margin: 10px;
+}
+
 .logo, .collab{
   width: 200px;
   display: flex;
@@ -30,6 +40,11 @@ html,body {
 
 .reseller {
   width: 150px;
+  margin: 30px 0 10px 0;
+}
+
+.reseller-longer {
+  width: 250px;
   margin: 30px 0 0 0;
 }
 
@@ -119,6 +134,7 @@ main{
   text-decoration: none;
   background: #08212440;
   border: none;
+  text-align: center;
 }
 
 .button-article {
@@ -181,7 +197,7 @@ footer {
 
 footer h3 {
   color: white;
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   font-size: 30px;
   border-top: solid #fff 1px;
   padding: 40px 70px 20px;
@@ -264,12 +280,15 @@ footer h3 {
   font-size: 18px;
   padding: 0 55px;
   text-align: center;
+  line-height: 25px;
 }
 
 .intro {
   font-family: var(--text-font);
   font-size: 18px;
   padding: 0 35px;
+  margin: 20px 0;
+  line-height: 30px;
 }
 
 .box main {
@@ -295,3 +314,29 @@ footer h3 {
   width: 380px;;
 }
 
+.box-name {
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding: 0 0 30px 35px;
+  border: none;
+  text-align: left;
+}
+
+.price {
+  font-family: var(--title-font);
+  font-size: 40px;
+  margin: 0;
+  padding: 50px 10px 0 0;
+}
+
+.seller-title {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.logos{
+  margin-bottom: 70px;
+}
