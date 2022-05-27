@@ -78,6 +78,9 @@ body {
 }
 
 .resell-logos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   display: flex;
   flex-direction: column;
