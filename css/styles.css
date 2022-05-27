@@ -26,6 +26,12 @@ body {
   width: 180px;
 }
 
+.gojira-poster-intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .buttons-homepage {
   display: flex;
   flex-direction: row;
@@ -36,6 +42,7 @@ body {
 .button-style {
   font-family: "BIZ UDPGothic", sans-serif;
   padding: 12px 20px;
+  margin-bottom: 174px;
   margin-top: 55px;
 }
 
@@ -84,13 +91,36 @@ body {
 
 .shopnow-posters {
   display: flex;
-  margin-top: 135px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.shopnow-poster {
+  margin-bottom: 135px;
 }
 
 .all-img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.portrait-pink {
+  border: 2px solid #e8a5ae;
+  box-sizing: border-box;
+  margin-bottom: 115px;
+}
+
+.portrait-green {
+  border: 2px solid #2b9888;
+  box-sizing: border-box;
+  margin-bottom: 115px;
+}
+
+.portrait-orange {
+  border: 2px solid #e7771c;
+  box-sizing: border-box;
+  margin-bottom: 115px;
 }
 
 .resell-logos {
@@ -108,16 +138,13 @@ body {
   width: 200px;
 }
 
-main {
-  margin-bottom: 300px;
-}
-
 .arrow {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   margin-bottom: 80px;
+  margin-top: 100px;
 }
 
 .footer-info {
