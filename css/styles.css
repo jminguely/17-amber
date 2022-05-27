@@ -14,9 +14,8 @@ body {
   align-self: flex-end;
   color: white;
   background: black;
-  font-family: 'BIZ UDPGothic', sans-serif;
+  font-family: "BIZ UDPGothic", sans-serif;
 }
-
 
 .menu-bar .left-element {
   align-self: flex-start;
@@ -35,15 +34,26 @@ body {
 }
 
 .button-style {
-  font-family: 'BIZ UDPGothic', sans-serif;
+  font-family: "BIZ UDPGothic", sans-serif;
   padding: 12px 20px;
   margin-top: 55px;
 }
 
 .pink-title {
-  color:white;
+  color: white;
   background: #e8a5ae;
 }
+
+.green-title {
+  color: white;
+  background: #2b9888;
+}
+
+.orange-title {
+  color: white;
+  background: #e7771c;
+}
+
 
 .pink-bg {
   border-color: #e8a5ae;
@@ -72,22 +82,30 @@ body {
   color: white;
 }
 
-.img50 {
+.shopnow-posters {
+  display: flex;
+  margin-top: 135px;
+}
+
+.all-img {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .resell-logos {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 160px;
   margin-bottom: 120px;
-  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.resell-logos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
 
 main {
@@ -142,17 +160,33 @@ main {
   color: #e7771c;
 }
 
-h1 h2 {
-  font-family: 'BIZ UDPGothic', sans-serif;
+h1, h2 {
+  font-family: "BIZ UDPGothic", sans-serif;
   text-align: center;
 }
 
-p h3 {
-  font-family: 'Noto Serif JP', serif;
+.price-text {
+  font-family: "BIZ UDPGothic", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price {
+ font-size: 100px;
+}
+
+p,
+h3 {
+  font-family: "Noto Serif JP", serif;
 }
 
 h1 {
   font-size: 47px;
+}
+
+h2 {
+  font-size: 44px;
 }
 
 h3 {
