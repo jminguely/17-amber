@@ -1,0 +1,482 @@
+@font-face {
+  font-family: mash;
+  src: url(../fonts/Mash-VariableVF.woff);
+  src: url(../fonts/Mash-VariableVF.woff2);
+}
+
+@font-face {
+  font-family: albam;
+  src: url(../fonts/ALBAM___.woff);
+  src: url(../fonts/ALBAM___.woff2);
+}
+
+@font-face {
+  font-family: eckmann;
+  src: url(../fonts/Eckmannpsych-Medium.woff);
+  src: url(../fonts/Eckmannpsych-Medium.woff2);
+}
+
+@font-face {
+  font-family: Kohinoor;
+  src: url(../fonts/KohinoorDevanagari-Regular-01.woff);
+  src: url(../fonts/KohinoorDevanagari-Regular-01.woff2);
+}
+
+@font-face {
+  font-family: jassin;
+  src: url(../fonts/Jassin.woff);
+}
+
+body {
+  margin: auto;
+  max-width : 100%;
+  background-color: #c5d3eb;
+}
+
+main {
+  border: 0;
+}
+
+.box-airpods {
+  width: 375px ;
+}
+
+.header-accueil {
+  margin: 0;
+  height: 661px;
+  background-image: url(../img/nuage.png);
+  background-size: cover;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+header nav img {
+  height: 30px;
+  margin: 0;
+  flex-direction: row;
+}
+
+header p {
+  text-align: center;
+  font-family: Kohinoor;
+  color: #6082f7;
+  font-size: 15px;
+  margin:0 37px ;
+  line-height: 18px;
+}
+
+h1 {
+  margin: 169px 0 0 0;
+  font-family: mash;
+  color: #6082f7;
+  text-align: center;
+  font-weight: 400;
+  font-size: 47px;
+}
+
+h2  {
+  margin: 0 0 28px 0;
+  font-family: mash;
+  color: #6082f7;
+  text-align: center;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.scroll-text {
+  overflow: hidden;
+  width: 100%;
+  padding: 19px 0 19px 0;
+  position: absolute;
+  background-color: #eaebef;
+  border: solid 2px #ffff;
+}
+
+.container {
+  white-space: nowrap;
+  font-family: mash;
+  color: #6082f7;
+  font-size: 47px;
+  animation: scrolltext1 5s cubic-bezier(0.01, 0.8, 0.53, -0.13) infinite;
+}
+
+.container-2 {
+  animation: scrolltext2 6s cubic-bezier(0.13, -0.16, 1, -0.65) infinite;
+}
+
+@keyframes scrolltext1 {
+  0%{
+    transform: translate(0,0);
+  }
+  100%{
+    transform: translate(-100%,0);
+  }
+}
+
+@keyframes scrolltext2 {
+  0%{
+    transform: translate(-100%,0);
+  }
+  100%{
+    transform: translate(0%,0);
+  }
+}
+
+.airpods-model {
+  width: 205px;
+  transform: translate(0%, -40px);
+}
+
+.background-model-airpods {
+  margin:250px 0 107px 0;
+  background-color: #4c83fb;
+  position: relative;
+  height: 200px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.airpods-model-year {
+  position: relative;
+  height: 214px;
+}
+
+.s70 {
+  background-color: #cf9f7f;
+}
+
+.s60 {
+  background-color: #bed8e8;
+}
+
+.s50 {
+  background-color: #e8b5c6;
+}
+
+.aipods-year {
+  width: 375px;
+  position:absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.link-produit {
+  width: 178px;
+  position: absolute;
+  bottom: 8px;
+  right: 1px;
+}
+
+.airpods-model-year p {
+  font-size: 47px;
+  color: white;
+  position: absolute;
+}
+
+.s70 p {
+  font-family: albam;
+}
+
+.s60 p {
+  font-family: eckmann;
+}
+
+.s50 p {
+  font-family: jassin;
+}
+
+.card-link-airpods p {
+  top: -40px;
+  right: 10px;
+}
+
+.card-link-airpods {
+  margin: 0 0 130px 0;
+}
+
+.retailer {
+  margin-bottom: 206px;
+}
+
+.retailer img {
+  background-color: #5f80f7;
+  margin-bottom: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.footer-accueil {
+  background-color: #5f80f7;
+  padding: 0 0 0 247px;
+}
+
+footer img {
+  flex-direction: row;
+  width: 30px;
+  margin: 10px 10px 10px 0;
+}
+
+.accueil {
+  margin: 0;
+  width: 375px;
+  height: 620px;
+  background-size: cover;
+  position: relative;
+}
+
+.seventeen-back  {
+  background-image: url(../img/\ kareem-abdul.webp);
+}
+
+.sixteen-back {
+  background-image: url(../img/jerry-lucas.webp);
+}
+
+.fifteen-back {
+  background-image: url(../img/paul-arizin.webp);
+}
+
+
+.button-flower {
+  width: 150px;
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+}
+
+.button-flower {
+  animation-duration: 3s;
+  animation-name: flower-rotate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flower-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.kareem-seventen{
+  background-color: #fcd472;
+  font-family: albam;
+  font-size: 36px;
+}
+
+.jerry-sixteen{
+  background-color: #f0afc7;
+  font-family: eckmann;
+  font-size: 36px;
+}
+
+.paul-fifteen{
+  background-color: #f0afc7;
+  font-family: jassin;
+  font-size: 28px;
+}
+
+.text {
+  color: white;
+  white-space:nowrap;
+  text-align: center;
+  line-height: 35px;
+  padding: 20px 0 10px 0;
+}
+
+.text span {
+  font-size: 23px;
+}
+
+.airpods {
+  max-width: 375px;
+}
+
+.orange-70s {
+  background-color: #f9c973;
+}
+
+.bleu-60s {
+  background-color: #5ddaff;
+}
+
+.rose-50s {
+  background-color: #f6a4ae;
+}
+
+
+.box {
+  padding: 88px;
+  width: 200px;
+}
+
+.seventeen {
+  font-family: albam;
+  background-color: #f7a348;
+}
+
+.fifteen {
+  font-family: jassin;
+  background-color: #f67ab1;
+}
+
+.sixteen {
+  font-family: eckmann;
+  background-color: #2eb2e2;
+}
+
+.card-buy  img {
+  width: 90px;
+}
+
+.card-buy {
+  display: flex;
+  font-size: 47px;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 11px 0 33px;
+  margin: 0px;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 47px;
+  padding: 0 0 47px 0;
+}
+
+.view img{
+  transform: rotate(90deg);
+  height: 178px;
+}
+
+.details-seventeen {
+  background-color: #dcaa44;
+  font-family: albam;
+}
+
+.details-fifteen {
+  background-color: #f6c7e4;
+  font-family: jassin;
+}
+
+.details-sixteen {
+  background-color: #75c3d8;
+  font-family: eckmann;
+}
+
+.details img {
+  width: 50px;
+}
+
+.icone-detail {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center
+}
+
+.details {
+  text-align: center;
+  color: white;
+  padding: 100px 90px 130px 90px;
+  font-size: 21px;
+}
+
+.card-seventeen {
+  font-family: albam;
+  background-color: #d9a050;
+}
+
+.card-sixteen {
+  font-family: eckmann;
+  background-color: #73d0da;
+}
+
+.card-fifteen {
+  font-family: jassin;
+  background-color: #ecbad8;
+}
+
+
+.autres {
+  font-size: 36px;
+  text-align: center;
+  padding: 25px 0 45px 0;
+}
+
+.autres p {
+  color: white;
+  margin: 0 0 30px 0;
+}
+
+.autres img {
+  width: 200px;
+}
+
+.kareem {
+  background-color: #a03e2e;
+}
+
+.jerry {
+  background-color: #0098bf;
+}
+
+.paul {
+  background-color: #f66b80;
+}
+
+.icone {
+  width: 80px;
+  padding: 20px 148px 20px 147px;
+  text-align: center;
+}
+
+.produits-seventeen {
+  font-family: albam;
+  background-color: #c46a26;
+}
+
+.produits-fifteen {
+  font-family: jassin;
+  background-color: #ef99c4;
+}
+
+.produits-sixteen {
+  font-family: eckmann;
+  background-color: #05b7d5;
+}
+
+.footer-seventeen {
+  padding: 0 0 0 247px;
+  background-color: #561d04;
+}
+
+.footer-sixteen {
+  background-color: #024d75;
+  padding: 0 0 0 247px;
+}
+
+.footer-fifteen {
+  background-color: #b44957;
+  padding: 0 0 0 247px;
+}
