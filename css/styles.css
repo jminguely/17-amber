@@ -8,10 +8,11 @@ body {
   margin: auto;
 }
 
+
 img {
   max-width: 100%;
   height: auto;   
-  display: block;    
+  display: block;  
 }
 
 p {
@@ -27,14 +28,11 @@ a {
 }
 
 
-
-
 main h1 {
   font-family: "fatfrank", sans-serif;
   font-size: 35px;
   margin: 100px 0 20px;
 }
-
 
 h1 {
   font-family: "Gaultier", sans-serif;
@@ -43,8 +41,8 @@ h1 {
 }
 
 .countainer {
-    position: relative;
-    margin-top: 50px;
+  position: relative;
+  margin-top: 50px;
 }
 
 .title-top {
@@ -63,6 +61,8 @@ h1 {
 }
 .amber-logo {
   width: 50%;
+  position: relative;
+  left: -12px;
 }
 
 .button {
@@ -93,4 +93,71 @@ h1 {
   position: absolute;
   bottom: -700px;
   left: 40%;
+}
+
+.countainer-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 950px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+
+.countainer-description {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 975px;
+  text-align: center;
+}
+
+.countainer-price {
+  position: relative;
+  bottom: 970px;
+  font-family: "fatfrank", sans-serif;
+}
+
+/* brouillon code pour icons
+.icon-row {
+  width: 60%;
+  display: flex;
+}
+
+.icon-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.countainer-icons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 975px;
+}
+*/
+
+.icons {
+  position: relative;
+  bottom: 970px;
+}
+
+.button-buy {
+  position: relative;
+  bottom: 970px;
+}
+
+.button-home {
+  position: relative;
+  bottom: 900px;
+  left: 12%;
+}
+
+.button-year {
+  position: relative;
+  bottom: 900px;
+  left: 25%;
 }
