@@ -17,7 +17,7 @@ img {
 
 p {
   font-family: "Gaultier", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 a {
@@ -161,3 +161,23 @@ article {
   bottom: 900px;
   left: 25%;
 }
+
+.countainer-quote {
+  position: relative;
+  bottom: 760px;
+}
+
+.quote-image {
+  position: relative;
+  bottom: 750px;
+}
+
+.quote-mother {
+  color: #574d29;
+}
+
+.countainer-footer {
+  position: relative;
+  bottom: 730px;
+}
+
