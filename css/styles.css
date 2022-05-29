@@ -99,7 +99,7 @@ h1 {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 950px;
+  bottom: 1050px;
 }
 
 article {
@@ -173,15 +173,25 @@ article {
 }
 
 .quote-mother {
-  color: #574d29;
+  color: #9d9850;
 }
 
 .quote-mughal {
-  color: #a24617;
+  color: #dc703b;
+}
+
+.quote-sholay {
+  color: #ecbf4e;
 }
 
 .countainer-footer {
   position: relative;
   bottom: 730px;
+}
+
+
+.countainer-icons {
+  position: relative;
+  bottom: 15px;
 }
 
