@@ -1,0 +1,197 @@
+html {
+  scroll-behavior: smooth;
+  padding: 20px;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;   
+  display: block;  
+}
+
+p {
+  font-family: "Gaultier", sans-serif;
+  font-size: 17px;
+}
+
+a {
+  font-family: "Gaultier", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+
+main h1 {
+  font-family: "fatfrank", sans-serif;
+  font-size: 35px;
+  margin: 100px 0 20px;
+}
+
+h1 {
+  font-family: "Gaultier", sans-serif;
+  font-size: 26px;
+  margin: 0 0 20px;
+}
+
+.countainer {
+  position: relative;
+  margin-top: 50px;
+}
+
+.title-top {
+  font-family: "fatfrank", sans-serif;
+  font-size: 35px;
+  position: absolute;
+  top: 100px;
+}
+
+.text-top {
+  font-family: "Gaultier", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 200px;
+  line-height: 1em;
+}
+.amber-logo {
+  width: 50%;
+  position: relative;
+  left: -12px;
+}
+
+.button {
+  font-family: "fatfrank", sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 30%;
+}
+
+.button-50 {
+  background-color: #574d29;
+}
+
+.button-60 {
+  background-color: #a24617;
+}
+
+.button-70 {
+  background-color: #ef8d97;
+}
+
+.product-countainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: -700px;
+  left: 40%;
+}
+
+.countainer-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1050px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+
+.countainer-description {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 975px;
+  text-align: center;
+}
+
+.countainer-price {
+  position: relative;
+  bottom: 970px;
+  font-family: "fatfrank", sans-serif;
+}
+
+/* brouillon code pour icons
+.icon-row {
+  width: 60%;
+  display: flex;
+}
+
+.icon-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.countainer-icons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 975px;
+}
+*/
+
+.icons {
+  position: relative;
+  bottom: 970px;
+}
+
+.button-buy {
+  position: relative;
+  bottom: 970px;
+}
+
+.button-home {
+  position: relative;
+  bottom: 900px;
+  left: 12%;
+}
+
+.button-year {
+  position: relative;
+  bottom: 900px;
+  left: 25%;
+}
+
+.countainer-quote {
+  position: relative;
+  bottom: 760px;
+}
+
+.quote-image {
+  position: relative;
+  bottom: 750px;
+}
+
+.quote-mother {
+  color: #9d9850;
+}
+
+.quote-mughal {
+  color: #dc703b;
+}
+
+.quote-sholay {
+  color: #ecbf4e;
+}
+
+.countainer-footer {
+  position: relative;
+  bottom: 730px;
+}
+
+
+.countainer-icons {
+  position: relative;
+  bottom: 15px;
+}
+
